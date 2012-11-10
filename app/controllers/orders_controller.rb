@@ -1,4 +1,7 @@
 class OrdersController < ApplicationController
+  #Require sudo for all, except on create statements
+  before_filter :require_sudo, :except => [:create]
+  
   # GET /orders
   # GET /orders.json
   def index

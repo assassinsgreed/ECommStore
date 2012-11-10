@@ -1,4 +1,7 @@
 class ReviewsController < ApplicationController
+  #Require sudo for all, except on create statements
+  before_filter :require_sudo, :except => [:create]
+  
   # GET /reviews
   # GET /reviews.json
   def index

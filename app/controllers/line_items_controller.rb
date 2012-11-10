@@ -1,4 +1,7 @@
 class LineItemsController < ApplicationController
+  #Require sudo for all, except the show action (to see their own order products)
+  before_filter :require_sudo, :except => [:show]
+  
   # GET /line_items
   # GET /line_items.json
   def index

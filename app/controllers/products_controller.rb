@@ -1,4 +1,7 @@
 class ProductsController < ApplicationController
+  #Require admin login except for index and shows.
+  before_filter :require_sudo, :except => [:index, :show]
+  
   # GET /products
   # GET /products.json
   def index

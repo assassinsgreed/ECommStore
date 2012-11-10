@@ -1,4 +1,7 @@
 class CustomersController < ApplicationController
+  #Require sudo for all
+  before_filter :require_sudo
+  
   # GET /customers
   # GET /customers.json
   def index

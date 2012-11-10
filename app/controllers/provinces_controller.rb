@@ -1,4 +1,7 @@
 class ProvincesController < ApplicationController
+  #Require sudo for all
+  before_filter :require_sudo
+  
   # GET /provinces
   # GET /provinces.json
   def index
