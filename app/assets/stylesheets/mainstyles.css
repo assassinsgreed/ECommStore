@@ -1,0 +1,46 @@
+*
+{
+    background-color: #D0DDDD;
+    font-family: Arial, Serif;
+}
+
+body
+{
+	background-color: white;    /*Image path here*/
+	width: 780px;
+	margin: 0px auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border: 2px solid black;
+	border-radius: 5px;
+        width: 80%;
+}
+
+#signin
+{
+    float: right;
+    position: relative;
+    right: 60px;
+    top: 40px;
+    color: #333;
+    font-size: 18px;
+}
+
+#signin a
+{
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    margin: 0px 5px;    /* Fix mouseover */
+}
+
+#signin a:hover
+{
+    font-weight: bold;
+    background-color: transparent;
+}
+
+
+
+
+
