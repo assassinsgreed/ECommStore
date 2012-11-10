@@ -1,4 +1,6 @@
 ECommerce::Application.routes.draw do
+  resources :reviews
+
   resources :provinces
 
   resources :customers
