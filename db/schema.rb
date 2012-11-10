@@ -11,7 +11,40 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20121109174642) do
+ActiveRecord::Schema.define(:version => 20121110205743) do
+
+  create_table "customers", :force => true do |t|
+    t.string   "first_name"
+    t.string   "last_name"
+    t.string   "address"
+    t.string   "city"
+    t.string   "country"
+    t.string   "postal_code"
+    t.string   "email"
+    t.string   "province_id"
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
+  end
+
+  create_table "line_items", :force => true do |t|
+    t.integer  "quantity_ordered"
+    t.decimal  "price_sold"
+    t.integer  "product_id"
+    t.integer  "order_id"
+    t.datetime "created_at",       :null => false
+    t.datetime "updated_at",       :null => false
+  end
+
+  create_table "orders", :force => true do |t|
+    t.string   "status"
+    t.decimal  "pst_rate"
+    t.decimal  "gst_rate"
+    t.decimal  "hst_rate"
+    t.integer  "customer_id"
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
+    t.string   "pay_method"
+  end
 
   create_table "products", :force => true do |t|
     t.string   "name"
@@ -22,6 +55,15 @@ ActiveRecord::Schema.define(:version => 20121109174642) do
     t.float    "sale_price"
     t.datetime "created_at",       :null => false
     t.datetime "updated_at",       :null => false
+  end
+
+  create_table "provinces", :force => true do |t|
+    t.string   "name"
+    t.decimal  "pst_rate"
+    t.decimal  "gst_rate"
+    t.decimal  "hst_rate"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
   end
 
 end

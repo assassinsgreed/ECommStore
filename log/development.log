@@ -10238,3 +10238,291 @@ Served asset /application.js - 304 Not Modified (0ms)
 
 Started GET "/assets/logo.png" for 127.0.0.1 at 2012-11-09 15:03:15 -0600
 Served asset /logo.png - 304 Not Modified (0ms)
+  [1m[36m (1.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateProducts (20121109174642)
+Migrating to CreateOrders (20121110205114)
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (22.0ms)[0m  CREATE TABLE "orders" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "status" varchar(255), "pst_rate" decimal, "gst_rate" decimal, "hst_rate" decimal, "customer_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.0ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20121110205114')[0m
+  [1m[35m (106.0ms)[0m  commit transaction
+Migrating to CreateLineItems (20121110205242)
+  [1m[36m (1.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (4.0ms)[0m  CREATE TABLE "line_items" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "quantity_ordered" integer, "price_sold" decimal, "product_id" integer, "order_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.0ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20121110205242')[0m
+  [1m[35m (113.0ms)[0m  commit transaction
+Migrating to CreateCustomers (20121110205516)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateProducts (20121109174642)
+Migrating to CreateOrders (20121110205114)
+Migrating to CreateLineItems (20121110205242)
+Migrating to CreateCustomers (20121110205516)
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateProducts (20121109174642)
+Migrating to CreateOrders (20121110205114)
+Migrating to CreateLineItems (20121110205242)
+Migrating to CreateCustomers (20121110205516)
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (1.0ms)[0m  CREATE TABLE "customers" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "first_name" varchar(255), "last_name" varchar(255), "address" varchar(255), "city" varchar(255), "country" varchar(255), "postal_code" varchar(255), "email" varchar(255), "province_id" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (1.0ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20121110205516')[0m
+  [1m[35m (122.0ms)[0m  commit transaction
+Migrating to AddPayMethodToOrder (20121110205658)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (4.0ms)[0m  ALTER TABLE "orders" ADD "pay_method" varchar(255)
+  [1m[36m (0.0ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20121110205658')[0m
+  [1m[35m (95.0ms)[0m  commit transaction
+Migrating to CreateProvinces (20121110205743)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (1.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateProducts (20121109174642)
+Migrating to CreateOrders (20121110205114)
+Migrating to CreateLineItems (20121110205242)
+Migrating to CreateCustomers (20121110205516)
+Migrating to AddPayMethodToOrder (20121110205658)
+Migrating to CreateProvinces (20121110205743)
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (1.0ms)[0m  CREATE TABLE "provinces" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "pst_rate" decimal, "gst_rate" decimal, "hst_rate" decimal, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.0ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20121110205743')[0m
+  [1m[35m (142.0ms)[0m  commit transaction
+  [1m[36m (1.0ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (1.0ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("customers")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("line_items")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("orders")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("products")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("provinces")[0m
+
+
+Started GET "/orders" for 127.0.0.1 at 2012-11-10 15:03:07 -0600
+Processing by OrdersController#index as HTML
+  [1m[36mOrder Load (0.0ms)[0m  [1mSELECT "orders".* FROM "orders" [0m
+  Rendered orders/index.html.erb within layouts/application (18.0ms)
+Compiled customers.css  (24ms)  (pid 2536)
+Compiled line_items.css  (3ms)  (pid 2536)
+Compiled orders.css  (3ms)  (pid 2536)
+Compiled provinces.css  (3ms)  (pid 2536)
+Compiled application.css  (154ms)  (pid 2536)
+Compiled customers.js  (300ms)  (pid 2536)
+Compiled line_items.js  (88ms)  (pid 2536)
+Compiled orders.js  (92ms)  (pid 2536)
+Compiled provinces.js  (88ms)  (pid 2536)
+Compiled application.js  (681ms)  (pid 2536)
+Completed 200 OK in 989ms (Views: 988.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-10 15:03:09 -0600
+Served asset /application.css - 304 Not Modified (12ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2012-11-10 15:03:09 -0600
+Served asset /customers.css - 200 OK (2ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2012-11-10 15:03:09 -0600
+Served asset /line_items.css - 200 OK (3ms)
+
+
+Started GET "/assets/mainstyles.css?body=1" for 127.0.0.1 at 2012-11-10 15:03:09 -0600
+Served asset /mainstyles.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2012-11-10 15:03:09 -0600
+Served asset /orders.css - 200 OK (1ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-11-10 15:03:09 -0600
+Served asset /products.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-10 15:03:09 -0600
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/provinces.css?body=1" for 127.0.0.1 at 2012-11-10 15:03:09 -0600
+Served asset /provinces.css - 200 OK (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-10 15:03:09 -0600
+Served asset /jquery.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/customers.js?body=1" for 127.0.0.1 at 2012-11-10 15:03:09 -0600
+Served asset /customers.js - 200 OK (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-10 15:03:09 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-11-10 15:03:09 -0600
+Served asset /line_items.js - 200 OK (1ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-11-10 15:03:09 -0600
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2012-11-10 15:03:09 -0600
+Served asset /orders.js - 200 OK (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-10 15:03:09 -0600
+Served asset /application.js - 304 Not Modified (14ms)
+
+
+Started GET "/assets/provinces.js?body=1" for 127.0.0.1 at 2012-11-10 15:03:09 -0600
+Served asset /provinces.js - 200 OK (28ms)
+
+
+Started GET "/provinces" for 127.0.0.1 at 2012-11-10 15:03:15 -0600
+Processing by ProvincesController#index as HTML
+  [1m[35mProvince Load (0.0ms)[0m  SELECT "provinces".* FROM "provinces" 
+  Rendered provinces/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 19ms (Views: 17.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/mainstyles.css?body=1" for 127.0.0.1 at 2012-11-10 15:03:15 -0600
+Served asset /mainstyles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2012-11-10 15:03:15 -0600
+Served asset /orders.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-10 15:03:15 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2012-11-10 15:03:15 -0600
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-11-10 15:03:15 -0600
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2012-11-10 15:03:15 -0600
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.css?body=1" for 127.0.0.1 at 2012-11-10 15:03:15 -0600
+Served asset /provinces.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-10 15:03:15 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-10 15:03:15 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-10 15:03:15 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/customers.js?body=1" for 127.0.0.1 at 2012-11-10 15:03:15 -0600
+Served asset /customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-11-10 15:03:15 -0600
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2012-11-10 15:03:15 -0600
+Served asset /orders.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-11-10 15:03:15 -0600
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.js?body=1" for 127.0.0.1 at 2012-11-10 15:03:15 -0600
+Served asset /provinces.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-10 15:03:15 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2012-11-10 15:03:20 -0600
+Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (1.0ms)[0m  [1mSELECT "products".* FROM "products" [0m
+  Rendered products/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 17ms (Views: 14.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2012-11-10 15:03:20 -0600
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2012-11-10 15:03:20 -0600
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mainstyles.css?body=1" for 127.0.0.1 at 2012-11-10 15:03:20 -0600
+Served asset /mainstyles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-10 15:03:20 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2012-11-10 15:03:20 -0600
+Served asset /orders.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-11-10 15:03:20 -0600
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.css?body=1" for 127.0.0.1 at 2012-11-10 15:03:20 -0600
+Served asset /provinces.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-10 15:03:20 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-10 15:03:20 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-10 15:03:20 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.js?body=1" for 127.0.0.1 at 2012-11-10 15:03:20 -0600
+Served asset /customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-11-10 15:03:20 -0600
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2012-11-10 15:03:20 -0600
+Served asset /orders.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-11-10 15:03:20 -0600
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.js?body=1" for 127.0.0.1 at 2012-11-10 15:03:20 -0600
+Served asset /provinces.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-10 15:03:20 -0600
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-11-10 15:03:20 -0600
+Served asset /logo.png - 304 Not Modified (3ms)

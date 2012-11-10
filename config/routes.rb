@@ -1,4 +1,12 @@
 ECommerce::Application.routes.draw do
+  resources :provinces
+
+  resources :customers
+
+  resources :line_items
+
+  resources :orders
+
   resources :products
 
   # The priority is based upon order of creation:
