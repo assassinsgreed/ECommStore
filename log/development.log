@@ -10763,3 +10763,2267 @@ Served asset /reviews.js - 304 Not Modified (0ms)
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-10 16:06:32 -0600
 Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started POST "/products" for 127.0.0.1 at 2012-11-10 16:10:55 -0600
+Processing by ProductsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"sPDIjsNbinF4dMI10DtAFjhykDyrTaoebIMqB8qiOEE=", "product"=>{"name"=>"", "description"=>"", "category_id"=>"", "quantity_on_hand"=>"", "price"=>"", "sale_price"=>""}, "commit"=>"Create Product"}
+Filter chain halted as :require_sudo rendered or redirected
+Completed 401 Unauthorized in 10ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/products" for 127.0.0.1 at 2012-11-10 16:10:55 -0600
+Processing by ProductsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"sPDIjsNbinF4dMI10DtAFjhykDyrTaoebIMqB8qiOEE=", "product"=>{"name"=>"", "description"=>"", "category_id"=>"", "quantity_on_hand"=>"", "price"=>"", "sale_price"=>""}, "commit"=>"Create Product"}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+Completed 500 Internal Server Error in 27ms
+
+NoMethodError (undefined method `stock_quantity' for #<Product:0x4c2e910>):
+  app/controllers/products_controller.rb:49:in `block in create'
+  app/controllers/products_controller.rb:48:in `create'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (42.0ms)
+
+
+Started GET "/categories" for 127.0.0.1 at 2012-11-11 10:38:02 -0600
+Processing by CategoriesController#index as HTML
+Filter chain halted as :require_sudo rendered or redirected
+Completed 401 Unauthorized in 9ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/categories" for 127.0.0.1 at 2012-11-11 10:38:14 -0600
+Processing by CategoriesController#index as HTML
+Completed 500 Internal Server Error in 11ms
+
+ActiveRecord::StatementInvalid (Could not find table 'categories'):
+  app/controllers/categories_controller.rb:8:in `index'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (28.0ms)
+
+
+Started GET "/category" for 127.0.0.1 at 2012-11-11 10:38:22 -0600
+
+ActionController::RoutingError (No route matches [GET] "/category"):
+  actionpack (3.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.1) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.1) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.1) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/static.rb:53:in `call'
+  railties (3.2.1) lib/rails/engine.rb:479:in `call'
+  railties (3.2.1) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.1) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/categorys" for 127.0.0.1 at 2012-11-11 10:38:25 -0600
+
+ActionController::RoutingError (No route matches [GET] "/categorys"):
+  actionpack (3.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.1) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.1) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.1) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/static.rb:53:in `call'
+  railties (3.2.1) lib/rails/engine.rb:479:in `call'
+  railties (3.2.1) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.1) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/categorise" for 127.0.0.1 at 2012-11-11 10:38:41 -0600
+
+ActionController::RoutingError (No route matches [GET] "/categorise"):
+  actionpack (3.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.1) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.1) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.1) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/static.rb:53:in `call'
+  railties (3.2.1) lib/rails/engine.rb:479:in `call'
+  railties (3.2.1) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.1) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/categories" for 127.0.0.1 at 2012-11-11 10:38:44 -0600
+Processing by CategoriesController#index as HTML
+Completed 500 Internal Server Error in 7ms
+
+ActiveRecord::StatementInvalid (Could not find table 'categories'):
+  app/controllers/categories_controller.rb:8:in `index'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.0ms)
+
+
+Started GET "/reviews" for 127.0.0.1 at 2012-11-11 10:38:54 -0600
+Processing by ReviewsController#index as HTML
+  [1m[36mReview Load (0.0ms)[0m  [1mSELECT "reviews".* FROM "reviews" [0m
+  Rendered reviews/index.html.erb within layouts/application (1.0ms)
+Compiled categories.css  (53ms)  (pid 4104)
+Compiled application.css  (107ms)  (pid 4104)
+Compiled categories.js  (296ms)  (pid 4104)
+Compiled application.js  (379ms)  (pid 4104)
+Completed 200 OK in 856ms (Views: 845.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-11 10:38:55 -0600
+Served asset /application.css - 304 Not Modified (31ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2012-11-11 10:38:56 -0600
+Served asset /categories.css - 200 OK (25ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2012-11-11 10:38:56 -0600
+Served asset /customers.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2012-11-11 10:38:56 -0600
+Served asset /line_items.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/mainstyles.css?body=1" for 127.0.0.1 at 2012-11-11 10:38:56 -0600
+Served asset /mainstyles.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2012-11-11 10:38:56 -0600
+Served asset /orders.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/provinces.css?body=1" for 127.0.0.1 at 2012-11-11 10:38:56 -0600
+Served asset /provinces.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-11-11 10:38:56 -0600
+Served asset /products.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2012-11-11 10:38:56 -0600
+Served asset /reviews.css - 304 Not Modified (16ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-11 10:38:56 -0600
+Served asset /scaffolds.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-11 10:38:56 -0600
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-11 10:38:56 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2012-11-11 10:38:56 -0600
+Served asset /categories.js - 200 OK (2ms)
+
+
+Started GET "/assets/customers.js?body=1" for 127.0.0.1 at 2012-11-11 10:38:56 -0600
+Served asset /customers.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-11-11 10:38:56 -0600
+Served asset /line_items.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2012-11-11 10:38:56 -0600
+Served asset /orders.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-11-11 10:38:56 -0600
+Served asset /products.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/provinces.js?body=1" for 127.0.0.1 at 2012-11-11 10:38:56 -0600
+Served asset /provinces.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2012-11-11 10:38:56 -0600
+Served asset /reviews.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-11 10:38:56 -0600
+Served asset /application.js - 304 Not Modified (10ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2012-11-11 10:39:05 -0600
+Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products" 
+  Rendered products/index.html.erb within layouts/application (20.0ms)
+Completed 200 OK in 52ms (Views: 51.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2012-11-11 10:39:05 -0600
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2012-11-11 10:39:05 -0600
+Served asset /categories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-11 10:39:05 -0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2012-11-11 10:39:05 -0600
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mainstyles.css?body=1" for 127.0.0.1 at 2012-11-11 10:39:05 -0600
+Served asset /mainstyles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2012-11-11 10:39:05 -0600
+Served asset /orders.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-11-11 10:39:05 -0600
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.css?body=1" for 127.0.0.1 at 2012-11-11 10:39:05 -0600
+Served asset /provinces.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2012-11-11 10:39:05 -0600
+Served asset /reviews.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-11 10:39:05 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-11 10:39:05 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-11 10:39:05 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2012-11-11 10:39:05 -0600
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.js?body=1" for 127.0.0.1 at 2012-11-11 10:39:05 -0600
+Served asset /customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-11-11 10:39:05 -0600
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2012-11-11 10:39:05 -0600
+Served asset /orders.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-11-11 10:39:05 -0600
+Served asset /products.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/provinces.js?body=1" for 127.0.0.1 at 2012-11-11 10:39:05 -0600
+Served asset /provinces.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2012-11-11 10:39:05 -0600
+Served asset /reviews.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-11 10:39:05 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-11-11 10:39:05 -0600
+Served asset /logo.png - 304 Not Modified (2ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-11-11 10:39:11 -0600
+Served asset /rails.png - 304 Not Modified (4ms)
+
+
+Started GET "/categories" for 127.0.0.1 at 2012-11-11 10:39:22 -0600
+Processing by CategoriesController#index as HTML
+Completed 500 Internal Server Error in 11ms
+
+ActiveRecord::StatementInvalid (Could not find table 'categories'):
+  app/controllers/categories_controller.rb:8:in `index'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.0ms)
+
+
+Started GET "/categorie" for 127.0.0.1 at 2012-11-11 10:39:33 -0600
+
+ActionController::RoutingError (No route matches [GET] "/categorie"):
+  actionpack (3.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.1) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.1) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.1) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/static.rb:53:in `call'
+  railties (3.2.1) lib/rails/engine.rb:479:in `call'
+  railties (3.2.1) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.1) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.0ms)
+  [1m[36m (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateProducts (20121109174642)
+Migrating to CreateOrders (20121110205114)
+Migrating to CreateLineItems (20121110205242)
+Migrating to CreateCustomers (20121110205516)
+Migrating to AddPayMethodToOrder (20121110205658)
+Migrating to CreateProvinces (20121110205743)
+Migrating to CreateReviews (20121110215943)
+Migrating to CreateCategories (20121110220753)
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (1.0ms)[0m  CREATE TABLE "categories" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (1.0ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20121110220753')[0m
+  [1m[35m (162.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("categories")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("customers")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("line_items")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("orders")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("products")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("provinces")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("reviews")[0m
+
+
+Started GET "/categories" for 127.0.0.1 at 2012-11-11 10:39:56 -0600
+Processing by CategoriesController#index as HTML
+  [1m[36mCategory Load (1.0ms)[0m  [1mSELECT "categories".* FROM "categories" [0m
+  Rendered categories/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 40ms (Views: 31.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2012-11-11 10:39:57 -0600
+Served asset /customers.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2012-11-11 10:39:57 -0600
+Served asset /categories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-11 10:39:57 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2012-11-11 10:39:57 -0600
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mainstyles.css?body=1" for 127.0.0.1 at 2012-11-11 10:39:57 -0600
+Served asset /mainstyles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2012-11-11 10:39:57 -0600
+Served asset /orders.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-11-11 10:39:57 -0600
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.css?body=1" for 127.0.0.1 at 2012-11-11 10:39:57 -0600
+Served asset /provinces.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2012-11-11 10:39:57 -0600
+Served asset /reviews.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-11 10:39:57 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-11 10:39:57 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-11 10:39:57 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2012-11-11 10:39:57 -0600
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.js?body=1" for 127.0.0.1 at 2012-11-11 10:39:57 -0600
+Served asset /customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-11-11 10:39:57 -0600
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2012-11-11 10:39:57 -0600
+Served asset /orders.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-11-11 10:39:57 -0600
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.js?body=1" for 127.0.0.1 at 2012-11-11 10:39:57 -0600
+Served asset /provinces.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2012-11-11 10:39:57 -0600
+Served asset /reviews.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-11 10:39:57 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-11-11 10:43:08 -0600
+Served asset /rails.png - 304 Not Modified (0ms)
+  [1m[36m (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateProducts (20121109174642)
+Migrating to CreateOrders (20121110205114)
+Migrating to CreateLineItems (20121110205242)
+Migrating to CreateCustomers (20121110205516)
+Migrating to AddPayMethodToOrder (20121110205658)
+Migrating to CreateProvinces (20121110205743)
+Migrating to CreateReviews (20121110215943)
+Migrating to CreateCategories (20121110220753)
+  [1m[35m (1.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (1.0ms)[0m  PRAGMA index_list("categories")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("customers")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("line_items")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("orders")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("products")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("provinces")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("reviews")
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-11-11 10:43:26 -0600
+Served asset /rails.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-11-11 10:43:29 -0600
+Served asset /rails.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-11-11 10:43:35 -0600
+Served asset /rails.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-11-11 10:44:29 -0600
+Served asset /rails.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-11-11 10:44:31 -0600
+Served asset /rails.png - 304 Not Modified (0ms)
+  [1m[36m (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateProducts (20121109174642)
+Migrating to CreateOrders (20121110205114)
+Migrating to CreateLineItems (20121110205242)
+Migrating to CreateCustomers (20121110205516)
+Migrating to AddPayMethodToOrder (20121110205658)
+Migrating to CreateProvinces (20121110205743)
+Migrating to CreateReviews (20121110215943)
+Migrating to CreateCategories (20121110220753)
+  [1m[35m (1.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (1.0ms)[0m  PRAGMA index_list("categories")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("customers")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("line_items")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("orders")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("products")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("provinces")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("reviews")
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-11-11 10:44:46 -0600
+Served asset /rails.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-11-11 10:45:00 -0600
+Served asset /rails.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-11-11 10:45:24 -0600
+Served asset /rails.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-11 10:46:11 -0600
+Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT "products".* FROM "products" [0m
+  Rendered products/index.html.erb within layouts/application (22.0ms)
+Completed 200 OK in 120ms (Views: 119.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-11 10:46:12 -0600
+Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (1.0ms)[0m  SELECT "products".* FROM "products" 
+  Rendered products/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 13ms (Views: 12.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-11 10:46:12 -0600
+Served asset /application.css - 304 Not Modified (14ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2012-11-11 10:46:12 -0600
+Served asset /categories.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2012-11-11 10:46:12 -0600
+Served asset /customers.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2012-11-11 10:46:12 -0600
+Served asset /line_items.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/mainstyles.css?body=1" for 127.0.0.1 at 2012-11-11 10:46:12 -0600
+Served asset /mainstyles.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2012-11-11 10:46:12 -0600
+Served asset /orders.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-11-11 10:46:12 -0600
+Served asset /products.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/provinces.css?body=1" for 127.0.0.1 at 2012-11-11 10:46:12 -0600
+Served asset /provinces.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2012-11-11 10:46:12 -0600
+Served asset /reviews.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-11 10:46:13 -0600
+Served asset /scaffolds.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-11 10:46:13 -0600
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-11 10:46:13 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2012-11-11 10:46:13 -0600
+Served asset /categories.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/customers.js?body=1" for 127.0.0.1 at 2012-11-11 10:46:13 -0600
+Served asset /customers.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-11-11 10:46:13 -0600
+Served asset /line_items.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2012-11-11 10:46:13 -0600
+Served asset /orders.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-11-11 10:46:13 -0600
+Served asset /products.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/provinces.js?body=1" for 127.0.0.1 at 2012-11-11 10:46:13 -0600
+Served asset /provinces.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2012-11-11 10:46:13 -0600
+Served asset /reviews.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-11 10:46:13 -0600
+Served asset /application.js - 304 Not Modified (13ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-11-11 10:46:13 -0600
+Served asset /logo.png - 304 Not Modified (2ms)
+
+
+Started GET "/categories" for 127.0.0.1 at 2012-11-11 10:50:23 -0600
+Processing by CategoriesController#index as HTML
+  [1m[36mCategory Load (0.0ms)[0m  [1mSELECT "categories".* FROM "categories" [0m
+  Rendered categories/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 27ms (Views: 17.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-11 10:50:23 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2012-11-11 10:50:23 -0600
+Served asset /categories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2012-11-11 10:50:23 -0600
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mainstyles.css?body=1" for 127.0.0.1 at 2012-11-11 10:50:23 -0600
+Served asset /mainstyles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2012-11-11 10:50:23 -0600
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2012-11-11 10:50:23 -0600
+Served asset /orders.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-11-11 10:50:23 -0600
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.css?body=1" for 127.0.0.1 at 2012-11-11 10:50:23 -0600
+Served asset /provinces.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2012-11-11 10:50:23 -0600
+Served asset /reviews.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-11 10:50:23 -0600
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-11 10:50:23 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-11 10:50:23 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2012-11-11 10:50:23 -0600
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.js?body=1" for 127.0.0.1 at 2012-11-11 10:50:23 -0600
+Served asset /customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-11-11 10:50:23 -0600
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2012-11-11 10:50:23 -0600
+Served asset /orders.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-11-11 10:50:23 -0600
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.js?body=1" for 127.0.0.1 at 2012-11-11 10:50:23 -0600
+Served asset /provinces.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2012-11-11 10:50:23 -0600
+Served asset /reviews.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-11 10:50:23 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/categories/new" for 127.0.0.1 at 2012-11-11 10:50:28 -0600
+Processing by CategoriesController#new as HTML
+  Rendered categories/_form.html.erb (26.0ms)
+  Rendered categories/new.html.erb within layouts/application (85.0ms)
+Completed 200 OK in 120ms (Views: 101.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-11 10:50:28 -0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2012-11-11 10:50:28 -0600
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2012-11-11 10:50:28 -0600
+Served asset /categories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2012-11-11 10:50:28 -0600
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mainstyles.css?body=1" for 127.0.0.1 at 2012-11-11 10:50:28 -0600
+Served asset /mainstyles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2012-11-11 10:50:28 -0600
+Served asset /orders.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-11-11 10:50:28 -0600
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.css?body=1" for 127.0.0.1 at 2012-11-11 10:50:28 -0600
+Served asset /provinces.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2012-11-11 10:50:28 -0600
+Served asset /reviews.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-11 10:50:28 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-11 10:50:28 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-11 10:50:28 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2012-11-11 10:50:28 -0600
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.js?body=1" for 127.0.0.1 at 2012-11-11 10:50:28 -0600
+Served asset /customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-11-11 10:50:28 -0600
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2012-11-11 10:50:28 -0600
+Served asset /orders.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-11-11 10:50:28 -0600
+Served asset /products.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/provinces.js?body=1" for 127.0.0.1 at 2012-11-11 10:50:28 -0600
+Served asset /provinces.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2012-11-11 10:50:28 -0600
+Served asset /reviews.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-11 10:50:28 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/categories" for 127.0.0.1 at 2012-11-11 10:50:34 -0600
+Processing by CategoriesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"QeTKBNHYL8wkncnToFMpM6kst5ixM/X0ZmgBCkhylyc=", "category"=>{"name"=>"Gold"}, "commit"=>"Create Category"}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (104.0ms)[0m  [1mINSERT INTO "categories" ("created_at", "name", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Sun, 11 Nov 2012 16:50:34 UTC +00:00], ["name", "Gold"], ["updated_at", Sun, 11 Nov 2012 16:50:34 UTC +00:00]]
+  [1m[35m (130.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/categories/1
+Completed 302 Found in 256ms (ActiveRecord: 234.0ms)
+
+
+Started GET "/categories/1" for 127.0.0.1 at 2012-11-11 10:50:35 -0600
+Processing by CategoriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCategory Load (0.0ms)[0m  [1mSELECT "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered categories/show.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 62ms (Views: 36.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-11 10:50:35 -0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2012-11-11 10:50:35 -0600
+Served asset /categories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2012-11-11 10:50:35 -0600
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2012-11-11 10:50:35 -0600
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mainstyles.css?body=1" for 127.0.0.1 at 2012-11-11 10:50:35 -0600
+Served asset /mainstyles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2012-11-11 10:50:35 -0600
+Served asset /orders.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-11-11 10:50:35 -0600
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.css?body=1" for 127.0.0.1 at 2012-11-11 10:50:35 -0600
+Served asset /provinces.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2012-11-11 10:50:35 -0600
+Served asset /reviews.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-11 10:50:35 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-11 10:50:35 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-11 10:50:35 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2012-11-11 10:50:35 -0600
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.js?body=1" for 127.0.0.1 at 2012-11-11 10:50:35 -0600
+Served asset /customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-11-11 10:50:35 -0600
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2012-11-11 10:50:35 -0600
+Served asset /orders.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.js?body=1" for 127.0.0.1 at 2012-11-11 10:50:35 -0600
+Served asset /provinces.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-11-11 10:50:35 -0600
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2012-11-11 10:50:35 -0600
+Served asset /reviews.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-11 10:50:35 -0600
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/categories" for 127.0.0.1 at 2012-11-11 10:50:37 -0600
+Processing by CategoriesController#index as HTML
+  [1m[35mCategory Load (1.0ms)[0m  SELECT "categories".* FROM "categories" 
+  Rendered categories/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 44ms (Views: 28.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2012-11-11 10:50:37 -0600
+Served asset /categories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2012-11-11 10:50:37 -0600
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-11 10:50:37 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2012-11-11 10:50:37 -0600
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mainstyles.css?body=1" for 127.0.0.1 at 2012-11-11 10:50:37 -0600
+Served asset /mainstyles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2012-11-11 10:50:37 -0600
+Served asset /orders.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-11-11 10:50:37 -0600
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.css?body=1" for 127.0.0.1 at 2012-11-11 10:50:37 -0600
+Served asset /provinces.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-11 10:50:37 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2012-11-11 10:50:37 -0600
+Served asset /reviews.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-11 10:50:37 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-11 10:50:37 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2012-11-11 10:50:37 -0600
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.js?body=1" for 127.0.0.1 at 2012-11-11 10:50:37 -0600
+Served asset /customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-11-11 10:50:37 -0600
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2012-11-11 10:50:37 -0600
+Served asset /orders.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-11-11 10:50:37 -0600
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.js?body=1" for 127.0.0.1 at 2012-11-11 10:50:37 -0600
+Served asset /provinces.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2012-11-11 10:50:37 -0600
+Served asset /reviews.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-11 10:50:37 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/categories/new" for 127.0.0.1 at 2012-11-11 10:50:38 -0600
+Processing by CategoriesController#new as HTML
+  Rendered categories/_form.html.erb (2.0ms)
+  Rendered categories/new.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 45ms (Views: 26.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-11 10:50:38 -0600
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2012-11-11 10:50:38 -0600
+Served asset /categories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2012-11-11 10:50:38 -0600
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2012-11-11 10:50:38 -0600
+Served asset /line_items.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/mainstyles.css?body=1" for 127.0.0.1 at 2012-11-11 10:50:38 -0600
+Served asset /mainstyles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2012-11-11 10:50:38 -0600
+Served asset /orders.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-11-11 10:50:38 -0600
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.css?body=1" for 127.0.0.1 at 2012-11-11 10:50:38 -0600
+Served asset /provinces.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2012-11-11 10:50:38 -0600
+Served asset /reviews.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-11 10:50:38 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-11 10:50:38 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-11 10:50:38 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2012-11-11 10:50:38 -0600
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.js?body=1" for 127.0.0.1 at 2012-11-11 10:50:38 -0600
+Served asset /customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-11-11 10:50:38 -0600
+Served asset /line_items.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2012-11-11 10:50:38 -0600
+Served asset /orders.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-11-11 10:50:38 -0600
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.js?body=1" for 127.0.0.1 at 2012-11-11 10:50:38 -0600
+Served asset /provinces.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2012-11-11 10:50:38 -0600
+Served asset /reviews.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-11 10:50:38 -0600
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started POST "/categories" for 127.0.0.1 at 2012-11-11 10:50:43 -0600
+Processing by CategoriesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"QeTKBNHYL8wkncnToFMpM6kst5ixM/X0ZmgBCkhylyc=", "category"=>{"name"=>"Gems"}, "commit"=>"Create Category"}
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (3.0ms)[0m  INSERT INTO "categories" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", Sun, 11 Nov 2012 16:50:43 UTC +00:00], ["name", "Gems"], ["updated_at", Sun, 11 Nov 2012 16:50:43 UTC +00:00]]
+  [1m[36m (121.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/categories/2
+Completed 302 Found in 155ms (ActiveRecord: 124.0ms)
+
+
+Started GET "/categories/2" for 127.0.0.1 at 2012-11-11 10:50:43 -0600
+Processing by CategoriesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mCategory Load (0.0ms)[0m  SELECT "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT 1  [["id", "2"]]
+  Rendered categories/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 40ms (Views: 25.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-11 10:50:44 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2012-11-11 10:50:44 -0600
+Served asset /categories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2012-11-11 10:50:44 -0600
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2012-11-11 10:50:44 -0600
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mainstyles.css?body=1" for 127.0.0.1 at 2012-11-11 10:50:44 -0600
+Served asset /mainstyles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2012-11-11 10:50:44 -0600
+Served asset /orders.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-11-11 10:50:44 -0600
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.css?body=1" for 127.0.0.1 at 2012-11-11 10:50:44 -0600
+Served asset /provinces.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2012-11-11 10:50:44 -0600
+Served asset /reviews.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-11 10:50:44 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-11 10:50:44 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-11 10:50:44 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2012-11-11 10:50:44 -0600
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.js?body=1" for 127.0.0.1 at 2012-11-11 10:50:44 -0600
+Served asset /customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-11-11 10:50:44 -0600
+Served asset /line_items.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2012-11-11 10:50:44 -0600
+Served asset /orders.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-11-11 10:50:44 -0600
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.js?body=1" for 127.0.0.1 at 2012-11-11 10:50:44 -0600
+Served asset /provinces.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2012-11-11 10:50:44 -0600
+Served asset /reviews.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-11 10:50:44 -0600
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/categories" for 127.0.0.1 at 2012-11-11 10:50:45 -0600
+Processing by CategoriesController#index as HTML
+  [1m[36mCategory Load (0.0ms)[0m  [1mSELECT "categories".* FROM "categories" [0m
+  Rendered categories/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 30ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-11 10:50:45 -0600
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2012-11-11 10:50:45 -0600
+Served asset /categories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2012-11-11 10:50:45 -0600
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mainstyles.css?body=1" for 127.0.0.1 at 2012-11-11 10:50:45 -0600
+Served asset /mainstyles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2012-11-11 10:50:45 -0600
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-11-11 10:50:45 -0600
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2012-11-11 10:50:45 -0600
+Served asset /orders.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.css?body=1" for 127.0.0.1 at 2012-11-11 10:50:45 -0600
+Served asset /provinces.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2012-11-11 10:50:45 -0600
+Served asset /reviews.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-11 10:50:45 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-11 10:50:45 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-11 10:50:45 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2012-11-11 10:50:45 -0600
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.js?body=1" for 127.0.0.1 at 2012-11-11 10:50:45 -0600
+Served asset /customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-11-11 10:50:45 -0600
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2012-11-11 10:50:45 -0600
+Served asset /orders.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-11-11 10:50:45 -0600
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.js?body=1" for 127.0.0.1 at 2012-11-11 10:50:45 -0600
+Served asset /provinces.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2012-11-11 10:50:45 -0600
+Served asset /reviews.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-11 10:50:45 -0600
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/categories/new" for 127.0.0.1 at 2012-11-11 10:50:46 -0600
+Processing by CategoriesController#new as HTML
+  Rendered categories/_form.html.erb (3.0ms)
+  Rendered categories/new.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 43ms (Views: 29.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-11 10:50:46 -0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2012-11-11 10:50:46 -0600
+Served asset /categories.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2012-11-11 10:50:46 -0600
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mainstyles.css?body=1" for 127.0.0.1 at 2012-11-11 10:50:46 -0600
+Served asset /mainstyles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2012-11-11 10:50:46 -0600
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2012-11-11 10:50:46 -0600
+Served asset /orders.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-11-11 10:50:46 -0600
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.css?body=1" for 127.0.0.1 at 2012-11-11 10:50:46 -0600
+Served asset /provinces.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2012-11-11 10:50:46 -0600
+Served asset /reviews.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-11 10:50:46 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-11 10:50:46 -0600
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-11 10:50:46 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2012-11-11 10:50:46 -0600
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.js?body=1" for 127.0.0.1 at 2012-11-11 10:50:46 -0600
+Served asset /customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-11-11 10:50:46 -0600
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2012-11-11 10:50:46 -0600
+Served asset /orders.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-11-11 10:50:46 -0600
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.js?body=1" for 127.0.0.1 at 2012-11-11 10:50:46 -0600
+Served asset /provinces.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2012-11-11 10:50:46 -0600
+Served asset /reviews.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-11 10:50:46 -0600
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started POST "/categories" for 127.0.0.1 at 2012-11-11 10:50:52 -0600
+Processing by CategoriesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"QeTKBNHYL8wkncnToFMpM6kst5ixM/X0ZmgBCkhylyc=", "category"=>{"name"=>"Lost Artifacts"}, "commit"=>"Create Category"}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (3.0ms)[0m  [1mINSERT INTO "categories" ("created_at", "name", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Sun, 11 Nov 2012 16:50:52 UTC +00:00], ["name", "Lost Artifacts"], ["updated_at", Sun, 11 Nov 2012 16:50:52 UTC +00:00]]
+  [1m[35m (117.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/categories/3
+Completed 302 Found in 146ms (ActiveRecord: 120.0ms)
+
+
+Started GET "/categories/3" for 127.0.0.1 at 2012-11-11 10:50:52 -0600
+Processing by CategoriesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mCategory Load (0.0ms)[0m  [1mSELECT "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT 1[0m  [["id", "3"]]
+  Rendered categories/show.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 57ms (Views: 32.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2012-11-11 10:50:53 -0600
+Served asset /categories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2012-11-11 10:50:53 -0600
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2012-11-11 10:50:53 -0600
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mainstyles.css?body=1" for 127.0.0.1 at 2012-11-11 10:50:53 -0600
+Served asset /mainstyles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2012-11-11 10:50:53 -0600
+Served asset /orders.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-11 10:50:53 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-11-11 10:50:53 -0600
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.css?body=1" for 127.0.0.1 at 2012-11-11 10:50:53 -0600
+Served asset /provinces.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2012-11-11 10:50:53 -0600
+Served asset /reviews.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-11 10:50:53 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-11 10:50:53 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-11 10:50:53 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2012-11-11 10:50:53 -0600
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.js?body=1" for 127.0.0.1 at 2012-11-11 10:50:53 -0600
+Served asset /customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-11-11 10:50:53 -0600
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2012-11-11 10:50:53 -0600
+Served asset /orders.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-11-11 10:50:53 -0600
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.js?body=1" for 127.0.0.1 at 2012-11-11 10:50:53 -0600
+Served asset /provinces.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2012-11-11 10:50:53 -0600
+Served asset /reviews.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-11 10:50:53 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/categories" for 127.0.0.1 at 2012-11-11 10:50:54 -0600
+Processing by CategoriesController#index as HTML
+  [1m[35mCategory Load (0.0ms)[0m  SELECT "categories".* FROM "categories" 
+  Rendered categories/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 47ms (Views: 31.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-11 10:50:54 -0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2012-11-11 10:50:54 -0600
+Served asset /categories.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2012-11-11 10:50:54 -0600
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2012-11-11 10:50:54 -0600
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2012-11-11 10:50:54 -0600
+Served asset /orders.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mainstyles.css?body=1" for 127.0.0.1 at 2012-11-11 10:50:54 -0600
+Served asset /mainstyles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-11-11 10:50:54 -0600
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.css?body=1" for 127.0.0.1 at 2012-11-11 10:50:54 -0600
+Served asset /provinces.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2012-11-11 10:50:54 -0600
+Served asset /reviews.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-11 10:50:54 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-11 10:50:54 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-11 10:50:54 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2012-11-11 10:50:54 -0600
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-11-11 10:50:54 -0600
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-11-11 10:50:54 -0600
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.js?body=1" for 127.0.0.1 at 2012-11-11 10:50:54 -0600
+Served asset /customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2012-11-11 10:50:54 -0600
+Served asset /orders.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.js?body=1" for 127.0.0.1 at 2012-11-11 10:50:54 -0600
+Served asset /provinces.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2012-11-11 10:50:54 -0600
+Served asset /reviews.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-11 10:50:54 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/categories/new" for 127.0.0.1 at 2012-11-11 10:50:57 -0600
+Processing by CategoriesController#new as HTML
+  Rendered categories/_form.html.erb (2.0ms)
+  Rendered categories/new.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 44ms (Views: 32.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-11 10:50:57 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2012-11-11 10:50:57 -0600
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2012-11-11 10:50:57 -0600
+Served asset /categories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2012-11-11 10:50:57 -0600
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mainstyles.css?body=1" for 127.0.0.1 at 2012-11-11 10:50:57 -0600
+Served asset /mainstyles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2012-11-11 10:50:57 -0600
+Served asset /orders.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.css?body=1" for 127.0.0.1 at 2012-11-11 10:50:57 -0600
+Served asset /provinces.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2012-11-11 10:50:57 -0600
+Served asset /reviews.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-11 10:50:57 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-11 10:50:57 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-11 10:50:57 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.js?body=1" for 127.0.0.1 at 2012-11-11 10:50:57 -0600
+Served asset /customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2012-11-11 10:50:57 -0600
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-11-11 10:50:57 -0600
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2012-11-11 10:50:57 -0600
+Served asset /orders.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-11-11 10:50:57 -0600
+Served asset /products.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/provinces.js?body=1" for 127.0.0.1 at 2012-11-11 10:50:57 -0600
+Served asset /provinces.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2012-11-11 10:50:57 -0600
+Served asset /reviews.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-11 10:50:57 -0600
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-11-11 10:50:57 -0600
+Served asset /products.css - 304 Not Modified (1ms)
+
+
+Started POST "/categories" for 127.0.0.1 at 2012-11-11 10:51:01 -0600
+Processing by CategoriesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"QeTKBNHYL8wkncnToFMpM6kst5ixM/X0ZmgBCkhylyc=", "category"=>{"name"=>"Relics"}, "commit"=>"Create Category"}
+  [1m[36m (1.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (2.0ms)[0m  INSERT INTO "categories" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", Sun, 11 Nov 2012 16:51:01 UTC +00:00], ["name", "Relics"], ["updated_at", Sun, 11 Nov 2012 16:51:01 UTC +00:00]]
+  [1m[36m (186.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/categories/4
+Completed 302 Found in 201ms (ActiveRecord: 189.0ms)
+
+
+Started GET "/categories/4" for 127.0.0.1 at 2012-11-11 10:51:01 -0600
+Processing by CategoriesController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mCategory Load (0.0ms)[0m  SELECT "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT 1  [["id", "4"]]
+  Rendered categories/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 33ms (Views: 18.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-11 10:51:01 -0600
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2012-11-11 10:51:01 -0600
+Served asset /categories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2012-11-11 10:51:01 -0600
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2012-11-11 10:51:01 -0600
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mainstyles.css?body=1" for 127.0.0.1 at 2012-11-11 10:51:01 -0600
+Served asset /mainstyles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2012-11-11 10:51:01 -0600
+Served asset /orders.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-11-11 10:51:01 -0600
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.css?body=1" for 127.0.0.1 at 2012-11-11 10:51:01 -0600
+Served asset /provinces.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2012-11-11 10:51:01 -0600
+Served asset /reviews.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-11 10:51:01 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-11 10:51:01 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-11 10:51:01 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2012-11-11 10:51:01 -0600
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.js?body=1" for 127.0.0.1 at 2012-11-11 10:51:01 -0600
+Served asset /customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-11-11 10:51:01 -0600
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2012-11-11 10:51:01 -0600
+Served asset /orders.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-11-11 10:51:01 -0600
+Served asset /products.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/provinces.js?body=1" for 127.0.0.1 at 2012-11-11 10:51:01 -0600
+Served asset /provinces.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2012-11-11 10:51:01 -0600
+Served asset /reviews.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-11 10:51:01 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/categories" for 127.0.0.1 at 2012-11-11 10:51:02 -0600
+Processing by CategoriesController#index as HTML
+  [1m[36mCategory Load (0.0ms)[0m  [1mSELECT "categories".* FROM "categories" [0m
+  Rendered categories/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 44ms (Views: 23.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2012-11-11 10:51:03 -0600
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-11 10:51:03 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2012-11-11 10:51:03 -0600
+Served asset /categories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mainstyles.css?body=1" for 127.0.0.1 at 2012-11-11 10:51:03 -0600
+Served asset /mainstyles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2012-11-11 10:51:03 -0600
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2012-11-11 10:51:03 -0600
+Served asset /orders.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-11-11 10:51:03 -0600
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.css?body=1" for 127.0.0.1 at 2012-11-11 10:51:03 -0600
+Served asset /provinces.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2012-11-11 10:51:03 -0600
+Served asset /reviews.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-11 10:51:03 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-11 10:51:03 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-11 10:51:03 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2012-11-11 10:51:03 -0600
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.js?body=1" for 127.0.0.1 at 2012-11-11 10:51:03 -0600
+Served asset /customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2012-11-11 10:51:03 -0600
+Served asset /orders.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-11-11 10:51:03 -0600
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-11-11 10:51:03 -0600
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.js?body=1" for 127.0.0.1 at 2012-11-11 10:51:03 -0600
+Served asset /provinces.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2012-11-11 10:51:03 -0600
+Served asset /reviews.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-11 10:51:03 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/categories/new" for 127.0.0.1 at 2012-11-11 10:51:04 -0600
+Processing by CategoriesController#new as HTML
+  Rendered categories/_form.html.erb (3.0ms)
+  Rendered categories/new.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 41ms (Views: 27.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-11 10:51:04 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2012-11-11 10:51:04 -0600
+Served asset /categories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2012-11-11 10:51:04 -0600
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2012-11-11 10:51:04 -0600
+Served asset /orders.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mainstyles.css?body=1" for 127.0.0.1 at 2012-11-11 10:51:04 -0600
+Served asset /mainstyles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2012-11-11 10:51:04 -0600
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-11-11 10:51:04 -0600
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.css?body=1" for 127.0.0.1 at 2012-11-11 10:51:04 -0600
+Served asset /provinces.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2012-11-11 10:51:04 -0600
+Served asset /reviews.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-11 10:51:04 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-11 10:51:04 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-11 10:51:04 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2012-11-11 10:51:04 -0600
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.js?body=1" for 127.0.0.1 at 2012-11-11 10:51:04 -0600
+Served asset /customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-11-11 10:51:04 -0600
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2012-11-11 10:51:04 -0600
+Served asset /orders.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-11-11 10:51:04 -0600
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.js?body=1" for 127.0.0.1 at 2012-11-11 10:51:04 -0600
+Served asset /provinces.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2012-11-11 10:51:04 -0600
+Served asset /reviews.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-11 10:51:04 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/categories" for 127.0.0.1 at 2012-11-11 10:51:11 -0600
+Processing by CategoriesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"QeTKBNHYL8wkncnToFMpM6kst5ixM/X0ZmgBCkhylyc=", "category"=>{"name"=>"Other"}, "commit"=>"Create Category"}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (2.0ms)[0m  [1mINSERT INTO "categories" ("created_at", "name", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Sun, 11 Nov 2012 16:51:11 UTC +00:00], ["name", "Other"], ["updated_at", Sun, 11 Nov 2012 16:51:11 UTC +00:00]]
+  [1m[35m (122.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/categories/5
+Completed 302 Found in 147ms (ActiveRecord: 124.0ms)
+
+
+Started GET "/categories/5" for 127.0.0.1 at 2012-11-11 10:51:11 -0600
+Processing by CategoriesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mCategory Load (0.0ms)[0m  [1mSELECT "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT 1[0m  [["id", "5"]]
+  Rendered categories/show.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 39ms (Views: 19.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2012-11-11 10:51:11 -0600
+Served asset /categories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2012-11-11 10:51:11 -0600
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2012-11-11 10:51:11 -0600
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-11 10:51:11 -0600
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/mainstyles.css?body=1" for 127.0.0.1 at 2012-11-11 10:51:11 -0600
+Served asset /mainstyles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2012-11-11 10:51:11 -0600
+Served asset /orders.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-11-11 10:51:12 -0600
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.css?body=1" for 127.0.0.1 at 2012-11-11 10:51:12 -0600
+Served asset /provinces.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2012-11-11 10:51:12 -0600
+Served asset /reviews.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-11 10:51:12 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-11 10:51:12 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-11 10:51:12 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2012-11-11 10:51:12 -0600
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.js?body=1" for 127.0.0.1 at 2012-11-11 10:51:12 -0600
+Served asset /customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-11-11 10:51:12 -0600
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2012-11-11 10:51:12 -0600
+Served asset /orders.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-11-11 10:51:12 -0600
+Served asset /products.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/provinces.js?body=1" for 127.0.0.1 at 2012-11-11 10:51:12 -0600
+Served asset /provinces.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2012-11-11 10:51:12 -0600
+Served asset /reviews.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-11 10:51:12 -0600
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/categories" for 127.0.0.1 at 2012-11-11 10:51:13 -0600
+Processing by CategoriesController#index as HTML
+  [1m[35mCategory Load (0.0ms)[0m  SELECT "categories".* FROM "categories" 
+  Rendered categories/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 59ms (Views: 44.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2012-11-11 10:51:13 -0600
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2012-11-11 10:51:13 -0600
+Served asset /categories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2012-11-11 10:51:13 -0600
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mainstyles.css?body=1" for 127.0.0.1 at 2012-11-11 10:51:13 -0600
+Served asset /mainstyles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-11 10:51:13 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2012-11-11 10:51:13 -0600
+Served asset /orders.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-11-11 10:51:13 -0600
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.css?body=1" for 127.0.0.1 at 2012-11-11 10:51:13 -0600
+Served asset /provinces.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2012-11-11 10:51:13 -0600
+Served asset /reviews.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-11 10:51:13 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-11 10:51:13 -0600
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-11 10:51:13 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2012-11-11 10:51:13 -0600
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.js?body=1" for 127.0.0.1 at 2012-11-11 10:51:13 -0600
+Served asset /customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-11-11 10:51:13 -0600
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-11-11 10:51:13 -0600
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2012-11-11 10:51:13 -0600
+Served asset /orders.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.js?body=1" for 127.0.0.1 at 2012-11-11 10:51:13 -0600
+Served asset /provinces.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2012-11-11 10:51:13 -0600
+Served asset /reviews.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-11 10:51:13 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2012-11-11 10:51:21 -0600
+Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT "products".* FROM "products" [0m
+  Rendered products/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 17ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-11 10:51:21 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2012-11-11 10:51:21 -0600
+Served asset /categories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2012-11-11 10:51:21 -0600
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2012-11-11 10:51:21 -0600
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mainstyles.css?body=1" for 127.0.0.1 at 2012-11-11 10:51:21 -0600
+Served asset /mainstyles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2012-11-11 10:51:21 -0600
+Served asset /orders.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-11-11 10:51:21 -0600
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.css?body=1" for 127.0.0.1 at 2012-11-11 10:51:21 -0600
+Served asset /provinces.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2012-11-11 10:51:21 -0600
+Served asset /reviews.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-11 10:51:21 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-11 10:51:21 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-11 10:51:21 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2012-11-11 10:51:21 -0600
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.js?body=1" for 127.0.0.1 at 2012-11-11 10:51:21 -0600
+Served asset /customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-11-11 10:51:21 -0600
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2012-11-11 10:51:21 -0600
+Served asset /orders.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-11-11 10:51:21 -0600
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.js?body=1" for 127.0.0.1 at 2012-11-11 10:51:21 -0600
+Served asset /provinces.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2012-11-11 10:51:21 -0600
+Served asset /reviews.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-11 10:51:21 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-11-11 10:51:21 -0600
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/products/new" for 127.0.0.1 at 2012-11-11 10:51:23 -0600
+Processing by ProductsController#new as HTML
+  Rendered products/_form.html.erb (10.0ms)
+  Rendered products/new.html.erb within layouts/application (34.0ms)
+Completed 200 OK in 94ms (Views: 58.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2012-11-11 10:51:23 -0600
+Served asset /categories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-11 10:51:23 -0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2012-11-11 10:51:24 -0600
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2012-11-11 10:51:24 -0600
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mainstyles.css?body=1" for 127.0.0.1 at 2012-11-11 10:51:24 -0600
+Served asset /mainstyles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2012-11-11 10:51:24 -0600
+Served asset /orders.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-11-11 10:51:24 -0600
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.css?body=1" for 127.0.0.1 at 2012-11-11 10:51:24 -0600
+Served asset /provinces.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2012-11-11 10:51:24 -0600
+Served asset /reviews.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-11 10:51:24 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-11 10:51:24 -0600
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-11 10:51:24 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2012-11-11 10:51:24 -0600
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.js?body=1" for 127.0.0.1 at 2012-11-11 10:51:24 -0600
+Served asset /customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-11-11 10:51:24 -0600
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2012-11-11 10:51:24 -0600
+Served asset /orders.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-11-11 10:51:24 -0600
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.js?body=1" for 127.0.0.1 at 2012-11-11 10:51:24 -0600
+Served asset /provinces.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2012-11-11 10:51:24 -0600
+Served asset /reviews.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-11 10:51:24 -0600
+Served asset /application.js - 304 Not Modified (0ms)

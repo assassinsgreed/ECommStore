@@ -1,4 +1,5 @@
 ECommerce::Application.routes.draw do
+
   resources :categories
 
   resources :reviews
@@ -12,6 +13,9 @@ ECommerce::Application.routes.draw do
   resources :orders
 
   resources :products
+  
+  #Pointing the direct web page to go to the products' index page
+  root :to => 'products#index'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
