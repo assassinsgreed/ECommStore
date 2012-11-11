@@ -13027,3 +13027,21 @@ Served asset /reviews.js - 304 Not Modified (0ms)
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-11 10:51:24 -0600
 Served asset /application.js - 304 Not Modified (0ms)
+  [1m[36m (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateProducts (20121109174642)
+Migrating to CreateOrders (20121110205114)
+Migrating to CreateLineItems (20121110205242)
+Migrating to CreateCustomers (20121110205516)
+Migrating to AddPayMethodToOrder (20121110205658)
+Migrating to CreateProvinces (20121110205743)
+Migrating to CreateReviews (20121110215943)
+Migrating to CreateCategories (20121110220753)
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("categories")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("customers")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("line_items")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("orders")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("products")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("provinces")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("reviews")
