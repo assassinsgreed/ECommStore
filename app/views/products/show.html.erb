@@ -1,34 +1,4 @@
-<p id="notice"><%= notice %></p>
-
-<p>
-  <b>Name:</b>
-  <%= @product.name %>
-</p>
-
-<p>
-  <b>Description:</b>
-  <%= @product.description %>
-</p>
-
-<p>
-  <b>Category:</b>
-  <%= @product.category_id %>
-</p>
-
-<p>
-  <b>Quantity on hand:</b>
-  <%= @product.quantity_on_hand %>
-</p>
-
-<p>
-  <b>Price:</b>
-  <%= @product.price %>
-</p>
-
-<p>
-  <b>Sale price:</b>
-  <%= @product.sale_price %>
-</p>
+<%= render @product %>
 
 
 <%= link_to 'Edit', edit_product_path(@product) %> |

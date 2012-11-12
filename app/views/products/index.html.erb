@@ -13,33 +13,7 @@
       </div>
     </div>
 
-    <table>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-        <th>Category</th>
-        <th>Quantity on hand</th>
-        <th>Price</th>
-        <th>Sale price</th>
-        <th></th>
-        <th></th>
-        <th></th>
-      </tr>
-    
-    <% @products.each do |product| %>
-      <tr>
-        <td><%= product.name %></td>
-        <td><%= product.description %></td>
-        <td><%= product.category_id %></td>
-        <td><%= product.quantity_on_hand %></td>
-        <td><%= product.price %></td>
-        <td><%= product.sale_price %></td>
-        <td><%= link_to 'Show', product %></td>
-        <td><%= link_to 'Edit', edit_product_path(product) %></td>
-        <td><%= link_to 'Destroy', product, confirm: 'Are you sure?', method: :delete %></td>
-      </tr>
-    <% end %>
-    </table>
+<%= render @products %>
     
     <br />
 

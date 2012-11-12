@@ -13045,3 +13045,2139 @@ Migrating to CreateCategories (20121110220753)
   [1m[35m (0.0ms)[0m  PRAGMA index_list("products")
   [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("provinces")[0m
   [1m[35m (0.0ms)[0m  PRAGMA index_list("reviews")
+
+
+Started GET "/products" for 127.0.0.1 at 2012-11-12 14:19:31 -0600
+Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (1.0ms)[0m  [1mSELECT "products".* FROM "products" [0m
+  Rendered products/index.html.erb within layouts/application (50.0ms)
+Completed 200 OK in 342ms (Views: 341.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-12 14:19:33 -0600
+Served asset /application.css - 304 Not Modified (21ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2012-11-12 14:19:33 -0600
+Served asset /categories.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2012-11-12 14:19:33 -0600
+Served asset /customers.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2012-11-12 14:19:33 -0600
+Served asset /line_items.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/mainstyles.css?body=1" for 127.0.0.1 at 2012-11-12 14:19:33 -0600
+Served asset /mainstyles.css - 304 Not Modified (19ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2012-11-12 14:19:33 -0600
+Served asset /orders.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-11-12 14:19:33 -0600
+Served asset /products.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/provinces.css?body=1" for 127.0.0.1 at 2012-11-12 14:19:33 -0600
+Served asset /provinces.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2012-11-12 14:19:33 -0600
+Served asset /reviews.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-12 14:19:33 -0600
+Served asset /scaffolds.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-12 14:19:33 -0600
+Served asset /jquery.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-12 14:19:33 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2012-11-12 14:19:33 -0600
+Served asset /categories.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/customers.js?body=1" for 127.0.0.1 at 2012-11-12 14:19:33 -0600
+Served asset /customers.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-11-12 14:19:33 -0600
+Served asset /line_items.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2012-11-12 14:19:33 -0600
+Served asset /orders.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-11-12 14:19:33 -0600
+Served asset /products.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/provinces.js?body=1" for 127.0.0.1 at 2012-11-12 14:19:33 -0600
+Served asset /provinces.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-12 14:19:33 -0600
+Served asset /application.js - 304 Not Modified (33ms)
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2012-11-12 14:19:33 -0600
+Served asset /reviews.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-11-12 14:19:33 -0600
+Served asset /logo.png - 304 Not Modified (1ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2012-11-12 14:23:22 -0600
+Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products" 
+  Rendered collection (0.0ms)
+  Rendered products/index.html.erb within layouts/application (46.0ms)
+Completed 200 OK in 63ms (Views: 61.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-12 14:23:22 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2012-11-12 14:23:22 -0600
+Served asset /categories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2012-11-12 14:23:22 -0600
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2012-11-12 14:23:22 -0600
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2012-11-12 14:23:22 -0600
+Served asset /orders.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mainstyles.css?body=1" for 127.0.0.1 at 2012-11-12 14:23:22 -0600
+Served asset /mainstyles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-11-12 14:23:22 -0600
+Served asset /products.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/provinces.css?body=1" for 127.0.0.1 at 2012-11-12 14:23:22 -0600
+Served asset /provinces.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2012-11-12 14:23:22 -0600
+Served asset /reviews.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-12 14:23:22 -0600
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-12 14:23:23 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-12 14:23:23 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2012-11-12 14:23:23 -0600
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.js?body=1" for 127.0.0.1 at 2012-11-12 14:23:23 -0600
+Served asset /customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-11-12 14:23:23 -0600
+Served asset /line_items.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-11-12 14:23:23 -0600
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2012-11-12 14:23:23 -0600
+Served asset /orders.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.js?body=1" for 127.0.0.1 at 2012-11-12 14:23:23 -0600
+Served asset /provinces.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2012-11-12 14:23:23 -0600
+Served asset /reviews.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-12 14:23:23 -0600
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-11-12 14:23:23 -0600
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2012-11-12 14:23:24 -0600
+Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT "products".* FROM "products" [0m
+  Rendered collection (0.0ms)
+  Rendered products/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 26ms (Views: 23.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2012-11-12 14:23:24 -0600
+Served asset /categories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-12 14:23:24 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2012-11-12 14:23:24 -0600
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2012-11-12 14:23:24 -0600
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mainstyles.css?body=1" for 127.0.0.1 at 2012-11-12 14:23:24 -0600
+Served asset /mainstyles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2012-11-12 14:23:24 -0600
+Served asset /orders.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-11-12 14:23:24 -0600
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.css?body=1" for 127.0.0.1 at 2012-11-12 14:23:24 -0600
+Served asset /provinces.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2012-11-12 14:23:24 -0600
+Served asset /reviews.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-12 14:23:24 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-12 14:23:24 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-12 14:23:24 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.js?body=1" for 127.0.0.1 at 2012-11-12 14:23:24 -0600
+Served asset /provinces.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2012-11-12 14:23:24 -0600
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2012-11-12 14:23:24 -0600
+Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products" 
+  Rendered collection (0.0ms)
+  Rendered products/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 13ms (Views: 12.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-12 14:23:24 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2012-11-12 14:23:24 -0600
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2012-11-12 14:23:24 -0600
+Served asset /categories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2012-11-12 14:23:24 -0600
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mainstyles.css?body=1" for 127.0.0.1 at 2012-11-12 14:23:24 -0600
+Served asset /mainstyles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2012-11-12 14:23:24 -0600
+Served asset /orders.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-11-12 14:23:24 -0600
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.css?body=1" for 127.0.0.1 at 2012-11-12 14:23:24 -0600
+Served asset /provinces.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2012-11-12 14:23:24 -0600
+Served asset /reviews.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-12 14:23:24 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-12 14:23:24 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-12 14:23:24 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2012-11-12 14:23:24 -0600
+Served asset /categories.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/customers.js?body=1" for 127.0.0.1 at 2012-11-12 14:23:24 -0600
+Served asset /customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-11-12 14:23:24 -0600
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2012-11-12 14:23:24 -0600
+Served asset /reviews.js - 304 Not Modified (0ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2012-11-12 14:23:24 -0600
+Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT "products".* FROM "products" [0m
+  Rendered collection (0.0ms)
+  Rendered products/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 20ms (Views: 18.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-12 14:23:24 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2012-11-12 14:23:24 -0600
+Served asset /categories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2012-11-12 14:23:24 -0600
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2012-11-12 14:23:24 -0600
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mainstyles.css?body=1" for 127.0.0.1 at 2012-11-12 14:23:24 -0600
+Served asset /mainstyles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2012-11-12 14:23:24 -0600
+Served asset /orders.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-11-12 14:23:24 -0600
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.css?body=1" for 127.0.0.1 at 2012-11-12 14:23:24 -0600
+Served asset /provinces.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2012-11-12 14:23:24 -0600
+Served asset /reviews.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-12 14:23:24 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-12 14:23:24 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-12 14:23:24 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-11-12 14:23:24 -0600
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2012-11-12 14:23:24 -0600
+Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (1.0ms)[0m  SELECT "products".* FROM "products" 
+  Rendered collection (0.0ms)
+  Rendered products/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 13ms (Views: 12.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-12 14:23:24 -0600
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2012-11-12 14:23:24 -0600
+Served asset /categories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2012-11-12 14:23:24 -0600
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2012-11-12 14:23:24 -0600
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mainstyles.css?body=1" for 127.0.0.1 at 2012-11-12 14:23:24 -0600
+Served asset /mainstyles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2012-11-12 14:23:24 -0600
+Served asset /orders.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.css?body=1" for 127.0.0.1 at 2012-11-12 14:23:24 -0600
+Served asset /provinces.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2012-11-12 14:23:24 -0600
+Served asset /reviews.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-12 14:23:24 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-12 14:23:24 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-12 14:23:24 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2012-11-12 14:23:24 -0600
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.js?body=1" for 127.0.0.1 at 2012-11-12 14:23:24 -0600
+Served asset /customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-11-12 14:23:24 -0600
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2012-11-12 14:23:24 -0600
+Served asset /orders.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-11-12 14:23:24 -0600
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.js?body=1" for 127.0.0.1 at 2012-11-12 14:23:24 -0600
+Served asset /provinces.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2012-11-12 14:23:24 -0600
+Served asset /reviews.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-12 14:23:24 -0600
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-11-12 14:23:24 -0600
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2012-11-12 14:23:25 -0600
+Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT "products".* FROM "products" [0m
+  Rendered collection (0.0ms)
+  Rendered products/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 13ms (Views: 12.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2012-11-12 14:23:25 -0600
+Served asset /categories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2012-11-12 14:23:25 -0600
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2012-11-12 14:23:25 -0600
+Served asset /orders.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-12 14:23:25 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mainstyles.css?body=1" for 127.0.0.1 at 2012-11-12 14:23:25 -0600
+Served asset /mainstyles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2012-11-12 14:23:25 -0600
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-11-12 14:23:25 -0600
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.css?body=1" for 127.0.0.1 at 2012-11-12 14:23:25 -0600
+Served asset /provinces.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-12 14:23:25 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2012-11-12 14:23:25 -0600
+Served asset /reviews.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-12 14:23:25 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-12 14:23:25 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2012-11-12 14:23:25 -0600
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.js?body=1" for 127.0.0.1 at 2012-11-12 14:23:25 -0600
+Served asset /customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-11-12 14:23:25 -0600
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2012-11-12 14:23:25 -0600
+Served asset /orders.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-11-12 14:23:25 -0600
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.js?body=1" for 127.0.0.1 at 2012-11-12 14:23:25 -0600
+Served asset /provinces.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2012-11-12 14:23:25 -0600
+Served asset /reviews.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-12 14:23:25 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-11-12 14:23:25 -0600
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2012-11-12 14:24:15 -0600
+Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (1.0ms)[0m  SELECT "products".* FROM "products" 
+ERROR: compiling _app_views_products_index_html_erb___900836162_29872080 RAISED C:/Users/cquick/Documents/Notes/eCommerce/Final Project/ECommerce/app/views/products/index.html.erb:17: syntax error, unexpected tIDENTIFIER, expecting ')'
+... link_to 'new' new_product_path(@product) );@output_buffer.s...
+...                               ^
+Function body:           def _app_views_products_index_html_erb___900836162_29872080(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "products/index";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new;@output_buffer.safe_concat('<html>
+  <head>
+    <title>The Treasure Chest</title>
+    ');@output_buffer.append= ( stylesheet_link_tag "mainstyles" );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('  </head>
+  <body>
+    <div id="header">
+      ');@output_buffer.append= ( image_tag 'logo.png' );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('      <div id="signin">
+        <a href="#">Login</a> | <a href="#">Sign Up</a>
+        <br /><br />
+        
+      </div>
+    </div>
+    ');@output_buffer.append= ( render @products );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('    
+    ');@output_buffer.append= ( link_to 'new' new_product_path(@product) );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('
+  </body>
+</html>');@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+
+Backtrace: C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/template.rb:285:in `module_eval'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/template.rb:285:in `compile'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/template.rb:233:in `compile!'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/template.rb:142:in `block in render'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-3.2.1/lib/active_support/notifications.rb:125:in `instrument'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/template.rb:141:in `render'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/renderer/template_renderer.rb:41:in `block (2 levels) in render_template'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-3.2.1/lib/active_support/notifications.rb:123:in `block in instrument'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-3.2.1/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-3.2.1/lib/active_support/notifications.rb:123:in `instrument'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/renderer/template_renderer.rb:40:in `block in render_template'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/renderer/template_renderer.rb:48:in `render_with_layout'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/renderer/template_renderer.rb:39:in `render_template'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/renderer/template_renderer.rb:12:in `render'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/renderer/renderer.rb:36:in `render_template'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/renderer/renderer.rb:17:in `render'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/abstract_controller/rendering.rb:109:in `_render_template'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_controller/metal/streaming.rb:225:in `_render_template'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/abstract_controller/rendering.rb:103:in `render_to_body'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/abstract_controller/rendering.rb:88:in `render'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_controller/metal/rendering.rb:16:in `render'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-3.2.1/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-3.2.1/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activerecord-3.2.1/lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_controller/metal/instrumentation.rb:39:in `render'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_controller/metal/mime_responds.rb:268:in `block in retrieve_response_from_mimes'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_controller/metal/mime_responds.rb:195:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_controller/metal/mime_responds.rb:195:in `respond_to'
+C:/Users/cquick/Documents/Notes/eCommerce/Final Project/ECommerce/app/controllers/products_controller.rb:10:in `index'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/abstract_controller/base.rb:167:in `process_action'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_controller/metal/rendering.rb:10:in `process_action'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-3.2.1/lib/active_support/callbacks.rb:414:in `_run__826796254__process_action__85670471__callbacks'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-3.2.1/lib/active_support/callbacks.rb:405:in `__run_callback'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-3.2.1/lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-3.2.1/lib/active_support/callbacks.rb:81:in `run_callbacks'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/abstract_controller/callbacks.rb:17:in `process_action'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_controller/metal/rescue.rb:29:in `process_action'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-3.2.1/lib/active_support/notifications.rb:123:in `block in instrument'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-3.2.1/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-3.2.1/lib/active_support/notifications.rb:123:in `instrument'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_controller/metal/params_wrapper.rb:205:in `process_action'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activerecord-3.2.1/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/abstract_controller/base.rb:121:in `process'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/abstract_controller/rendering.rb:45:in `process'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_controller/metal.rb:203:in `dispatch'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_controller/metal.rb:246:in `block in action'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/routing/route_set.rb:66:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/routing/route_set.rb:66:in `dispatch'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/routing/route_set.rb:30:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/journey-1.0.4/lib/journey/router.rb:68:in `block in call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/journey-1.0.4/lib/journey/router.rb:56:in `each'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/journey-1.0.4/lib/journey/router.rb:56:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/routing/route_set.rb:589:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/rack-1.4.1/lib/rack/etag.rb:23:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/rack-1.4.1/lib/rack/conditionalget.rb:25:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/head.rb:14:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/flash.rb:242:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/rack-1.4.1/lib/rack/session/abstract/id.rb:205:in `context'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/rack-1.4.1/lib/rack/session/abstract/id.rb:200:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/cookies.rb:338:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activerecord-3.2.1/lib/active_record/query_cache.rb:64:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activerecord-3.2.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:443:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-3.2.1/lib/active_support/callbacks.rb:405:in `_run__369754250__call__646965991__callbacks'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-3.2.1/lib/active_support/callbacks.rb:405:in `__run_callback'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-3.2.1/lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-3.2.1/lib/active_support/callbacks.rb:81:in `run_callbacks'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/reloader.rb:65:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/railties-3.2.1/lib/rails/rack/logger.rb:26:in `call_app'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/railties-3.2.1/lib/rails/rack/logger.rb:16:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/request_id.rb:22:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/rack-1.4.1/lib/rack/methodoverride.rb:21:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/rack-1.4.1/lib/rack/runtime.rb:17:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-3.2.1/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/rack-1.4.1/lib/rack/lock.rb:15:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/static.rb:53:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/railties-3.2.1/lib/rails/engine.rb:479:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/railties-3.2.1/lib/rails/application.rb:220:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/rack-1.4.1/lib/rack/content_length.rb:14:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/railties-3.2.1/lib/rails/rack/log_tailer.rb:14:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/rack-1.4.1/lib/rack/handler/webrick.rb:59:in `service'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+  Rendered products/index.html.erb within layouts/application (73.0ms)
+Completed 500 Internal Server Error in 86ms
+
+ActionView::Template::Error (C:/Users/cquick/Documents/Notes/eCommerce/Final Project/ECommerce/app/views/products/index.html.erb:17: syntax error, unexpected tIDENTIFIER, expecting ')'
+... link_to 'new' new_product_path(@product) );@output_buffer.s...
+...                               ^):
+    14:     </div>
+    15:     <%= render @products %>
+    16:     
+    17:     <%= link_to 'new' new_product_path(@product) %>
+    18: 
+    19:   </body>
+    20: </html>
+  app/controllers/products_controller.rb:10:in `index'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.0ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2012-11-12 14:24:37 -0600
+Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT "products".* FROM "products" [0m
+ERROR: compiling _app_views_products_index_html_erb___900836162_28633476 RAISED C:/Users/cquick/Documents/Notes/eCommerce/Final Project/ECommerce/app/views/products/index.html.erb:17: syntax error, unexpected tIDENTIFIER, expecting ')'
+... link_to 'new' new_product_path );@output_buffer.safe_concat...
+...                               ^
+Function body:           def _app_views_products_index_html_erb___900836162_28633476(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "products/index";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new;@output_buffer.safe_concat('<html>
+  <head>
+    <title>The Treasure Chest</title>
+    ');@output_buffer.append= ( stylesheet_link_tag "mainstyles" );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('  </head>
+  <body>
+    <div id="header">
+      ');@output_buffer.append= ( image_tag 'logo.png' );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('      <div id="signin">
+        <a href="#">Login</a> | <a href="#">Sign Up</a>
+        <br /><br />
+        
+      </div>
+    </div>
+    ');@output_buffer.append= ( render @products );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('    
+    ');@output_buffer.append= ( link_to 'new' new_product_path );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('
+  </body>
+</html>');@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+
+Backtrace: C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/template.rb:285:in `module_eval'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/template.rb:285:in `compile'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/template.rb:233:in `compile!'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/template.rb:142:in `block in render'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-3.2.1/lib/active_support/notifications.rb:125:in `instrument'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/template.rb:141:in `render'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/renderer/template_renderer.rb:41:in `block (2 levels) in render_template'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-3.2.1/lib/active_support/notifications.rb:123:in `block in instrument'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-3.2.1/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-3.2.1/lib/active_support/notifications.rb:123:in `instrument'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/renderer/template_renderer.rb:40:in `block in render_template'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/renderer/template_renderer.rb:48:in `render_with_layout'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/renderer/template_renderer.rb:39:in `render_template'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/renderer/template_renderer.rb:12:in `render'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/renderer/renderer.rb:36:in `render_template'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/renderer/renderer.rb:17:in `render'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/abstract_controller/rendering.rb:109:in `_render_template'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_controller/metal/streaming.rb:225:in `_render_template'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/abstract_controller/rendering.rb:103:in `render_to_body'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/abstract_controller/rendering.rb:88:in `render'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_controller/metal/rendering.rb:16:in `render'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-3.2.1/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-3.2.1/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activerecord-3.2.1/lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_controller/metal/instrumentation.rb:39:in `render'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_controller/metal/mime_responds.rb:268:in `block in retrieve_response_from_mimes'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_controller/metal/mime_responds.rb:195:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_controller/metal/mime_responds.rb:195:in `respond_to'
+C:/Users/cquick/Documents/Notes/eCommerce/Final Project/ECommerce/app/controllers/products_controller.rb:10:in `index'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/abstract_controller/base.rb:167:in `process_action'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_controller/metal/rendering.rb:10:in `process_action'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-3.2.1/lib/active_support/callbacks.rb:414:in `_run__826796254__process_action__85670471__callbacks'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-3.2.1/lib/active_support/callbacks.rb:405:in `__run_callback'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-3.2.1/lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-3.2.1/lib/active_support/callbacks.rb:81:in `run_callbacks'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/abstract_controller/callbacks.rb:17:in `process_action'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_controller/metal/rescue.rb:29:in `process_action'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-3.2.1/lib/active_support/notifications.rb:123:in `block in instrument'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-3.2.1/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-3.2.1/lib/active_support/notifications.rb:123:in `instrument'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_controller/metal/params_wrapper.rb:205:in `process_action'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activerecord-3.2.1/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/abstract_controller/base.rb:121:in `process'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/abstract_controller/rendering.rb:45:in `process'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_controller/metal.rb:203:in `dispatch'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_controller/metal.rb:246:in `block in action'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/routing/route_set.rb:66:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/routing/route_set.rb:66:in `dispatch'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/routing/route_set.rb:30:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/journey-1.0.4/lib/journey/router.rb:68:in `block in call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/journey-1.0.4/lib/journey/router.rb:56:in `each'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/journey-1.0.4/lib/journey/router.rb:56:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/routing/route_set.rb:589:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/rack-1.4.1/lib/rack/etag.rb:23:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/rack-1.4.1/lib/rack/conditionalget.rb:25:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/head.rb:14:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/flash.rb:242:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/rack-1.4.1/lib/rack/session/abstract/id.rb:205:in `context'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/rack-1.4.1/lib/rack/session/abstract/id.rb:200:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/cookies.rb:338:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activerecord-3.2.1/lib/active_record/query_cache.rb:64:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activerecord-3.2.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:443:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-3.2.1/lib/active_support/callbacks.rb:405:in `_run__369754250__call__646965991__callbacks'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-3.2.1/lib/active_support/callbacks.rb:405:in `__run_callback'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-3.2.1/lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-3.2.1/lib/active_support/callbacks.rb:81:in `run_callbacks'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/reloader.rb:65:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/railties-3.2.1/lib/rails/rack/logger.rb:26:in `call_app'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/railties-3.2.1/lib/rails/rack/logger.rb:16:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/request_id.rb:22:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/rack-1.4.1/lib/rack/methodoverride.rb:21:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/rack-1.4.1/lib/rack/runtime.rb:17:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-3.2.1/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/rack-1.4.1/lib/rack/lock.rb:15:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/static.rb:53:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/railties-3.2.1/lib/rails/engine.rb:479:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/railties-3.2.1/lib/rails/application.rb:220:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/rack-1.4.1/lib/rack/content_length.rb:14:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/railties-3.2.1/lib/rails/rack/log_tailer.rb:14:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/rack-1.4.1/lib/rack/handler/webrick.rb:59:in `service'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+  Rendered products/index.html.erb within layouts/application (2.0ms)
+Completed 500 Internal Server Error in 13ms
+
+ActionView::Template::Error (C:/Users/cquick/Documents/Notes/eCommerce/Final Project/ECommerce/app/views/products/index.html.erb:17: syntax error, unexpected tIDENTIFIER, expecting ')'
+... link_to 'new' new_product_path );@output_buffer.safe_concat...
+...                               ^):
+    14:     </div>
+    15:     <%= render @products %>
+    16:     
+    17:     <%= link_to 'new' new_product_path %>
+    18: 
+    19:   </body>
+    20: </html>
+  app/controllers/products_controller.rb:10:in `index'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.0ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2012-11-12 14:24:46 -0600
+Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products" 
+ERROR: compiling _app_views_products_index_html_erb___900836162_28633476 RAISED C:/Users/cquick/Documents/Notes/eCommerce/Final Project/ECommerce/app/views/products/index.html.erb:17: syntax error, unexpected tIDENTIFIER, expecting ')'
+... link_to 'new' new_product_path );@output_buffer.safe_concat...
+...                               ^
+Function body:           def _app_views_products_index_html_erb___900836162_28633476(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "products/index";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new;@output_buffer.safe_concat('<html>
+  <head>
+    <title>The Treasure Chest</title>
+    ');@output_buffer.append= ( stylesheet_link_tag "mainstyles" );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('  </head>
+  <body>
+    <div id="header">
+      ');@output_buffer.append= ( image_tag 'logo.png' );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('      <div id="signin">
+        <a href="#">Login</a> | <a href="#">Sign Up</a>
+        <br /><br />
+        
+      </div>
+    </div>
+    ');@output_buffer.append= ( render @products );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('    
+    ');@output_buffer.append= ( link_to 'new' new_product_path );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('
+  </body>
+</html>');@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+
+Backtrace: C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/template.rb:285:in `module_eval'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/template.rb:285:in `compile'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/template.rb:233:in `compile!'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/template.rb:142:in `block in render'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-3.2.1/lib/active_support/notifications.rb:125:in `instrument'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/template.rb:141:in `render'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/renderer/template_renderer.rb:41:in `block (2 levels) in render_template'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-3.2.1/lib/active_support/notifications.rb:123:in `block in instrument'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-3.2.1/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-3.2.1/lib/active_support/notifications.rb:123:in `instrument'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/renderer/template_renderer.rb:40:in `block in render_template'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/renderer/template_renderer.rb:48:in `render_with_layout'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/renderer/template_renderer.rb:39:in `render_template'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/renderer/template_renderer.rb:12:in `render'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/renderer/renderer.rb:36:in `render_template'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/renderer/renderer.rb:17:in `render'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/abstract_controller/rendering.rb:109:in `_render_template'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_controller/metal/streaming.rb:225:in `_render_template'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/abstract_controller/rendering.rb:103:in `render_to_body'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/abstract_controller/rendering.rb:88:in `render'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_controller/metal/rendering.rb:16:in `render'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-3.2.1/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-3.2.1/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activerecord-3.2.1/lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_controller/metal/instrumentation.rb:39:in `render'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_controller/metal/mime_responds.rb:268:in `block in retrieve_response_from_mimes'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_controller/metal/mime_responds.rb:195:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_controller/metal/mime_responds.rb:195:in `respond_to'
+C:/Users/cquick/Documents/Notes/eCommerce/Final Project/ECommerce/app/controllers/products_controller.rb:10:in `index'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/abstract_controller/base.rb:167:in `process_action'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_controller/metal/rendering.rb:10:in `process_action'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-3.2.1/lib/active_support/callbacks.rb:414:in `_run__826796254__process_action__85670471__callbacks'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-3.2.1/lib/active_support/callbacks.rb:405:in `__run_callback'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-3.2.1/lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-3.2.1/lib/active_support/callbacks.rb:81:in `run_callbacks'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/abstract_controller/callbacks.rb:17:in `process_action'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_controller/metal/rescue.rb:29:in `process_action'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-3.2.1/lib/active_support/notifications.rb:123:in `block in instrument'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-3.2.1/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-3.2.1/lib/active_support/notifications.rb:123:in `instrument'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_controller/metal/params_wrapper.rb:205:in `process_action'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activerecord-3.2.1/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/abstract_controller/base.rb:121:in `process'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/abstract_controller/rendering.rb:45:in `process'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_controller/metal.rb:203:in `dispatch'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_controller/metal.rb:246:in `block in action'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/routing/route_set.rb:66:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/routing/route_set.rb:66:in `dispatch'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/routing/route_set.rb:30:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/journey-1.0.4/lib/journey/router.rb:68:in `block in call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/journey-1.0.4/lib/journey/router.rb:56:in `each'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/journey-1.0.4/lib/journey/router.rb:56:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/routing/route_set.rb:589:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/rack-1.4.1/lib/rack/etag.rb:23:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/rack-1.4.1/lib/rack/conditionalget.rb:25:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/head.rb:14:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/flash.rb:242:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/rack-1.4.1/lib/rack/session/abstract/id.rb:205:in `context'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/rack-1.4.1/lib/rack/session/abstract/id.rb:200:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/cookies.rb:338:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activerecord-3.2.1/lib/active_record/query_cache.rb:64:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activerecord-3.2.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:443:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-3.2.1/lib/active_support/callbacks.rb:405:in `_run__369754250__call__646965991__callbacks'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-3.2.1/lib/active_support/callbacks.rb:405:in `__run_callback'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-3.2.1/lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-3.2.1/lib/active_support/callbacks.rb:81:in `run_callbacks'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/reloader.rb:65:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/railties-3.2.1/lib/rails/rack/logger.rb:26:in `call_app'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/railties-3.2.1/lib/rails/rack/logger.rb:16:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/request_id.rb:22:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/rack-1.4.1/lib/rack/methodoverride.rb:21:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/rack-1.4.1/lib/rack/runtime.rb:17:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-3.2.1/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/rack-1.4.1/lib/rack/lock.rb:15:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/static.rb:53:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/railties-3.2.1/lib/rails/engine.rb:479:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/railties-3.2.1/lib/rails/application.rb:220:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/rack-1.4.1/lib/rack/content_length.rb:14:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/railties-3.2.1/lib/rails/rack/log_tailer.rb:14:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/rack-1.4.1/lib/rack/handler/webrick.rb:59:in `service'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+  Rendered products/index.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 6ms
+
+ActionView::Template::Error (C:/Users/cquick/Documents/Notes/eCommerce/Final Project/ECommerce/app/views/products/index.html.erb:17: syntax error, unexpected tIDENTIFIER, expecting ')'
+... link_to 'new' new_product_path );@output_buffer.safe_concat...
+...                               ^):
+    14:     </div>
+    15:     <%= render @products %>
+    16:     
+    17:     <%= link_to 'new' new_product_path %>
+    18: 
+    19:   </body>
+    20: </html>
+  app/controllers/products_controller.rb:10:in `index'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.0ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2012-11-12 14:25:24 -0600
+Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (1.0ms)[0m  [1mSELECT "products".* FROM "products" [0m
+  Rendered collection (0.0ms)
+  Rendered products/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 50ms (Views: 47.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-12 14:25:24 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2012-11-12 14:25:24 -0600
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2012-11-12 14:25:24 -0600
+Served asset /categories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2012-11-12 14:25:24 -0600
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mainstyles.css?body=1" for 127.0.0.1 at 2012-11-12 14:25:24 -0600
+Served asset /mainstyles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2012-11-12 14:25:24 -0600
+Served asset /orders.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-11-12 14:25:24 -0600
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.css?body=1" for 127.0.0.1 at 2012-11-12 14:25:24 -0600
+Served asset /provinces.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2012-11-12 14:25:24 -0600
+Served asset /reviews.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-12 14:25:24 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-12 14:25:24 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-12 14:25:24 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2012-11-12 14:25:24 -0600
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.js?body=1" for 127.0.0.1 at 2012-11-12 14:25:24 -0600
+Served asset /customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-11-12 14:25:24 -0600
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2012-11-12 14:25:24 -0600
+Served asset /orders.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-11-12 14:25:24 -0600
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.js?body=1" for 127.0.0.1 at 2012-11-12 14:25:24 -0600
+Served asset /provinces.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2012-11-12 14:25:24 -0600
+Served asset /reviews.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-12 14:25:24 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-11-12 14:25:24 -0600
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2012-11-12 14:26:39 -0600
+Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (1.0ms)[0m  SELECT "products".* FROM "products" 
+  Rendered collection (0.0ms)
+  Rendered products/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 25ms (Views: 22.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-12 14:26:39 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2012-11-12 14:26:39 -0600
+Served asset /categories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2012-11-12 14:26:39 -0600
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2012-11-12 14:26:39 -0600
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mainstyles.css?body=1" for 127.0.0.1 at 2012-11-12 14:26:39 -0600
+Served asset /mainstyles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2012-11-12 14:26:39 -0600
+Served asset /orders.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-11-12 14:26:39 -0600
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.css?body=1" for 127.0.0.1 at 2012-11-12 14:26:39 -0600
+Served asset /provinces.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2012-11-12 14:26:39 -0600
+Served asset /reviews.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-12 14:26:39 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-12 14:26:39 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-12 14:26:39 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2012-11-12 14:26:39 -0600
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.js?body=1" for 127.0.0.1 at 2012-11-12 14:26:39 -0600
+Served asset /customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-11-12 14:26:39 -0600
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2012-11-12 14:26:39 -0600
+Served asset /reviews.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-11-12 14:26:39 -0600
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2012-11-12 14:26:39 -0600
+Served asset /orders.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.js?body=1" for 127.0.0.1 at 2012-11-12 14:26:39 -0600
+Served asset /provinces.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-12 14:26:39 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-11-12 14:26:40 -0600
+Served asset /logo.png - 304 Not Modified (0ms)
+  [1m[36m (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateProducts (20121109174642)
+Migrating to CreateOrders (20121110205114)
+Migrating to CreateLineItems (20121110205242)
+Migrating to CreateCustomers (20121110205516)
+Migrating to AddPayMethodToOrder (20121110205658)
+Migrating to CreateProvinces (20121110205743)
+Migrating to CreateReviews (20121110215943)
+Migrating to CreateCategories (20121110220753)
+Migrating to AddImageToProducts (20121112202859)
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (1.0ms)[0m  ALTER TABLE "products" ADD "image" varchar(255)
+  [1m[36m (0.0ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20121112202859')[0m
+  [1m[35m (112.0ms)[0m  commit transaction
+  [1m[36m (1.0ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("categories")[0m
+  [1m[35m (1.0ms)[0m  PRAGMA index_list("customers")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("line_items")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("orders")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("products")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("provinces")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("reviews")[0m
+
+
+Started GET "/products" for 127.0.0.1 at 2012-11-12 14:31:13 -0600
+Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT "products".* FROM "products" [0m
+  Rendered collection (0.0ms)
+  Rendered products/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 14ms (Views: 12.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-12 14:31:13 -0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2012-11-12 14:31:13 -0600
+Served asset /categories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2012-11-12 14:31:13 -0600
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2012-11-12 14:31:13 -0600
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mainstyles.css?body=1" for 127.0.0.1 at 2012-11-12 14:31:13 -0600
+Served asset /mainstyles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2012-11-12 14:31:13 -0600
+Served asset /orders.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-11-12 14:31:13 -0600
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.css?body=1" for 127.0.0.1 at 2012-11-12 14:31:13 -0600
+Served asset /provinces.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2012-11-12 14:31:13 -0600
+Served asset /reviews.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-12 14:31:13 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-12 14:31:13 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-12 14:31:13 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2012-11-12 14:31:13 -0600
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.js?body=1" for 127.0.0.1 at 2012-11-12 14:31:13 -0600
+Served asset /customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-11-12 14:31:13 -0600
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2012-11-12 14:31:13 -0600
+Served asset /orders.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-11-12 14:31:13 -0600
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.js?body=1" for 127.0.0.1 at 2012-11-12 14:31:13 -0600
+Served asset /provinces.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2012-11-12 14:31:13 -0600
+Served asset /reviews.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-12 14:31:13 -0600
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-11-12 14:31:13 -0600
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/products/new" for 127.0.0.1 at 2012-11-12 14:31:15 -0600
+Processing by ProductsController#new as HTML
+Filter chain halted as :require_sudo rendered or redirected
+Completed 401 Unauthorized in 10ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/products/new" for 127.0.0.1 at 2012-11-12 14:31:18 -0600
+Processing by ProductsController#new as HTML
+  Rendered products/_form.html.erb (55.0ms)
+  Rendered products/new.html.erb within layouts/application (57.0ms)
+Completed 200 OK in 89ms (Views: 73.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-12 14:31:19 -0600
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2012-11-12 14:31:19 -0600
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2012-11-12 14:31:19 -0600
+Served asset /categories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2012-11-12 14:31:19 -0600
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mainstyles.css?body=1" for 127.0.0.1 at 2012-11-12 14:31:19 -0600
+Served asset /mainstyles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2012-11-12 14:31:19 -0600
+Served asset /orders.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-11-12 14:31:19 -0600
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.css?body=1" for 127.0.0.1 at 2012-11-12 14:31:19 -0600
+Served asset /provinces.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2012-11-12 14:31:19 -0600
+Served asset /reviews.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-12 14:31:19 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-12 14:31:19 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-12 14:31:19 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2012-11-12 14:31:19 -0600
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.js?body=1" for 127.0.0.1 at 2012-11-12 14:31:19 -0600
+Served asset /customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-11-12 14:31:19 -0600
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2012-11-12 14:31:19 -0600
+Served asset /orders.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-11-12 14:31:19 -0600
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.js?body=1" for 127.0.0.1 at 2012-11-12 14:31:19 -0600
+Served asset /provinces.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2012-11-12 14:31:19 -0600
+Served asset /reviews.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-12 14:31:19 -0600
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/products/new" for 127.0.0.1 at 2012-11-12 14:36:59 -0600
+Processing by ProductsController#new as HTML
+  Rendered products/_form.html.erb (4.0ms)
+  Rendered products/new.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 35ms (Views: 20.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/mainstyles.css?body=1" for 127.0.0.1 at 2012-11-12 14:37:00 -0600
+Served asset /mainstyles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2012-11-12 14:37:00 -0600
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2012-11-12 14:37:00 -0600
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-12 14:37:00 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2012-11-12 14:37:00 -0600
+Served asset /categories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2012-11-12 14:37:00 -0600
+Served asset /orders.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-11-12 14:37:00 -0600
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.css?body=1" for 127.0.0.1 at 2012-11-12 14:37:00 -0600
+Served asset /provinces.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2012-11-12 14:37:00 -0600
+Served asset /reviews.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-12 14:37:00 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-12 14:37:00 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-12 14:37:00 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2012-11-12 14:37:00 -0600
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.js?body=1" for 127.0.0.1 at 2012-11-12 14:37:00 -0600
+Served asset /customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-11-12 14:37:00 -0600
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2012-11-12 14:37:00 -0600
+Served asset /orders.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-11-12 14:37:00 -0600
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.js?body=1" for 127.0.0.1 at 2012-11-12 14:37:00 -0600
+Served asset /provinces.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2012-11-12 14:37:00 -0600
+Served asset /reviews.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-12 14:37:00 -0600
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2012-11-12 14:37:02 -0600
+Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products" 
+  Rendered collection (0.0ms)
+  Rendered products/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 32ms (Views: 29.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-12 14:37:03 -0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2012-11-12 14:37:03 -0600
+Served asset /categories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2012-11-12 14:37:03 -0600
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2012-11-12 14:37:03 -0600
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mainstyles.css?body=1" for 127.0.0.1 at 2012-11-12 14:37:03 -0600
+Served asset /mainstyles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2012-11-12 14:37:03 -0600
+Served asset /orders.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-11-12 14:37:03 -0600
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.css?body=1" for 127.0.0.1 at 2012-11-12 14:37:03 -0600
+Served asset /provinces.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-12 14:37:03 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2012-11-12 14:37:03 -0600
+Served asset /reviews.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-12 14:37:03 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-12 14:37:03 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2012-11-12 14:37:03 -0600
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.js?body=1" for 127.0.0.1 at 2012-11-12 14:37:03 -0600
+Served asset /customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-11-12 14:37:03 -0600
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2012-11-12 14:37:03 -0600
+Served asset /orders.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-11-12 14:37:03 -0600
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.js?body=1" for 127.0.0.1 at 2012-11-12 14:37:03 -0600
+Served asset /provinces.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2012-11-12 14:37:03 -0600
+Served asset /reviews.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-12 14:37:03 -0600
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-11-12 14:37:03 -0600
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/products/new" for 127.0.0.1 at 2012-11-12 14:42:46 -0600
+Processing by ProductsController#new as HTML
+  Rendered products/_form.html.erb (4.0ms)
+  Rendered products/new.html.erb within layouts/application (23.0ms)
+Completed 200 OK in 54ms (Views: 38.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-12 14:42:46 -0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2012-11-12 14:42:46 -0600
+Served asset /categories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2012-11-12 14:42:46 -0600
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2012-11-12 14:42:46 -0600
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mainstyles.css?body=1" for 127.0.0.1 at 2012-11-12 14:42:46 -0600
+Served asset /mainstyles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2012-11-12 14:42:46 -0600
+Served asset /orders.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-11-12 14:42:46 -0600
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.css?body=1" for 127.0.0.1 at 2012-11-12 14:42:46 -0600
+Served asset /provinces.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2012-11-12 14:42:46 -0600
+Served asset /reviews.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-12 14:42:46 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-12 14:42:46 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-12 14:42:46 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2012-11-12 14:42:46 -0600
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.js?body=1" for 127.0.0.1 at 2012-11-12 14:42:46 -0600
+Served asset /customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-11-12 14:42:46 -0600
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2012-11-12 14:42:46 -0600
+Served asset /orders.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-11-12 14:42:46 -0600
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.js?body=1" for 127.0.0.1 at 2012-11-12 14:42:46 -0600
+Served asset /provinces.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2012-11-12 14:42:46 -0600
+Served asset /reviews.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-12 14:42:46 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2012-11-12 14:42:49 -0600
+Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT "products".* FROM "products" [0m
+  Rendered collection (0.0ms)
+  Rendered products/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 17ms (Views: 17.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-12 14:42:49 -0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2012-11-12 14:42:49 -0600
+Served asset /categories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2012-11-12 14:42:49 -0600
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2012-11-12 14:42:49 -0600
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mainstyles.css?body=1" for 127.0.0.1 at 2012-11-12 14:42:49 -0600
+Served asset /mainstyles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2012-11-12 14:42:49 -0600
+Served asset /orders.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-11-12 14:42:49 -0600
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.css?body=1" for 127.0.0.1 at 2012-11-12 14:42:49 -0600
+Served asset /provinces.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2012-11-12 14:42:49 -0600
+Served asset /reviews.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-12 14:42:49 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-12 14:42:49 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-12 14:42:49 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2012-11-12 14:42:49 -0600
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.js?body=1" for 127.0.0.1 at 2012-11-12 14:42:49 -0600
+Served asset /customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-11-12 14:42:49 -0600
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2012-11-12 14:42:49 -0600
+Served asset /orders.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-11-12 14:42:49 -0600
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.js?body=1" for 127.0.0.1 at 2012-11-12 14:42:49 -0600
+Served asset /provinces.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2012-11-12 14:42:49 -0600
+Served asset /reviews.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-12 14:42:49 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-11-12 14:42:49 -0600
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/products/new" for 127.0.0.1 at 2012-11-12 14:42:50 -0600
+Processing by ProductsController#new as HTML
+  Rendered products/_form.html.erb (4.0ms)
+  Rendered products/new.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 37ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-12 14:42:50 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2012-11-12 14:42:50 -0600
+Served asset /categories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2012-11-12 14:42:50 -0600
+Served asset /customers.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2012-11-12 14:42:50 -0600
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mainstyles.css?body=1" for 127.0.0.1 at 2012-11-12 14:42:50 -0600
+Served asset /mainstyles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2012-11-12 14:42:50 -0600
+Served asset /orders.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.css?body=1" for 127.0.0.1 at 2012-11-12 14:42:50 -0600
+Served asset /provinces.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2012-11-12 14:42:50 -0600
+Served asset /reviews.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-12 14:42:50 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-12 14:42:50 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-12 14:42:50 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2012-11-12 14:42:50 -0600
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.js?body=1" for 127.0.0.1 at 2012-11-12 14:42:50 -0600
+Served asset /customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-11-12 14:42:50 -0600
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2012-11-12 14:42:50 -0600
+Served asset /orders.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-11-12 14:42:50 -0600
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.js?body=1" for 127.0.0.1 at 2012-11-12 14:42:50 -0600
+Served asset /provinces.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2012-11-12 14:42:50 -0600
+Served asset /reviews.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-12 14:42:50 -0600
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-11-12 14:42:50 -0600
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started POST "/products" for 127.0.0.1 at 2012-11-12 14:45:31 -0600
+Processing by ProductsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"fbh1Ul4ewylH6evc69iqMxhxvvv6bMm7V2BqaighyZA=", "product"=>{"name"=>"Spanish Gold Doubloon", "description"=>"This gold doubloon was recovered from a sunken Spanish ship.  The owner of the ship had stolen them from a monarch  and hoped to escape with the prize.  Ultimately, his ship was sunken by the Spanish navy.  Due to the coins being created specifically in the monarch's image, these coins are one of a kind, and an asset to any treasure hunter's collection.", "category_id"=>"1", "quantity_on_hand"=>"18", "price"=>"243.00", "sale_price"=>"209.99", "image"=>"spanishGoldDoubloons.jpg"}, "commit"=>"Create Product"}
+Filter chain halted as :require_sudo rendered or redirected
+Completed 401 Unauthorized in 8ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/products" for 127.0.0.1 at 2012-11-12 14:45:31 -0600
+Processing by ProductsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"fbh1Ul4ewylH6evc69iqMxhxvvv6bMm7V2BqaighyZA=", "product"=>{"name"=>"Spanish Gold Doubloon", "description"=>"This gold doubloon was recovered from a sunken Spanish ship.  The owner of the ship had stolen them from a monarch  and hoped to escape with the prize.  Ultimately, his ship was sunken by the Spanish navy.  Due to the coins being created specifically in the monarch's image, these coins are one of a kind, and an asset to any treasure hunter's collection.", "category_id"=>"1", "quantity_on_hand"=>"18", "price"=>"243.00", "sale_price"=>"209.99", "image"=>"spanishGoldDoubloons.jpg"}, "commit"=>"Create Product"}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+Completed 500 Internal Server Error in 9ms
+
+NoMethodError (undefined method `stock_quantity' for #<Product:0x34f0bd8>):
+  app/controllers/products_controller.rb:49:in `block in create'
+  app/controllers/products_controller.rb:48:in `create'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.0ms)
+
+
+Started POST "/products" for 127.0.0.1 at 2012-11-12 14:47:43 -0600
+Processing by ProductsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"fbh1Ul4ewylH6evc69iqMxhxvvv6bMm7V2BqaighyZA=", "product"=>{"name"=>"Spanish Gold Doubloon", "description"=>"This gold doubloon was recovered from a sunken Spanish ship.  The owner of the ship had stolen them from a monarch  and hoped to escape with the prize.  Ultimately, his ship was sunken by the Spanish navy.  Due to the coins being created specifically in the monarch's image, these coins are one of a kind, and an asset to any treasure hunter's collection.", "category_id"=>"1", "quantity_on_hand"=>"18.00", "price"=>"243.00", "sale_price"=>"209.99", "image"=>"spanishGoldDoubloons.jpg"}, "commit"=>"Create Product"}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+Completed 500 Internal Server Error in 17ms
+
+NoMethodError (undefined method `stock_quantity' for #<Product:0x33b08e0>):
+  app/controllers/products_controller.rb:49:in `block in create'
+  app/controllers/products_controller.rb:48:in `create'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.0ms)
+
+
+Started POST "/products" for 127.0.0.1 at 2012-11-12 14:48:40 -0600
+Processing by ProductsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"fbh1Ul4ewylH6evc69iqMxhxvvv6bMm7V2BqaighyZA=", "product"=>{"name"=>"Spanish Gold Doubloon", "description"=>"This gold doubloon was recovered from a sunken Spanish ship.  The owner of the ship had stolen them from a monarch  and hoped to escape with the prize.  Ultimately, his ship was sunken by the Spanish navy.  Due to the coins being created specifically in the monarch's image, these coins are one of a kind, and an asset to any treasure hunter's collection.", "category_id"=>"1", "quantity_on_hand"=>"18", "price"=>"243.00", "sale_price"=>"209.99", "image"=>"spanishGoldDoubloons.jpg"}, "commit"=>"Create Product"}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+Completed 500 Internal Server Error in 18ms
+
+NoMethodError (undefined method `stock_quantity' for #<Product:0x3baf570>):
+  app/controllers/products_controller.rb:49:in `block in create'
+  app/controllers/products_controller.rb:48:in `create'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.0ms)
+
+
+Started POST "/products" for 127.0.0.1 at 2012-11-12 14:48:45 -0600
+Processing by ProductsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"fbh1Ul4ewylH6evc69iqMxhxvvv6bMm7V2BqaighyZA=", "product"=>{"name"=>"Spanish Gold Doubloon", "description"=>"This gold doubloon was recovered from a sunken Spanish ship.  The owner of the ship had stolen them from a monarch  and hoped to escape with the prize.  Ultimately, his ship was sunken by the Spanish navy.  Due to the coins being created specifically in the monarch's image, these coins are one of a kind, and an asset to any treasure hunter's collection.", "category_id"=>"1", "quantity_on_hand"=>"", "price"=>"243.00", "sale_price"=>"209.99", "image"=>"spanishGoldDoubloons.jpg"}, "commit"=>"Create Product"}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+Completed 500 Internal Server Error in 13ms
+
+NoMethodError (undefined method `stock_quantity' for #<Product:0x38e5cf0>):
+  app/controllers/products_controller.rb:49:in `block in create'
+  app/controllers/products_controller.rb:48:in `create'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (24.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.0ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2012-11-12 14:48:49 -0600
+Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products" 
+  Rendered collection (0.0ms)
+  Rendered products/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 26ms (Views: 25.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-12 14:48:49 -0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2012-11-12 14:48:49 -0600
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mainstyles.css?body=1" for 127.0.0.1 at 2012-11-12 14:48:49 -0600
+Served asset /mainstyles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2012-11-12 14:48:49 -0600
+Served asset /categories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2012-11-12 14:48:50 -0600
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2012-11-12 14:48:50 -0600
+Served asset /orders.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.css?body=1" for 127.0.0.1 at 2012-11-12 14:48:50 -0600
+Served asset /provinces.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2012-11-12 14:48:50 -0600
+Served asset /reviews.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-12 14:48:50 -0600
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-12 14:48:50 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-12 14:48:50 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2012-11-12 14:48:50 -0600
+Served asset /categories.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/customers.js?body=1" for 127.0.0.1 at 2012-11-12 14:48:50 -0600
+Served asset /customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-11-12 14:48:50 -0600
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2012-11-12 14:48:50 -0600
+Served asset /orders.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-11-12 14:48:50 -0600
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.js?body=1" for 127.0.0.1 at 2012-11-12 14:48:50 -0600
+Served asset /provinces.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2012-11-12 14:48:50 -0600
+Served asset /reviews.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-12 14:48:50 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-11-12 14:48:50 -0600
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-11-12 14:48:50 -0600
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/products/new" for 127.0.0.1 at 2012-11-12 14:48:51 -0600
+Processing by ProductsController#new as HTML
+  Rendered products/_form.html.erb (6.0ms)
+  Rendered products/new.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 31ms (Views: 23.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-12 14:48:51 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2012-11-12 14:48:51 -0600
+Served asset /categories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2012-11-12 14:48:51 -0600
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2012-11-12 14:48:51 -0600
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mainstyles.css?body=1" for 127.0.0.1 at 2012-11-12 14:48:51 -0600
+Served asset /mainstyles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2012-11-12 14:48:51 -0600
+Served asset /orders.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-11-12 14:48:51 -0600
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.css?body=1" for 127.0.0.1 at 2012-11-12 14:48:51 -0600
+Served asset /provinces.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2012-11-12 14:48:51 -0600
+Served asset /reviews.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-12 14:48:51 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-12 14:48:51 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-12 14:48:51 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2012-11-12 14:48:51 -0600
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.js?body=1" for 127.0.0.1 at 2012-11-12 14:48:51 -0600
+Served asset /customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-11-12 14:48:51 -0600
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2012-11-12 14:48:51 -0600
+Served asset /orders.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-11-12 14:48:51 -0600
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.js?body=1" for 127.0.0.1 at 2012-11-12 14:48:51 -0600
+Served asset /provinces.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2012-11-12 14:48:51 -0600
+Served asset /reviews.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-12 14:48:51 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/products" for 127.0.0.1 at 2012-11-12 14:48:54 -0600
+Processing by ProductsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"fbh1Ul4ewylH6evc69iqMxhxvvv6bMm7V2BqaighyZA=", "product"=>{"name"=>"", "description"=>"", "category_id"=>"", "quantity_on_hand"=>"", "price"=>"", "sale_price"=>"", "image"=>""}, "commit"=>"Create Product"}
+  [1m[36m (1.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Completed 500 Internal Server Error in 17ms
+
+NoMethodError (undefined method `stock_quantity' for #<Product:0x369f150>):
+  app/controllers/products_controller.rb:49:in `block in create'
+  app/controllers/products_controller.rb:48:in `create'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.0ms)
