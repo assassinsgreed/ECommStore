@@ -32,12 +32,19 @@ body
     color: #333;
     font-size: 16px;
     margin: 0px 5px;    /* Fix mouseover */
+    text-align: center;
+    padding: 8px;
 }
 
 #signin a:hover
 {
-    font-weight: bold;
-    background-color: transparent;
+    background-color: #BBBBBB;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -o-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border: 1px solid black;
+    color: black;
 }
 
 
