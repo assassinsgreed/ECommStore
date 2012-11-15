@@ -1,35 +1,31 @@
-    <table>
-      <tr>
-        <th></th>
-        <th>Name</th>
-        <th>Description</th>
-        <th>Stock Quantity</th>
-        <th>Price</th>
-        <% if not product.sale_price.nil? %>
-          <th>Sale price</th>
-        <% end %>
-        <th></th>
-        <th></th>
-        <th></th>
-      </tr>
-    
-      <tr>
-        <% if product.image.present? %>
-          <td><%= image_tag product.image, :size => "75x75" %></td>
-        <% else %>
-          <td><%= image_tag 'imageNotFound.jpg', :size => "75x75" %></td>
-        <% end %>
-        <td><%= product.name %></td>
-        <td><%= product.description %></td>
-        <td><%= product.quantity_on_hand %></td>
-        <td><%= product.price %></td>
-        <% if not product.sale_price.nil? %>
-          <td><%= product.sale_price %></td>
-        <% end %>
-        <td><%= link_to 'Show', product %></td>
-        <td><%= link_to 'Edit', edit_product_path(product) %></td>
-        <td><%= link_to 'Destroy', product, confirm: 'Are you sure?', method: :delete %></td>
-      </tr>
-    </table>
-    
-    <br />
+
+
+<div class="product">
+  <% if product.image.present? %>
+    <%= image_tag product.image, :size => "75x75" %>
+  <% else %>
+    <%= image_tag 'imageNotFound.jpg', :size => "75x75" %>
+  <% end %>
+  <div class="name">
+    <%= product.name %>
+  </div>
+  <div class="details">
+    <b>Quantity On Hand: </b><%= product.quantity_on_hand %><br /><br/>
+    <b>Price: </b><br/><span class="<%= product.sale_price.present? ? ' strike' : '' %>"><%= number_to_currency product.price %></span><br />
+    <% if product.sale_price.present? %>
+    <!-- Styling regular price to be a strike-through red font -->
+    <%= number_to_currency product.sale_price %>
+  <% end %>
+  </div>
+ <br /><br /><br />
+  <div class="description">
+    <%= product.description %>
+  </div>
+  <div class="admin_controls">
+    <%= link_to 'Show', product %>
+    <%= link_to 'Edit', edit_product_path(product) %>
+    <%= link_to 'Destroy', product, confirm: 'Are you sure?', method: :delete %>
+  </div>
+  
+  <br />
+</div>

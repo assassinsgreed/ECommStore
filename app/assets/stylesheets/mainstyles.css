@@ -1,7 +1,12 @@
 *
 {
-    background-color: #D0DDDD;
+    /*background-color: #D0DDDD;*/
     font-family: Arial, Serif;
+}
+
+.header
+{
+    background-color: white;
 }
 
 body
