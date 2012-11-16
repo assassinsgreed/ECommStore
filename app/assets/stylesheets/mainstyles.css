@@ -39,6 +39,7 @@ body
     margin: 0px 5px;    /* Fix mouseover */
     text-align: center;
     padding: 8px;
+    border: 1px solid white;    /* Provided to cause link to display properly */
 }
 
 #signin a:hover
