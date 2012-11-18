@@ -1,3 +1,12 @@
+    <div id="header">
+      <%= image_tag 'logo.png' %>
+      <div id="signin">
+        <a href="#">Administrative Login</a>
+        <br /><br />
+        
+      </div>
+    </div>
+
 <div class="product">
   <% if @product.image.present? %>
     <%= image_tag @product.image, :size => "75x75" %>
@@ -11,9 +20,9 @@
   
   <div class="details">
     <b>Quantity On Hand: </b><%= @product.quantity_on_hand %><br /><br/>
+    <!-- Styling regular price to be a strike-through red font -->
     <b>Price: </b><br/><span class="<%= @product.sale_price.present? ? ' strike' : '' %>"><%= number_to_currency @product.price %></span><br />
     <% if @product.sale_price.present? %>
-    <!-- Styling regular price to be a strike-through red font -->
     <%= number_to_currency @product.sale_price %>
   <% end %>
   </div>
@@ -30,8 +39,16 @@
   
   <div class="reviews">
     <h3>Customer Reviews</h3>
+    <% if @product.reviews.present? %>
+    <%= render @product.reviews %>
+    <% else %>
+      <p>No reviews have been placed for this product yet.</p>
+    <% end if %>
+    
+    <br /> <br />
+    <h3>Write a Review for this Product</h3>
+    <%= render 'reviews/form' %>
   </div>
-  
   
   <br />
 </div>

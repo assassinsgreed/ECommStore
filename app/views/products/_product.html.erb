@@ -12,7 +12,7 @@
     <b>Price: </b><br/><span class="<%= product.sale_price.present? ? ' strike' : '' %>"><%= number_to_currency product.price %></span><br />
     <% if product.sale_price.present? %>
     <!-- Styling regular price to be a strike-through red font -->
-    <%= number_to_currency product.sale_price %>
+    <%= number_to_currency product.sale_price %> <i>sale</i>
   <% end %>
   </div>
   
@@ -28,6 +28,12 @@
     <%= link_to 'See More', product %>
   </div>
   
+
+  <div class="reviewscount">
+    <p>
+      There are <%= pluralize product.reviews.size, 'review' %> for this product.
+    </p>
+  </div>
   
   <br />
 </div>

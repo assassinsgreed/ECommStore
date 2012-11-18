@@ -5,7 +5,7 @@ class ReviewsController < ApplicationController
   # GET /reviews
   # GET /reviews.json
   def index
-    @reviews = Review.all
+    @reviews = Review.includes(:product).all
 
     respond_to do |format|
       format.html # index.html.erb
@@ -45,14 +45,11 @@ class ReviewsController < ApplicationController
   def create
     @review = Review.new(params[:review])
 
-    respond_to do |format|
-      if @review.save
-        format.html { redirect_to @review, notice: 'Review was successfully created.' }
-        format.json { render json: @review, status: :created, location: @review }
-      else
-        format.html { render action: "new" }
-        format.json { render json: @review.errors, status: :unprocessable_entity }
-      end
+    if @review.save
+      redirect_to @review.product, notice: 'Review placed successfully.'
+    else
+      @product = @review.product
+      render "products/show"
     end
   end
 

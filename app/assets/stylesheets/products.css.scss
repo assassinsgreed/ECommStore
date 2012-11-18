@@ -6,14 +6,13 @@
     display: block;
     margin: 20px auto;
     width: 90%;
-    height: 200px;
-    border: 1px solid black;
-}
 
-.product img
-{
-    float: left;
-    margin: 10px;
+    border: 1px solid black;
+    
+    img {
+        float: left;
+        margin: 10px; 
+    }
 }
 
 .name
@@ -53,4 +52,11 @@
 {
     margin: 20px 10px;
     clear: both;
+    overflow: auto;
+}
+
+.reviewscount
+{
+    clear: both;
+    margin: 10px;
 }

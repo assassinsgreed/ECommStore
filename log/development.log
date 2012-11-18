@@ -37732,3 +37732,4841 @@ Served asset /imageNotFound.jpg - 304 Not Modified (1ms)
 
 Started GET "/assets/diamondNecklace.jpg" for 127.0.0.1 at 2012-11-16 10:24:44 -0600
 Served asset /diamondNecklace.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2012-11-16 10:33:16 -0600
+Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products" 
+  Rendered products/_product.html.erb (4.0ms)
+  Rendered products/index.html.erb within layouts/application (7.0ms)
+Compiled products.css  (11ms)  (pid 1224)
+Compiled application.css  (3ms)  (pid 1224)
+Completed 200 OK in 107ms (Views: 99.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2012-11-16 10:33:17 -0600
+Served asset /categories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-16 10:33:17 -0600
+Served asset /application.css - 304 Not Modified (15ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2012-11-16 10:33:17 -0600
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2012-11-16 10:33:17 -0600
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mainstyles.css?body=1" for 127.0.0.1 at 2012-11-16 10:33:17 -0600
+Served asset /mainstyles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2012-11-16 10:33:17 -0600
+Served asset /orders.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-11-16 10:33:17 -0600
+Served asset /products.css - 200 OK (6ms)
+
+
+Started GET "/assets/provinces.css?body=1" for 127.0.0.1 at 2012-11-16 10:33:17 -0600
+Served asset /provinces.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-16 10:33:17 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2012-11-16 10:33:17 -0600
+Served asset /reviews.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-16 10:33:17 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2012-11-16 10:33:17 -0600
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-16 10:33:17 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.js?body=1" for 127.0.0.1 at 2012-11-16 10:33:17 -0600
+Served asset /customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-11-16 10:33:17 -0600
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2012-11-16 10:33:17 -0600
+Served asset /orders.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-11-16 10:33:17 -0600
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.js?body=1" for 127.0.0.1 at 2012-11-16 10:33:17 -0600
+Served asset /provinces.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2012-11-16 10:33:17 -0600
+Served asset /reviews.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-16 10:33:17 -0600
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/imageNotFound.jpg" for 127.0.0.1 at 2012-11-16 10:33:17 -0600
+Served asset /imageNotFound.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/diamondNecklace.jpg" for 127.0.0.1 at 2012-11-16 10:33:17 -0600
+Served asset /diamondNecklace.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/spanishGoldDoubloon.jpg" for 127.0.0.1 at 2012-11-16 10:33:17 -0600
+Served asset /spanishGoldDoubloon.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-11-16 10:33:17 -0600
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2012-11-16 10:33:17 -0600
+Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT "products".* FROM "products" [0m
+  Rendered products/_product.html.erb (16.0ms)
+  Rendered products/index.html.erb within layouts/application (19.0ms)
+Completed 200 OK in 42ms (Views: 40.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-16 10:33:18 -0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2012-11-16 10:33:18 -0600
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2012-11-16 10:33:18 -0600
+Served asset /categories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mainstyles.css?body=1" for 127.0.0.1 at 2012-11-16 10:33:18 -0600
+Served asset /mainstyles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2012-11-16 10:33:18 -0600
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2012-11-16 10:33:18 -0600
+Served asset /orders.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-11-16 10:33:18 -0600
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.css?body=1" for 127.0.0.1 at 2012-11-16 10:33:18 -0600
+Served asset /provinces.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2012-11-16 10:33:18 -0600
+Served asset /reviews.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-16 10:33:18 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-16 10:33:18 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-16 10:33:18 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2012-11-16 10:33:18 -0600
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.js?body=1" for 127.0.0.1 at 2012-11-16 10:33:18 -0600
+Served asset /customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-11-16 10:33:18 -0600
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2012-11-16 10:33:18 -0600
+Served asset /orders.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-11-16 10:33:18 -0600
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.js?body=1" for 127.0.0.1 at 2012-11-16 10:33:18 -0600
+Served asset /provinces.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2012-11-16 10:33:18 -0600
+Served asset /reviews.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-16 10:33:18 -0600
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-11-16 10:33:18 -0600
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/spanishGoldDoubloon.jpg" for 127.0.0.1 at 2012-11-16 10:33:18 -0600
+Served asset /spanishGoldDoubloon.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/imageNotFound.jpg" for 127.0.0.1 at 2012-11-16 10:33:18 -0600
+Served asset /imageNotFound.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/diamondNecklace.jpg" for 127.0.0.1 at 2012-11-16 10:33:18 -0600
+Served asset /diamondNecklace.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2012-11-16 10:33:19 -0600
+Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products" 
+  Rendered products/_product.html.erb (7.0ms)
+  Rendered products/index.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 28ms (Views: 26.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-16 10:33:19 -0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2012-11-16 10:33:19 -0600
+Served asset /categories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2012-11-16 10:33:19 -0600
+Served asset /customers.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2012-11-16 10:33:19 -0600
+Served asset /line_items.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/mainstyles.css?body=1" for 127.0.0.1 at 2012-11-16 10:33:19 -0600
+Served asset /mainstyles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2012-11-16 10:33:19 -0600
+Served asset /orders.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-11-16 10:33:19 -0600
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.css?body=1" for 127.0.0.1 at 2012-11-16 10:33:19 -0600
+Served asset /provinces.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2012-11-16 10:33:19 -0600
+Served asset /reviews.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-16 10:33:19 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-16 10:33:19 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-16 10:33:19 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2012-11-16 10:33:19 -0600
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.js?body=1" for 127.0.0.1 at 2012-11-16 10:33:19 -0600
+Served asset /customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-11-16 10:33:19 -0600
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2012-11-16 10:33:19 -0600
+Served asset /orders.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-11-16 10:33:19 -0600
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.js?body=1" for 127.0.0.1 at 2012-11-16 10:33:19 -0600
+Served asset /provinces.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2012-11-16 10:33:19 -0600
+Served asset /reviews.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-16 10:33:19 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-11-16 10:33:19 -0600
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/spanishGoldDoubloon.jpg" for 127.0.0.1 at 2012-11-16 10:33:19 -0600
+Served asset /spanishGoldDoubloon.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/assets/imageNotFound.jpg" for 127.0.0.1 at 2012-11-16 10:33:19 -0600
+Served asset /imageNotFound.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/diamondNecklace.jpg" for 127.0.0.1 at 2012-11-16 10:33:19 -0600
+Served asset /diamondNecklace.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2012-11-16 10:34:05 -0600
+Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (1.0ms)[0m  [1mSELECT "products".* FROM "products" [0m
+  Rendered products/_product.html.erb (6.0ms)
+  Rendered products/index.html.erb within layouts/application (11.0ms)
+Compiled products.css  (10ms)  (pid 1224)
+Compiled application.css  (3ms)  (pid 1224)
+Completed 200 OK in 97ms (Views: 94.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-16 10:34:05 -0600
+Served asset /application.css - 304 Not Modified (27ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2012-11-16 10:34:05 -0600
+Served asset /categories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2012-11-16 10:34:05 -0600
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2012-11-16 10:34:05 -0600
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mainstyles.css?body=1" for 127.0.0.1 at 2012-11-16 10:34:05 -0600
+Served asset /mainstyles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2012-11-16 10:34:05 -0600
+Served asset /orders.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-11-16 10:34:05 -0600
+Served asset /products.css - 200 OK (3ms)
+
+
+Started GET "/assets/provinces.css?body=1" for 127.0.0.1 at 2012-11-16 10:34:05 -0600
+Served asset /provinces.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2012-11-16 10:34:05 -0600
+Served asset /reviews.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-16 10:34:05 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-16 10:34:05 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-16 10:34:05 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2012-11-16 10:34:05 -0600
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.js?body=1" for 127.0.0.1 at 2012-11-16 10:34:05 -0600
+Served asset /customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-11-16 10:34:05 -0600
+Served asset /line_items.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2012-11-16 10:34:05 -0600
+Served asset /orders.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-11-16 10:34:06 -0600
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.js?body=1" for 127.0.0.1 at 2012-11-16 10:34:06 -0600
+Served asset /provinces.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2012-11-16 10:34:06 -0600
+Served asset /reviews.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-16 10:34:06 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-11-16 10:34:06 -0600
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/spanishGoldDoubloon.jpg" for 127.0.0.1 at 2012-11-16 10:34:06 -0600
+Served asset /spanishGoldDoubloon.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/imageNotFound.jpg" for 127.0.0.1 at 2012-11-16 10:34:06 -0600
+Served asset /imageNotFound.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/diamondNecklace.jpg" for 127.0.0.1 at 2012-11-16 10:34:06 -0600
+Served asset /diamondNecklace.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/products/1" for 127.0.0.1 at 2012-11-16 10:34:07 -0600
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered products/show.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 23ms (Views: 20.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-16 10:34:07 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2012-11-16 10:34:07 -0600
+Served asset /categories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2012-11-16 10:34:07 -0600
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2012-11-16 10:34:07 -0600
+Served asset /orders.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2012-11-16 10:34:07 -0600
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mainstyles.css?body=1" for 127.0.0.1 at 2012-11-16 10:34:07 -0600
+Served asset /mainstyles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-11-16 10:34:07 -0600
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.css?body=1" for 127.0.0.1 at 2012-11-16 10:34:07 -0600
+Served asset /provinces.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2012-11-16 10:34:07 -0600
+Served asset /reviews.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-16 10:34:07 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-16 10:34:07 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-16 10:34:07 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2012-11-16 10:34:07 -0600
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.js?body=1" for 127.0.0.1 at 2012-11-16 10:34:07 -0600
+Served asset /customers.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-11-16 10:34:07 -0600
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2012-11-16 10:34:07 -0600
+Served asset /orders.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-11-16 10:34:07 -0600
+Served asset /products.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/provinces.js?body=1" for 127.0.0.1 at 2012-11-16 10:34:07 -0600
+Served asset /provinces.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2012-11-16 10:34:07 -0600
+Served asset /reviews.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-16 10:34:07 -0600
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/spanishGoldDoubloon.jpg" for 127.0.0.1 at 2012-11-16 10:34:07 -0600
+Served asset /spanishGoldDoubloon.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/products/2" for 127.0.0.1 at 2012-11-16 10:39:04 -0600
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  Rendered products/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 14ms (Views: 13.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-16 10:39:04 -0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2012-11-16 10:39:04 -0600
+Served asset /categories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2012-11-16 10:39:04 -0600
+Served asset /customers.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2012-11-16 10:39:04 -0600
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mainstyles.css?body=1" for 127.0.0.1 at 2012-11-16 10:39:04 -0600
+Served asset /mainstyles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2012-11-16 10:39:04 -0600
+Served asset /orders.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-11-16 10:39:04 -0600
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.css?body=1" for 127.0.0.1 at 2012-11-16 10:39:04 -0600
+Served asset /provinces.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2012-11-16 10:39:04 -0600
+Served asset /reviews.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-16 10:39:04 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-16 10:39:04 -0600
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-16 10:39:04 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2012-11-16 10:39:04 -0600
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.js?body=1" for 127.0.0.1 at 2012-11-16 10:39:04 -0600
+Served asset /customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2012-11-16 10:39:04 -0600
+Served asset /orders.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-11-16 10:39:04 -0600
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-11-16 10:39:04 -0600
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.js?body=1" for 127.0.0.1 at 2012-11-16 10:39:04 -0600
+Served asset /provinces.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2012-11-16 10:39:04 -0600
+Served asset /reviews.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-16 10:39:04 -0600
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/imageNotFound.jpg" for 127.0.0.1 at 2012-11-16 10:39:04 -0600
+Served asset /imageNotFound.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/products/2" for 127.0.0.1 at 2012-11-16 10:39:13 -0600
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mProduct Load (1.0ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = ? LIMIT 1  [["id", "2"]]
+  Rendered products/show.html.erb within layouts/application (2.0ms)
+Compiled products.css  (13ms)  (pid 1224)
+Compiled application.css  (4ms)  (pid 1224)
+Completed 200 OK in 88ms (Views: 84.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-16 10:39:13 -0600
+Served asset /application.css - 304 Not Modified (18ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2012-11-16 10:39:13 -0600
+Served asset /categories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2012-11-16 10:39:13 -0600
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2012-11-16 10:39:13 -0600
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mainstyles.css?body=1" for 127.0.0.1 at 2012-11-16 10:39:13 -0600
+Served asset /mainstyles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2012-11-16 10:39:13 -0600
+Served asset /orders.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-11-16 10:39:13 -0600
+Served asset /products.css - 200 OK (3ms)
+
+
+Started GET "/assets/provinces.css?body=1" for 127.0.0.1 at 2012-11-16 10:39:13 -0600
+Served asset /provinces.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2012-11-16 10:39:13 -0600
+Served asset /reviews.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-16 10:39:13 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-16 10:39:13 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-16 10:39:13 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2012-11-16 10:39:13 -0600
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.js?body=1" for 127.0.0.1 at 2012-11-16 10:39:14 -0600
+Served asset /customers.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-11-16 10:39:14 -0600
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2012-11-16 10:39:14 -0600
+Served asset /orders.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-11-16 10:39:14 -0600
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.js?body=1" for 127.0.0.1 at 2012-11-16 10:39:14 -0600
+Served asset /provinces.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2012-11-16 10:39:14 -0600
+Served asset /reviews.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-16 10:39:14 -0600
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/imageNotFound.jpg" for 127.0.0.1 at 2012-11-16 10:39:14 -0600
+Served asset /imageNotFound.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/products/2" for 127.0.0.1 at 2012-11-16 10:39:26 -0600
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  Rendered products/show.html.erb within layouts/application (3.0ms)
+Compiled products.css  (13ms)  (pid 1224)
+Compiled application.css  (3ms)  (pid 1224)
+Completed 200 OK in 88ms (Views: 86.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-16 10:39:26 -0600
+Served asset /application.css - 304 Not Modified (17ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2012-11-16 10:39:26 -0600
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2012-11-16 10:39:26 -0600
+Served asset /categories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mainstyles.css?body=1" for 127.0.0.1 at 2012-11-16 10:39:26 -0600
+Served asset /mainstyles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2012-11-16 10:39:26 -0600
+Served asset /orders.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2012-11-16 10:39:26 -0600
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-11-16 10:39:26 -0600
+Served asset /products.css - 200 OK (3ms)
+
+
+Started GET "/assets/provinces.css?body=1" for 127.0.0.1 at 2012-11-16 10:39:26 -0600
+Served asset /provinces.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2012-11-16 10:39:26 -0600
+Served asset /reviews.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-16 10:39:26 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-16 10:39:26 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-16 10:39:26 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2012-11-16 10:39:26 -0600
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.js?body=1" for 127.0.0.1 at 2012-11-16 10:39:26 -0600
+Served asset /customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-11-16 10:39:26 -0600
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2012-11-16 10:39:26 -0600
+Served asset /orders.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-11-16 10:39:26 -0600
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.js?body=1" for 127.0.0.1 at 2012-11-16 10:39:26 -0600
+Served asset /provinces.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2012-11-16 10:39:26 -0600
+Served asset /reviews.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-16 10:39:26 -0600
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/imageNotFound.jpg" for 127.0.0.1 at 2012-11-16 10:39:26 -0600
+Served asset /imageNotFound.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/products/2" for 127.0.0.1 at 2012-11-16 10:39:47 -0600
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = ? LIMIT 1  [["id", "2"]]
+  Rendered products/show.html.erb within layouts/application (4.0ms)
+Compiled products.css  (14ms)  (pid 1224)
+Compiled application.css  (3ms)  (pid 1224)
+Completed 200 OK in 81ms (Views: 80.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-16 10:39:47 -0600
+Served asset /application.css - 304 Not Modified (20ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2012-11-16 10:39:47 -0600
+Served asset /categories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2012-11-16 10:39:47 -0600
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2012-11-16 10:39:47 -0600
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mainstyles.css?body=1" for 127.0.0.1 at 2012-11-16 10:39:47 -0600
+Served asset /mainstyles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2012-11-16 10:39:47 -0600
+Served asset /orders.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-11-16 10:39:47 -0600
+Served asset /products.css - 200 OK (2ms)
+
+
+Started GET "/assets/provinces.css?body=1" for 127.0.0.1 at 2012-11-16 10:39:47 -0600
+Served asset /provinces.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2012-11-16 10:39:47 -0600
+Served asset /reviews.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-16 10:39:47 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-16 10:39:47 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-16 10:39:47 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2012-11-16 10:39:47 -0600
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.js?body=1" for 127.0.0.1 at 2012-11-16 10:39:47 -0600
+Served asset /customers.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-11-16 10:39:47 -0600
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2012-11-16 10:39:47 -0600
+Served asset /orders.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-11-16 10:39:47 -0600
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.js?body=1" for 127.0.0.1 at 2012-11-16 10:39:47 -0600
+Served asset /provinces.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2012-11-16 10:39:47 -0600
+Served asset /reviews.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-16 10:39:47 -0600
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/imageNotFound.jpg" for 127.0.0.1 at 2012-11-16 10:39:47 -0600
+Served asset /imageNotFound.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/products/2" for 127.0.0.1 at 2012-11-16 10:39:54 -0600
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mProduct Load (1.0ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  Rendered products/show.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 30ms (Views: 27.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-16 10:39:54 -0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2012-11-16 10:39:54 -0600
+Served asset /categories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2012-11-16 10:39:54 -0600
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2012-11-16 10:39:54 -0600
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mainstyles.css?body=1" for 127.0.0.1 at 2012-11-16 10:39:54 -0600
+Served asset /mainstyles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2012-11-16 10:39:54 -0600
+Served asset /orders.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-11-16 10:39:54 -0600
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.css?body=1" for 127.0.0.1 at 2012-11-16 10:39:54 -0600
+Served asset /provinces.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2012-11-16 10:39:54 -0600
+Served asset /reviews.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-16 10:39:54 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-16 10:39:54 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-16 10:39:54 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2012-11-16 10:39:54 -0600
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.js?body=1" for 127.0.0.1 at 2012-11-16 10:39:54 -0600
+Served asset /customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-11-16 10:39:54 -0600
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2012-11-16 10:39:54 -0600
+Served asset /orders.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-11-16 10:39:54 -0600
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.js?body=1" for 127.0.0.1 at 2012-11-16 10:39:54 -0600
+Served asset /provinces.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2012-11-16 10:39:54 -0600
+Served asset /reviews.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-16 10:39:54 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/imageNotFound.jpg" for 127.0.0.1 at 2012-11-16 10:39:54 -0600
+Served asset /imageNotFound.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2012-11-16 10:41:40 -0600
+Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (1.0ms)[0m  SELECT "products".* FROM "products" 
+  Rendered products/_product.html.erb (23.0ms)
+  Rendered products/index.html.erb within layouts/application (26.0ms)
+Completed 200 OK in 40ms (Views: 39.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-16 10:41:40 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2012-11-16 10:41:40 -0600
+Served asset /categories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2012-11-16 10:41:40 -0600
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2012-11-16 10:41:40 -0600
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mainstyles.css?body=1" for 127.0.0.1 at 2012-11-16 10:41:40 -0600
+Served asset /mainstyles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2012-11-16 10:41:40 -0600
+Served asset /orders.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-11-16 10:41:40 -0600
+Served asset /products.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/provinces.css?body=1" for 127.0.0.1 at 2012-11-16 10:41:40 -0600
+Served asset /provinces.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2012-11-16 10:41:40 -0600
+Served asset /reviews.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-16 10:41:40 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-16 10:41:40 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-16 10:41:40 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2012-11-16 10:41:40 -0600
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.js?body=1" for 127.0.0.1 at 2012-11-16 10:41:40 -0600
+Served asset /customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-11-16 10:41:40 -0600
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2012-11-16 10:41:40 -0600
+Served asset /orders.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-11-16 10:41:40 -0600
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.js?body=1" for 127.0.0.1 at 2012-11-16 10:41:40 -0600
+Served asset /provinces.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2012-11-16 10:41:40 -0600
+Served asset /reviews.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-16 10:41:40 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-11-16 10:41:40 -0600
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/spanishGoldDoubloon.jpg" for 127.0.0.1 at 2012-11-16 10:41:40 -0600
+Served asset /spanishGoldDoubloon.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/imageNotFound.jpg" for 127.0.0.1 at 2012-11-16 10:41:40 -0600
+Served asset /imageNotFound.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/diamondNecklace.jpg" for 127.0.0.1 at 2012-11-16 10:41:40 -0600
+Served asset /diamondNecklace.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/products/1" for 127.0.0.1 at 2012-11-16 10:42:00 -0600
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered products/show.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 18ms (Views: 17.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-16 10:42:00 -0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2012-11-16 10:42:00 -0600
+Served asset /customers.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2012-11-16 10:42:00 -0600
+Served asset /categories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2012-11-16 10:42:00 -0600
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mainstyles.css?body=1" for 127.0.0.1 at 2012-11-16 10:42:00 -0600
+Served asset /mainstyles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2012-11-16 10:42:00 -0600
+Served asset /orders.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-11-16 10:42:00 -0600
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.css?body=1" for 127.0.0.1 at 2012-11-16 10:42:00 -0600
+Served asset /provinces.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2012-11-16 10:42:00 -0600
+Served asset /reviews.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-16 10:42:00 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-16 10:42:00 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-16 10:42:00 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2012-11-16 10:42:00 -0600
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.js?body=1" for 127.0.0.1 at 2012-11-16 10:42:00 -0600
+Served asset /customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-11-16 10:42:00 -0600
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2012-11-16 10:42:00 -0600
+Served asset /orders.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-11-16 10:42:00 -0600
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.js?body=1" for 127.0.0.1 at 2012-11-16 10:42:00 -0600
+Served asset /provinces.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2012-11-16 10:42:00 -0600
+Served asset /reviews.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-16 10:42:00 -0600
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/spanishGoldDoubloon.jpg" for 127.0.0.1 at 2012-11-16 10:42:00 -0600
+Served asset /spanishGoldDoubloon.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2012-11-16 10:42:19 -0600
+Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (1.0ms)[0m  SELECT "products".* FROM "products" 
+  Rendered products/_product.html.erb (4.0ms)
+  Rendered products/index.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 28ms (Views: 26.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-16 10:42:19 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2012-11-16 10:42:19 -0600
+Served asset /categories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2012-11-16 10:42:19 -0600
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2012-11-16 10:42:19 -0600
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mainstyles.css?body=1" for 127.0.0.1 at 2012-11-16 10:42:19 -0600
+Served asset /mainstyles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2012-11-16 10:42:19 -0600
+Served asset /orders.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-11-16 10:42:19 -0600
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.css?body=1" for 127.0.0.1 at 2012-11-16 10:42:19 -0600
+Served asset /provinces.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2012-11-16 10:42:19 -0600
+Served asset /reviews.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-16 10:42:19 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-16 10:42:19 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2012-11-16 10:42:19 -0600
+Served asset /categories.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-16 10:42:19 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.js?body=1" for 127.0.0.1 at 2012-11-16 10:42:19 -0600
+Served asset /customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-11-16 10:42:19 -0600
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2012-11-16 10:42:19 -0600
+Served asset /orders.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-11-16 10:42:19 -0600
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.js?body=1" for 127.0.0.1 at 2012-11-16 10:42:19 -0600
+Served asset /provinces.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2012-11-16 10:42:19 -0600
+Served asset /reviews.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-16 10:42:19 -0600
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-11-16 10:42:19 -0600
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/imageNotFound.jpg" for 127.0.0.1 at 2012-11-16 10:42:19 -0600
+Served asset /imageNotFound.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/spanishGoldDoubloon.jpg" for 127.0.0.1 at 2012-11-16 10:42:19 -0600
+Served asset /spanishGoldDoubloon.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/diamondNecklace.jpg" for 127.0.0.1 at 2012-11-16 10:42:19 -0600
+Served asset /diamondNecklace.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/products/1" for 127.0.0.1 at 2012-11-16 10:42:21 -0600
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered products/show.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 19ms (Views: 18.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2012-11-16 10:42:21 -0600
+Served asset /categories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-16 10:42:21 -0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2012-11-16 10:42:21 -0600
+Served asset /customers.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2012-11-16 10:42:21 -0600
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mainstyles.css?body=1" for 127.0.0.1 at 2012-11-16 10:42:21 -0600
+Served asset /mainstyles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-11-16 10:42:21 -0600
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2012-11-16 10:42:21 -0600
+Served asset /orders.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.css?body=1" for 127.0.0.1 at 2012-11-16 10:42:21 -0600
+Served asset /provinces.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2012-11-16 10:42:21 -0600
+Served asset /reviews.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-16 10:42:21 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-16 10:42:21 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-16 10:42:21 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2012-11-16 10:42:21 -0600
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.js?body=1" for 127.0.0.1 at 2012-11-16 10:42:21 -0600
+Served asset /customers.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2012-11-16 10:42:21 -0600
+Served asset /orders.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-11-16 10:42:21 -0600
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.js?body=1" for 127.0.0.1 at 2012-11-16 10:42:21 -0600
+Served asset /provinces.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2012-11-16 10:42:21 -0600
+Served asset /reviews.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-16 10:42:21 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-11-16 10:42:22 -0600
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-11-16 10:42:22 -0600
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/spanishGoldDoubloon.jpg" for 127.0.0.1 at 2012-11-16 10:42:22 -0600
+Served asset /spanishGoldDoubloon.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2012-11-16 10:43:49 -0600
+Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (1.0ms)[0m  SELECT "products".* FROM "products" 
+  Rendered products/_product.html.erb (7.0ms)
+  Rendered products/index.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 35ms (Views: 32.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2012-11-16 10:43:49 -0600
+Served asset /categories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-16 10:43:49 -0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2012-11-16 10:43:49 -0600
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2012-11-16 10:43:49 -0600
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mainstyles.css?body=1" for 127.0.0.1 at 2012-11-16 10:43:49 -0600
+Served asset /mainstyles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2012-11-16 10:43:49 -0600
+Served asset /orders.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-11-16 10:43:49 -0600
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.css?body=1" for 127.0.0.1 at 2012-11-16 10:43:49 -0600
+Served asset /provinces.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2012-11-16 10:43:49 -0600
+Served asset /reviews.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-16 10:43:49 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-16 10:43:49 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-16 10:43:49 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2012-11-16 10:43:49 -0600
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.js?body=1" for 127.0.0.1 at 2012-11-16 10:43:49 -0600
+Served asset /customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2012-11-16 10:43:49 -0600
+Served asset /orders.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-11-16 10:43:49 -0600
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-11-16 10:43:49 -0600
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.js?body=1" for 127.0.0.1 at 2012-11-16 10:43:49 -0600
+Served asset /provinces.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2012-11-16 10:43:49 -0600
+Served asset /reviews.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-16 10:43:49 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-11-16 10:43:49 -0600
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/spanishGoldDoubloon.jpg" for 127.0.0.1 at 2012-11-16 10:43:49 -0600
+Served asset /spanishGoldDoubloon.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/imageNotFound.jpg" for 127.0.0.1 at 2012-11-16 10:43:49 -0600
+Served asset /imageNotFound.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/diamondNecklace.jpg" for 127.0.0.1 at 2012-11-16 10:43:49 -0600
+Served asset /diamondNecklace.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2012-11-16 10:44:12 -0600
+Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT "products".* FROM "products" [0m
+  Rendered products/_product.html.erb (5.0ms)
+  Rendered products/index.html.erb within layouts/application (8.0ms)
+Compiled mainstyles.css  (1ms)  (pid 1224)
+Compiled application.css  (3ms)  (pid 1224)
+Completed 200 OK in 76ms (Views: 73.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2012-11-16 10:44:13 -0600
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2012-11-16 10:44:13 -0600
+Served asset /categories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-16 10:44:13 -0600
+Served asset /application.css - 304 Not Modified (20ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2012-11-16 10:44:13 -0600
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mainstyles.css?body=1" for 127.0.0.1 at 2012-11-16 10:44:13 -0600
+Served asset /mainstyles.css - 200 OK (4ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2012-11-16 10:44:13 -0600
+Served asset /orders.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-11-16 10:44:13 -0600
+Served asset /products.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/provinces.css?body=1" for 127.0.0.1 at 2012-11-16 10:44:13 -0600
+Served asset /provinces.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2012-11-16 10:44:13 -0600
+Served asset /reviews.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-16 10:44:13 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-16 10:44:13 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-16 10:44:13 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2012-11-16 10:44:13 -0600
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.js?body=1" for 127.0.0.1 at 2012-11-16 10:44:13 -0600
+Served asset /customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-11-16 10:44:13 -0600
+Served asset /line_items.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2012-11-16 10:44:13 -0600
+Served asset /orders.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-11-16 10:44:13 -0600
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.js?body=1" for 127.0.0.1 at 2012-11-16 10:44:13 -0600
+Served asset /provinces.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2012-11-16 10:44:13 -0600
+Served asset /reviews.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-16 10:44:13 -0600
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/spanishGoldDoubloon.jpg" for 127.0.0.1 at 2012-11-16 10:44:13 -0600
+Served asset /spanishGoldDoubloon.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/imageNotFound.jpg" for 127.0.0.1 at 2012-11-16 10:44:13 -0600
+Served asset /imageNotFound.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-11-16 10:44:13 -0600
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/diamondNecklace.jpg" for 127.0.0.1 at 2012-11-16 10:44:13 -0600
+Served asset /diamondNecklace.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2012-11-16 10:44:14 -0600
+Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products" 
+  Rendered products/_product.html.erb (7.0ms)
+  Rendered products/index.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 43ms (Views: 42.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-16 10:44:14 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2012-11-16 10:44:14 -0600
+Served asset /categories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2012-11-16 10:44:14 -0600
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2012-11-16 10:44:14 -0600
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mainstyles.css?body=1" for 127.0.0.1 at 2012-11-16 10:44:14 -0600
+Served asset /mainstyles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2012-11-16 10:44:15 -0600
+Served asset /orders.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-11-16 10:44:15 -0600
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.css?body=1" for 127.0.0.1 at 2012-11-16 10:44:15 -0600
+Served asset /provinces.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2012-11-16 10:44:15 -0600
+Served asset /reviews.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-16 10:44:15 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-16 10:44:15 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-16 10:44:15 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2012-11-16 10:44:15 -0600
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.js?body=1" for 127.0.0.1 at 2012-11-16 10:44:15 -0600
+Served asset /customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-11-16 10:44:15 -0600
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2012-11-16 10:44:15 -0600
+Served asset /orders.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-11-16 10:44:15 -0600
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.js?body=1" for 127.0.0.1 at 2012-11-16 10:44:15 -0600
+Served asset /provinces.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2012-11-16 10:44:15 -0600
+Served asset /reviews.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-16 10:44:15 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-11-16 10:44:15 -0600
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/spanishGoldDoubloon.jpg" for 127.0.0.1 at 2012-11-16 10:44:15 -0600
+Served asset /spanishGoldDoubloon.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/imageNotFound.jpg" for 127.0.0.1 at 2012-11-16 10:44:15 -0600
+Served asset /imageNotFound.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/diamondNecklace.jpg" for 127.0.0.1 at 2012-11-16 10:44:15 -0600
+Served asset /diamondNecklace.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2012-11-16 10:44:27 -0600
+Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (1.0ms)[0m  [1mSELECT "products".* FROM "products" [0m
+  Rendered products/_product.html.erb (4.0ms)
+  Rendered products/index.html.erb within layouts/application (6.0ms)
+Compiled mainstyles.css  (1ms)  (pid 1224)
+Compiled application.css  (2ms)  (pid 1224)
+Completed 200 OK in 75ms (Views: 74.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-16 10:44:27 -0600
+Served asset /application.css - 304 Not Modified (25ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2012-11-16 10:44:27 -0600
+Served asset /categories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2012-11-16 10:44:27 -0600
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2012-11-16 10:44:27 -0600
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mainstyles.css?body=1" for 127.0.0.1 at 2012-11-16 10:44:27 -0600
+Served asset /mainstyles.css - 200 OK (3ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2012-11-16 10:44:27 -0600
+Served asset /orders.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-11-16 10:44:27 -0600
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.css?body=1" for 127.0.0.1 at 2012-11-16 10:44:27 -0600
+Served asset /provinces.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2012-11-16 10:44:27 -0600
+Served asset /reviews.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-16 10:44:27 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-16 10:44:27 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-16 10:44:27 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2012-11-16 10:44:27 -0600
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.js?body=1" for 127.0.0.1 at 2012-11-16 10:44:27 -0600
+Served asset /customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-11-16 10:44:27 -0600
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2012-11-16 10:44:27 -0600
+Served asset /orders.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-11-16 10:44:27 -0600
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.js?body=1" for 127.0.0.1 at 2012-11-16 10:44:27 -0600
+Served asset /provinces.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2012-11-16 10:44:27 -0600
+Served asset /reviews.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-16 10:44:27 -0600
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-11-16 10:44:27 -0600
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/imageNotFound.jpg" for 127.0.0.1 at 2012-11-16 10:44:27 -0600
+Served asset /imageNotFound.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/diamondNecklace.jpg" for 127.0.0.1 at 2012-11-16 10:44:27 -0600
+Served asset /diamondNecklace.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/spanishGoldDoubloon.jpg" for 127.0.0.1 at 2012-11-16 10:44:27 -0600
+Served asset /spanishGoldDoubloon.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2012-11-16 10:44:38 -0600
+Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (1.0ms)[0m  SELECT "products".* FROM "products" 
+  Rendered products/_product.html.erb (6.0ms)
+  Rendered products/index.html.erb within layouts/application (14.0ms)
+Compiled mainstyles.css  (1ms)  (pid 1224)
+Compiled application.css  (2ms)  (pid 1224)
+Completed 200 OK in 94ms (Views: 91.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-16 10:44:38 -0600
+Served asset /application.css - 304 Not Modified (17ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2012-11-16 10:44:38 -0600
+Served asset /categories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2012-11-16 10:44:38 -0600
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2012-11-16 10:44:38 -0600
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mainstyles.css?body=1" for 127.0.0.1 at 2012-11-16 10:44:38 -0600
+Served asset /mainstyles.css - 200 OK (4ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2012-11-16 10:44:38 -0600
+Served asset /orders.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-11-16 10:44:38 -0600
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.css?body=1" for 127.0.0.1 at 2012-11-16 10:44:38 -0600
+Served asset /provinces.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2012-11-16 10:44:38 -0600
+Served asset /reviews.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-16 10:44:38 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-16 10:44:38 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-16 10:44:38 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2012-11-16 10:44:38 -0600
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.js?body=1" for 127.0.0.1 at 2012-11-16 10:44:38 -0600
+Served asset /customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-11-16 10:44:38 -0600
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2012-11-16 10:44:38 -0600
+Served asset /orders.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-11-16 10:44:38 -0600
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.js?body=1" for 127.0.0.1 at 2012-11-16 10:44:38 -0600
+Served asset /provinces.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2012-11-16 10:44:38 -0600
+Served asset /reviews.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-16 10:44:38 -0600
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-11-16 10:44:38 -0600
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/imageNotFound.jpg" for 127.0.0.1 at 2012-11-16 10:44:38 -0600
+Served asset /imageNotFound.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/spanishGoldDoubloon.jpg" for 127.0.0.1 at 2012-11-16 10:44:38 -0600
+Served asset /spanishGoldDoubloon.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/diamondNecklace.jpg" for 127.0.0.1 at 2012-11-16 10:44:38 -0600
+Served asset /diamondNecklace.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2012-11-16 10:46:00 -0600
+Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (1.0ms)[0m  [1mSELECT "products".* FROM "products" [0m
+  Rendered products/_product.html.erb (6.0ms)
+  Rendered products/index.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 33ms (Views: 30.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2012-11-16 10:46:00 -0600
+Served asset /categories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-16 10:46:00 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2012-11-16 10:46:00 -0600
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2012-11-16 10:46:00 -0600
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mainstyles.css?body=1" for 127.0.0.1 at 2012-11-16 10:46:00 -0600
+Served asset /mainstyles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2012-11-16 10:46:00 -0600
+Served asset /orders.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-11-16 10:46:00 -0600
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.css?body=1" for 127.0.0.1 at 2012-11-16 10:46:00 -0600
+Served asset /provinces.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2012-11-16 10:46:00 -0600
+Served asset /reviews.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-16 10:46:00 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-16 10:46:00 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-16 10:46:00 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2012-11-16 10:46:00 -0600
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.js?body=1" for 127.0.0.1 at 2012-11-16 10:46:00 -0600
+Served asset /customers.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-11-16 10:46:00 -0600
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2012-11-16 10:46:00 -0600
+Served asset /orders.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-11-16 10:46:00 -0600
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.js?body=1" for 127.0.0.1 at 2012-11-16 10:46:00 -0600
+Served asset /provinces.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2012-11-16 10:46:00 -0600
+Served asset /reviews.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-16 10:46:00 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-11-16 10:46:00 -0600
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/spanishGoldDoubloon.jpg" for 127.0.0.1 at 2012-11-16 10:46:00 -0600
+Served asset /spanishGoldDoubloon.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/imageNotFound.jpg" for 127.0.0.1 at 2012-11-16 10:46:00 -0600
+Served asset /imageNotFound.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/diamondNecklace.jpg" for 127.0.0.1 at 2012-11-16 10:46:00 -0600
+Served asset /diamondNecklace.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/products/1" for 127.0.0.1 at 2012-11-16 10:46:02 -0600
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered products/show.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 22ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-16 10:46:02 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2012-11-16 10:46:02 -0600
+Served asset /customers.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2012-11-16 10:46:02 -0600
+Served asset /categories.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2012-11-16 10:46:02 -0600
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2012-11-16 10:46:02 -0600
+Served asset /orders.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mainstyles.css?body=1" for 127.0.0.1 at 2012-11-16 10:46:02 -0600
+Served asset /mainstyles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-11-16 10:46:02 -0600
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.css?body=1" for 127.0.0.1 at 2012-11-16 10:46:02 -0600
+Served asset /provinces.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2012-11-16 10:46:02 -0600
+Served asset /reviews.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-16 10:46:02 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-16 10:46:02 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-16 10:46:02 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2012-11-16 10:46:02 -0600
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.js?body=1" for 127.0.0.1 at 2012-11-16 10:46:02 -0600
+Served asset /customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-11-16 10:46:02 -0600
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-11-16 10:46:02 -0600
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2012-11-16 10:46:02 -0600
+Served asset /orders.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.js?body=1" for 127.0.0.1 at 2012-11-16 10:46:02 -0600
+Served asset /provinces.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-16 10:46:02 -0600
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2012-11-16 10:46:02 -0600
+Served asset /reviews.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-11-16 10:46:02 -0600
+Served asset /logo.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/spanishGoldDoubloon.jpg" for 127.0.0.1 at 2012-11-16 10:46:02 -0600
+Served asset /spanishGoldDoubloon.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2012-11-16 10:46:03 -0600
+Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT "products".* FROM "products" [0m
+  Rendered products/_product.html.erb (8.0ms)
+  Rendered products/index.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 28ms (Views: 25.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-16 10:46:03 -0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2012-11-16 10:46:03 -0600
+Served asset /categories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2012-11-16 10:46:03 -0600
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2012-11-16 10:46:03 -0600
+Served asset /orders.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mainstyles.css?body=1" for 127.0.0.1 at 2012-11-16 10:46:03 -0600
+Served asset /mainstyles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2012-11-16 10:46:03 -0600
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-11-16 10:46:03 -0600
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.css?body=1" for 127.0.0.1 at 2012-11-16 10:46:03 -0600
+Served asset /provinces.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2012-11-16 10:46:03 -0600
+Served asset /reviews.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-16 10:46:03 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-16 10:46:03 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-16 10:46:03 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2012-11-16 10:46:03 -0600
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.js?body=1" for 127.0.0.1 at 2012-11-16 10:46:03 -0600
+Served asset /customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-11-16 10:46:03 -0600
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2012-11-16 10:46:04 -0600
+Served asset /orders.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-11-16 10:46:04 -0600
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.js?body=1" for 127.0.0.1 at 2012-11-16 10:46:04 -0600
+Served asset /provinces.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2012-11-16 10:46:04 -0600
+Served asset /reviews.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-16 10:46:04 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-11-16 10:46:04 -0600
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/spanishGoldDoubloon.jpg" for 127.0.0.1 at 2012-11-16 10:46:04 -0600
+Served asset /spanishGoldDoubloon.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/imageNotFound.jpg" for 127.0.0.1 at 2012-11-16 10:46:04 -0600
+Served asset /imageNotFound.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/diamondNecklace.jpg" for 127.0.0.1 at 2012-11-16 10:46:04 -0600
+Served asset /diamondNecklace.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/products/1" for 127.0.0.1 at 2012-11-16 10:46:13 -0600
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered products/show.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 21ms (Views: 20.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-16 10:46:13 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2012-11-16 10:46:13 -0600
+Served asset /categories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2012-11-16 10:46:13 -0600
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2012-11-16 10:46:13 -0600
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mainstyles.css?body=1" for 127.0.0.1 at 2012-11-16 10:46:13 -0600
+Served asset /mainstyles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2012-11-16 10:46:13 -0600
+Served asset /orders.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-11-16 10:46:13 -0600
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.css?body=1" for 127.0.0.1 at 2012-11-16 10:46:13 -0600
+Served asset /provinces.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2012-11-16 10:46:13 -0600
+Served asset /reviews.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-16 10:46:13 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-16 10:46:13 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-16 10:46:13 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2012-11-16 10:46:13 -0600
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.js?body=1" for 127.0.0.1 at 2012-11-16 10:46:13 -0600
+Served asset /customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-11-16 10:46:13 -0600
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2012-11-16 10:46:13 -0600
+Served asset /orders.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-11-16 10:46:13 -0600
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.js?body=1" for 127.0.0.1 at 2012-11-16 10:46:13 -0600
+Served asset /provinces.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2012-11-16 10:46:13 -0600
+Served asset /reviews.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-16 10:46:13 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-11-16 10:46:13 -0600
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/spanishGoldDoubloon.jpg" for 127.0.0.1 at 2012-11-16 10:46:13 -0600
+Served asset /spanishGoldDoubloon.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-16 11:24:36 -0600
+Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT "products".* FROM "products" [0m
+  Rendered products/_product.html.erb (11.0ms)
+  Rendered products/index.html.erb within layouts/application (45.0ms)
+Completed 200 OK in 160ms (Views: 152.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-16 11:24:38 -0600
+Served asset /application.css - 304 Not Modified (17ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2012-11-16 11:24:38 -0600
+Served asset /categories.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2012-11-16 11:24:38 -0600
+Served asset /customers.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2012-11-16 11:24:38 -0600
+Served asset /line_items.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/mainstyles.css?body=1" for 127.0.0.1 at 2012-11-16 11:24:38 -0600
+Served asset /mainstyles.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2012-11-16 11:24:38 -0600
+Served asset /orders.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-11-16 11:24:38 -0600
+Served asset /products.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/provinces.css?body=1" for 127.0.0.1 at 2012-11-16 11:24:38 -0600
+Served asset /provinces.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2012-11-16 11:24:38 -0600
+Served asset /reviews.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-16 11:24:38 -0600
+Served asset /scaffolds.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-16 11:24:38 -0600
+Served asset /jquery.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-16 11:24:38 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2012-11-16 11:24:38 -0600
+Served asset /categories.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-11-16 11:24:38 -0600
+Served asset /line_items.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/customers.js?body=1" for 127.0.0.1 at 2012-11-16 11:24:38 -0600
+Served asset /customers.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2012-11-16 11:24:38 -0600
+Served asset /orders.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-11-16 11:24:38 -0600
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.js?body=1" for 127.0.0.1 at 2012-11-16 11:24:38 -0600
+Served asset /provinces.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2012-11-16 11:24:38 -0600
+Served asset /reviews.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-16 11:24:38 -0600
+Served asset /application.js - 304 Not Modified (13ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-11-16 11:24:38 -0600
+Served asset /logo.png - 304 Not Modified (2ms)
+
+
+Started GET "/assets/spanishGoldDoubloon.jpg" for 127.0.0.1 at 2012-11-16 11:24:38 -0600
+Served asset /spanishGoldDoubloon.jpg - 304 Not Modified (3ms)
+
+
+Started GET "/assets/imageNotFound.jpg" for 127.0.0.1 at 2012-11-16 11:24:38 -0600
+Served asset /imageNotFound.jpg - 304 Not Modified (2ms)
+
+
+Started GET "/assets/diamondNecklace.jpg" for 127.0.0.1 at 2012-11-16 11:24:38 -0600
+Served asset /diamondNecklace.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-16 11:26:40 -0600
+Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (1.0ms)[0m  SELECT "products".* FROM "products" 
+  Rendered products/_product.html.erb (8.0ms)
+  Rendered products/index.html.erb within layouts/application (14.0ms)
+Completed 200 OK in 39ms (Views: 36.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-16 11:26:40 -0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2012-11-16 11:26:40 -0600
+Served asset /categories.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2012-11-16 11:26:40 -0600
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2012-11-16 11:26:40 -0600
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mainstyles.css?body=1" for 127.0.0.1 at 2012-11-16 11:26:40 -0600
+Served asset /mainstyles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2012-11-16 11:26:40 -0600
+Served asset /orders.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-11-16 11:26:40 -0600
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.css?body=1" for 127.0.0.1 at 2012-11-16 11:26:40 -0600
+Served asset /provinces.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2012-11-16 11:26:40 -0600
+Served asset /reviews.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-16 11:26:40 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-16 11:26:40 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-16 11:26:40 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2012-11-16 11:26:40 -0600
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.js?body=1" for 127.0.0.1 at 2012-11-16 11:26:40 -0600
+Served asset /customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-11-16 11:26:40 -0600
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2012-11-16 11:26:40 -0600
+Served asset /orders.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.js?body=1" for 127.0.0.1 at 2012-11-16 11:26:40 -0600
+Served asset /provinces.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-11-16 11:26:40 -0600
+Served asset /products.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2012-11-16 11:26:40 -0600
+Served asset /reviews.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-16 11:26:40 -0600
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-11-16 11:26:40 -0600
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/imageNotFound.jpg" for 127.0.0.1 at 2012-11-16 11:26:40 -0600
+Served asset /imageNotFound.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/diamondNecklace.jpg" for 127.0.0.1 at 2012-11-16 11:26:40 -0600
+Served asset /diamondNecklace.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/spanishGoldDoubloon.jpg" for 127.0.0.1 at 2012-11-16 11:26:40 -0600
+Served asset /spanishGoldDoubloon.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/products/1" for 127.0.0.1 at 2012-11-16 11:27:08 -0600
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mProduct Load (1.0ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered products/show.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 58ms (Views: 53.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2012-11-16 11:27:08 -0600
+Served asset /categories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2012-11-16 11:27:08 -0600
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-16 11:27:08 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2012-11-16 11:27:08 -0600
+Served asset /orders.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2012-11-16 11:27:08 -0600
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mainstyles.css?body=1" for 127.0.0.1 at 2012-11-16 11:27:08 -0600
+Served asset /mainstyles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-11-16 11:27:08 -0600
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.css?body=1" for 127.0.0.1 at 2012-11-16 11:27:08 -0600
+Served asset /provinces.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2012-11-16 11:27:08 -0600
+Served asset /reviews.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-16 11:27:08 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-16 11:27:08 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-16 11:27:08 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2012-11-16 11:27:08 -0600
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.js?body=1" for 127.0.0.1 at 2012-11-16 11:27:08 -0600
+Served asset /customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-11-16 11:27:08 -0600
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2012-11-16 11:27:08 -0600
+Served asset /orders.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-11-16 11:27:08 -0600
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.js?body=1" for 127.0.0.1 at 2012-11-16 11:27:08 -0600
+Served asset /provinces.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2012-11-16 11:27:08 -0600
+Served asset /reviews.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-16 11:27:08 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-11-16 11:27:08 -0600
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/spanishGoldDoubloon.jpg" for 127.0.0.1 at 2012-11-16 11:27:08 -0600
+Served asset /spanishGoldDoubloon.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2012-11-16 11:27:12 -0600
+Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products" 
+  Rendered products/_product.html.erb (14.0ms)
+  Rendered products/index.html.erb within layouts/application (21.0ms)
+Completed 200 OK in 66ms (Views: 63.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2012-11-16 11:27:12 -0600
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2012-11-16 11:27:12 -0600
+Served asset /categories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2012-11-16 11:27:12 -0600
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-16 11:27:12 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mainstyles.css?body=1" for 127.0.0.1 at 2012-11-16 11:27:12 -0600
+Served asset /mainstyles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2012-11-16 11:27:12 -0600
+Served asset /orders.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-11-16 11:27:12 -0600
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.css?body=1" for 127.0.0.1 at 2012-11-16 11:27:12 -0600
+Served asset /provinces.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2012-11-16 11:27:12 -0600
+Served asset /reviews.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-16 11:27:12 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-16 11:27:12 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-16 11:27:12 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2012-11-16 11:27:12 -0600
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.js?body=1" for 127.0.0.1 at 2012-11-16 11:27:12 -0600
+Served asset /customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-11-16 11:27:12 -0600
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2012-11-16 11:27:12 -0600
+Served asset /orders.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-11-16 11:27:12 -0600
+Served asset /products.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/provinces.js?body=1" for 127.0.0.1 at 2012-11-16 11:27:12 -0600
+Served asset /provinces.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2012-11-16 11:27:12 -0600
+Served asset /reviews.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-16 11:27:12 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-11-16 11:27:12 -0600
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/spanishGoldDoubloon.jpg" for 127.0.0.1 at 2012-11-16 11:27:12 -0600
+Served asset /spanishGoldDoubloon.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/imageNotFound.jpg" for 127.0.0.1 at 2012-11-16 11:27:12 -0600
+Served asset /imageNotFound.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/diamondNecklace.jpg" for 127.0.0.1 at 2012-11-16 11:27:12 -0600
+Served asset /diamondNecklace.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-16 15:42:17 -0600
+Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT "products".* FROM "products" [0m
+  Rendered products/_product.html.erb (60.0ms)
+  Rendered products/index.html.erb within layouts/application (164.0ms)
+Completed 200 OK in 831ms (Views: 823.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-16 15:42:20 -0600
+Served asset /application.css - 304 Not Modified (31ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2012-11-16 15:42:20 -0600
+Served asset /categories.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2012-11-16 15:42:20 -0600
+Served asset /customers.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2012-11-16 15:42:20 -0600
+Served asset /line_items.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/mainstyles.css?body=1" for 127.0.0.1 at 2012-11-16 15:42:20 -0600
+Served asset /mainstyles.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2012-11-16 15:42:20 -0600
+Served asset /orders.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-11-16 15:42:20 -0600
+Served asset /products.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/provinces.css?body=1" for 127.0.0.1 at 2012-11-16 15:42:20 -0600
+Served asset /provinces.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2012-11-16 15:42:20 -0600
+Served asset /reviews.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-16 15:42:20 -0600
+Served asset /scaffolds.css - 304 Not Modified (18ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-16 15:42:20 -0600
+Served asset /jquery.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-16 15:42:20 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2012-11-16 15:42:20 -0600
+Served asset /categories.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/customers.js?body=1" for 127.0.0.1 at 2012-11-16 15:42:20 -0600
+Served asset /customers.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-11-16 15:42:20 -0600
+Served asset /line_items.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2012-11-16 15:42:20 -0600
+Served asset /orders.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-11-16 15:42:20 -0600
+Served asset /products.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/provinces.js?body=1" for 127.0.0.1 at 2012-11-16 15:42:20 -0600
+Served asset /provinces.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2012-11-16 15:42:20 -0600
+Served asset /reviews.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-16 15:42:20 -0600
+Served asset /application.js - 304 Not Modified (18ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-11-16 15:42:20 -0600
+Served asset /logo.png - 304 Not Modified (63ms)
+
+
+Started GET "/assets/spanishGoldDoubloon.jpg" for 127.0.0.1 at 2012-11-16 15:42:20 -0600
+Served asset /spanishGoldDoubloon.jpg - 304 Not Modified (30ms)
+
+
+Started GET "/assets/imageNotFound.jpg" for 127.0.0.1 at 2012-11-16 15:42:20 -0600
+Served asset /imageNotFound.jpg - 304 Not Modified (22ms)
+
+
+Started GET "/assets/diamondNecklace.jpg" for 127.0.0.1 at 2012-11-16 15:42:20 -0600
+Served asset /diamondNecklace.jpg - 304 Not Modified (18ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-16 15:44:00 -0600
+Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products" 
+  Rendered products/_product.html.erb (6.0ms)
+  Rendered products/index.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 33ms (Views: 31.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2012-11-16 15:44:00 -0600
+Served asset /categories.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2012-11-16 15:44:00 -0600
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-16 15:44:00 -0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/mainstyles.css?body=1" for 127.0.0.1 at 2012-11-16 15:44:00 -0600
+Served asset /mainstyles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2012-11-16 15:44:00 -0600
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2012-11-16 15:44:00 -0600
+Served asset /orders.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-11-16 15:44:00 -0600
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.css?body=1" for 127.0.0.1 at 2012-11-16 15:44:00 -0600
+Served asset /provinces.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2012-11-16 15:44:00 -0600
+Served asset /reviews.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-16 15:44:00 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-16 15:44:00 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-16 15:44:00 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2012-11-16 15:44:00 -0600
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.js?body=1" for 127.0.0.1 at 2012-11-16 15:44:00 -0600
+Served asset /customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-11-16 15:44:00 -0600
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2012-11-16 15:44:00 -0600
+Served asset /orders.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-11-16 15:44:00 -0600
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.js?body=1" for 127.0.0.1 at 2012-11-16 15:44:00 -0600
+Served asset /provinces.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2012-11-16 15:44:00 -0600
+Served asset /reviews.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-16 15:44:00 -0600
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/spanishGoldDoubloon.jpg" for 127.0.0.1 at 2012-11-16 15:44:00 -0600
+Served asset /spanishGoldDoubloon.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-11-16 15:44:00 -0600
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/imageNotFound.jpg" for 127.0.0.1 at 2012-11-16 15:44:00 -0600
+Served asset /imageNotFound.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/diamondNecklace.jpg" for 127.0.0.1 at 2012-11-16 15:44:00 -0600
+Served asset /diamondNecklace.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-16 15:47:55 -0600
+Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT "products".* FROM "products" [0m
+  Rendered products/_product.html.erb (604.0ms)
+  Rendered products/index.html.erb within layouts/application (608.0ms)
+Completed 500 Internal Server Error in 624ms
+
+ActionView::Template::Error (undefined local variable or method `review' for #<#<Class:0x33b5098>:0x3568950>):
+    27:     <%= product.description %> <br />
+    28:     <%= link_to 'See More', product %>
+    29:   </div>
+    30:   <%= review.product %>
+    31:   
+    32:   <br />
+    33: </div>
+  app/views/products/_product.html.erb:30:in `_app_views_products__product_html_erb___862842357_29494872'
+  app/views/products/index.html.erb:15:in `_app_views_products_index_html_erb__12408718_29497728'
+  app/controllers/products_controller.rb:10:in `index'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-16 15:51:32 -0600
+Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT "products".* FROM "products" [0m
+  Rendered products/_product.html.erb (11.0ms)
+  Rendered products/index.html.erb within layouts/application (46.0ms)
+Completed 200 OK in 165ms (Views: 157.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2012-11-16 15:51:33 -0600
+Served asset /customers.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2012-11-16 15:51:33 -0600
+Served asset /line_items.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/mainstyles.css?body=1" for 127.0.0.1 at 2012-11-16 15:51:33 -0600
+Served asset /mainstyles.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2012-11-16 15:51:33 -0600
+Served asset /categories.css - 304 Not Modified (13ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-16 15:51:33 -0600
+Served asset /application.css - 304 Not Modified (15ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2012-11-16 15:51:33 -0600
+Served asset /orders.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-11-16 15:51:33 -0600
+Served asset /products.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/provinces.css?body=1" for 127.0.0.1 at 2012-11-16 15:51:33 -0600
+Served asset /provinces.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2012-11-16 15:51:33 -0600
+Served asset /reviews.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-16 15:51:33 -0600
+Served asset /scaffolds.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-16 15:51:33 -0600
+Served asset /jquery.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-16 15:51:33 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2012-11-16 15:51:33 -0600
+Served asset /categories.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/customers.js?body=1" for 127.0.0.1 at 2012-11-16 15:51:33 -0600
+Served asset /customers.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-11-16 15:51:33 -0600
+Served asset /line_items.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2012-11-16 15:51:33 -0600
+Served asset /orders.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-11-16 15:51:33 -0600
+Served asset /products.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/provinces.js?body=1" for 127.0.0.1 at 2012-11-16 15:51:33 -0600
+Served asset /provinces.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2012-11-16 15:51:33 -0600
+Served asset /reviews.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-16 15:51:33 -0600
+Served asset /application.js - 304 Not Modified (14ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-11-16 15:51:33 -0600
+Served asset /logo.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/spanishGoldDoubloon.jpg" for 127.0.0.1 at 2012-11-16 15:51:33 -0600
+Served asset /spanishGoldDoubloon.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/assets/imageNotFound.jpg" for 127.0.0.1 at 2012-11-16 15:51:34 -0600
+Served asset /imageNotFound.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/assets/diamondNecklace.jpg" for 127.0.0.1 at 2012-11-16 15:51:34 -0600
+Served asset /diamondNecklace.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/products/1" for 127.0.0.1 at 2012-11-16 15:51:35 -0600
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mProduct Load (1.0ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered products/show.html.erb within layouts/application (46.0ms)
+Completed 500 Internal Server Error in 60ms
+
+ActionView::Template::Error (undefined method `reviews' for #<Product:0x2fb6050>):
+    39:   
+    40:   <div class="reviews">
+    41:     <h3>Customer Reviews</h3>
+    42:     <%= render @product.reviews %>
+    43:   </div>
+    44:   
+    45:   <br />
+  app/views/products/show.html.erb:42:in `_app_views_products_show_html_erb__136105860_20942748'
+  app/controllers/products_controller.rb:21:in `show'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-17 21:09:27 -0600
+Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT "products".* FROM "products" [0m
+  Rendered products/_product.html.erb (43.0ms)
+  Rendered products/index.html.erb within layouts/application (77.0ms)
+Completed 500 Internal Server Error in 149ms
+
+ActionView::Template::Error (undefined method `reviews' for #<Product:0x3154578>):
+    30:   
+    31:   <br /><br /><br />
+    32:   <p>
+    33:     There are <%= pluralize product.reviews.size, 'review' %> for this product.
+    34:   </p>
+    35:   
+    36:   <br />
+  app/views/products/_product.html.erb:33:in `_app_views_products__product_html_erb__24873761_38214852'
+  app/views/products/index.html.erb:15:in `_app_views_products_index_html_erb__931138962_28439268'
+  app/controllers/products_controller.rb:10:in `index'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-17 21:10:13 -0600
+Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products" 
+  [1m[36m (8.0ms)[0m  [1mSELECT COUNT(*) FROM "reviews" WHERE "reviews"."product_id" = 1[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "reviews" WHERE "reviews"."product_id" = 2
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "reviews" WHERE "reviews"."product_id" = 3[0m
+  Rendered products/_product.html.erb (160.0ms)
+  Rendered products/index.html.erb within layouts/application (162.0ms)
+Completed 200 OK in 416ms (Views: 399.0ms | ActiveRecord: 8.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-17 21:10:14 -0600
+Served asset /application.css - 304 Not Modified (42ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2012-11-17 21:10:14 -0600
+Served asset /customers.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2012-11-17 21:10:14 -0600
+Served asset /categories.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2012-11-17 21:10:14 -0600
+Served asset /line_items.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/mainstyles.css?body=1" for 127.0.0.1 at 2012-11-17 21:10:14 -0600
+Served asset /mainstyles.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2012-11-17 21:10:14 -0600
+Served asset /orders.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-11-17 21:10:14 -0600
+Served asset /products.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/provinces.css?body=1" for 127.0.0.1 at 2012-11-17 21:10:14 -0600
+Served asset /provinces.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2012-11-17 21:10:14 -0600
+Served asset /reviews.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-17 21:10:14 -0600
+Served asset /scaffolds.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-17 21:10:14 -0600
+Served asset /jquery.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-17 21:10:14 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2012-11-17 21:10:14 -0600
+Served asset /categories.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/customers.js?body=1" for 127.0.0.1 at 2012-11-17 21:10:14 -0600
+Served asset /customers.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-11-17 21:10:14 -0600
+Served asset /line_items.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2012-11-17 21:10:14 -0600
+Served asset /orders.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-11-17 21:10:14 -0600
+Served asset /products.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/provinces.js?body=1" for 127.0.0.1 at 2012-11-17 21:10:14 -0600
+Served asset /provinces.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2012-11-17 21:10:14 -0600
+Served asset /reviews.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-17 21:10:14 -0600
+Served asset /application.js - 304 Not Modified (29ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-11-17 21:10:14 -0600
+Served asset /logo.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/spanishGoldDoubloon.jpg" for 127.0.0.1 at 2012-11-17 21:10:14 -0600
+Served asset /spanishGoldDoubloon.jpg - 304 Not Modified (2ms)
+
+
+Started GET "/assets/imageNotFound.jpg" for 127.0.0.1 at 2012-11-17 21:10:14 -0600
+Served asset /imageNotFound.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/diamondNecklace.jpg" for 127.0.0.1 at 2012-11-17 21:10:14 -0600
+Served asset /diamondNecklace.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-17 21:10:42 -0600
+Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (1.0ms)[0m  SELECT "products".* FROM "products" 
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "reviews" WHERE "reviews"."product_id" = 1[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "reviews" WHERE "reviews"."product_id" = 2
+  [1m[36m (1.0ms)[0m  [1mSELECT COUNT(*) FROM "reviews" WHERE "reviews"."product_id" = 3[0m
+  Rendered products/_product.html.erb (15.0ms)
+  Rendered products/index.html.erb within layouts/application (20.0ms)
+Completed 200 OK in 46ms (Views: 41.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-17 21:10:42 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2012-11-17 21:10:42 -0600
+Served asset /categories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2012-11-17 21:10:42 -0600
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2012-11-17 21:10:42 -0600
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mainstyles.css?body=1" for 127.0.0.1 at 2012-11-17 21:10:42 -0600
+Served asset /mainstyles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2012-11-17 21:10:42 -0600
+Served asset /orders.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-11-17 21:10:42 -0600
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.css?body=1" for 127.0.0.1 at 2012-11-17 21:10:42 -0600
+Served asset /provinces.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2012-11-17 21:10:42 -0600
+Served asset /reviews.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-17 21:10:42 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-17 21:10:42 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-17 21:10:43 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2012-11-17 21:10:43 -0600
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.js?body=1" for 127.0.0.1 at 2012-11-17 21:10:43 -0600
+Served asset /customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-11-17 21:10:43 -0600
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2012-11-17 21:10:43 -0600
+Served asset /orders.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-11-17 21:10:43 -0600
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.js?body=1" for 127.0.0.1 at 2012-11-17 21:10:43 -0600
+Served asset /provinces.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2012-11-17 21:10:43 -0600
+Served asset /reviews.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-17 21:10:43 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-11-17 21:10:43 -0600
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/spanishGoldDoubloon.jpg" for 127.0.0.1 at 2012-11-17 21:10:43 -0600
+Served asset /spanishGoldDoubloon.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/imageNotFound.jpg" for 127.0.0.1 at 2012-11-17 21:10:43 -0600
+Served asset /imageNotFound.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/diamondNecklace.jpg" for 127.0.0.1 at 2012-11-17 21:10:43 -0600
+Served asset /diamondNecklace.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-17 21:11:31 -0600
+Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (1.0ms)[0m  SELECT "products".* FROM "products" 
+  [1m[36m (1.0ms)[0m  [1mSELECT COUNT(*) FROM "reviews" WHERE "reviews"."product_id" = 1[0m
+  [1m[35m (1.0ms)[0m  SELECT COUNT(*) FROM "reviews" WHERE "reviews"."product_id" = 2
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "reviews" WHERE "reviews"."product_id" = 3[0m
+  Rendered products/_product.html.erb (16.0ms)
+  Rendered products/index.html.erb within layouts/application (22.0ms)
+Compiled products.css  (62ms)  (pid 5524)
+Compiled application.css  (3ms)  (pid 5524)
+Completed 200 OK in 154ms (Views: 149.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-17 21:11:31 -0600
+Served asset /application.css - 304 Not Modified (40ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2012-11-17 21:11:31 -0600
+Served asset /categories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2012-11-17 21:11:31 -0600
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2012-11-17 21:11:31 -0600
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mainstyles.css?body=1" for 127.0.0.1 at 2012-11-17 21:11:31 -0600
+Served asset /mainstyles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2012-11-17 21:11:31 -0600
+Served asset /orders.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-11-17 21:11:31 -0600
+Served asset /products.css - 200 OK (5ms)
+
+
+Started GET "/assets/provinces.css?body=1" for 127.0.0.1 at 2012-11-17 21:11:31 -0600
+Served asset /provinces.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2012-11-17 21:11:31 -0600
+Served asset /reviews.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-17 21:11:31 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-17 21:11:31 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-17 21:11:31 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2012-11-17 21:11:31 -0600
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.js?body=1" for 127.0.0.1 at 2012-11-17 21:11:31 -0600
+Served asset /customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-11-17 21:11:31 -0600
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2012-11-17 21:11:31 -0600
+Served asset /orders.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-11-17 21:11:31 -0600
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.js?body=1" for 127.0.0.1 at 2012-11-17 21:11:31 -0600
+Served asset /provinces.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2012-11-17 21:11:31 -0600
+Served asset /reviews.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-17 21:11:31 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-11-17 21:11:31 -0600
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/imageNotFound.jpg" for 127.0.0.1 at 2012-11-17 21:11:31 -0600
+Served asset /imageNotFound.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/assets/spanishGoldDoubloon.jpg" for 127.0.0.1 at 2012-11-17 21:11:31 -0600
+Served asset /spanishGoldDoubloon.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/diamondNecklace.jpg" for 127.0.0.1 at 2012-11-17 21:11:32 -0600
+Served asset /diamondNecklace.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-17 21:11:42 -0600
+Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (1.0ms)[0m  SELECT "products".* FROM "products" 
+  [1m[36m (1.0ms)[0m  [1mSELECT COUNT(*) FROM "reviews" WHERE "reviews"."product_id" = 1[0m
+  [1m[35m (1.0ms)[0m  SELECT COUNT(*) FROM "reviews" WHERE "reviews"."product_id" = 2
+  [1m[36m (1.0ms)[0m  [1mSELECT COUNT(*) FROM "reviews" WHERE "reviews"."product_id" = 3[0m
+  Rendered products/_product.html.erb (18.0ms)
+  Rendered products/index.html.erb within layouts/application (27.0ms)
+Compiled products.css  (14ms)  (pid 5524)
+Compiled application.css  (3ms)  (pid 5524)
+Completed 200 OK in 118ms (Views: 112.0ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-17 21:11:42 -0600
+Served asset /application.css - 304 Not Modified (40ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2012-11-17 21:11:42 -0600
+Served asset /categories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2012-11-17 21:11:42 -0600
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2012-11-17 21:11:42 -0600
+Served asset /line_items.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/mainstyles.css?body=1" for 127.0.0.1 at 2012-11-17 21:11:42 -0600
+Served asset /mainstyles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2012-11-17 21:11:42 -0600
+Served asset /orders.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-11-17 21:11:42 -0600
+Served asset /products.css - 200 OK (3ms)
+
+
+Started GET "/assets/provinces.css?body=1" for 127.0.0.1 at 2012-11-17 21:11:42 -0600
+Served asset /provinces.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2012-11-17 21:11:42 -0600
+Served asset /reviews.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-17 21:11:42 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-17 21:11:42 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-17 21:11:42 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2012-11-17 21:11:42 -0600
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.js?body=1" for 127.0.0.1 at 2012-11-17 21:11:42 -0600
+Served asset /customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-11-17 21:11:42 -0600
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2012-11-17 21:11:42 -0600
+Served asset /orders.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-11-17 21:11:42 -0600
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.js?body=1" for 127.0.0.1 at 2012-11-17 21:11:42 -0600
+Served asset /provinces.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2012-11-17 21:11:42 -0600
+Served asset /reviews.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-17 21:11:42 -0600
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-11-17 21:11:42 -0600
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/spanishGoldDoubloon.jpg" for 127.0.0.1 at 2012-11-17 21:11:42 -0600
+Served asset /spanishGoldDoubloon.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/imageNotFound.jpg" for 127.0.0.1 at 2012-11-17 21:11:42 -0600
+Served asset /imageNotFound.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/diamondNecklace.jpg" for 127.0.0.1 at 2012-11-17 21:11:42 -0600
+Served asset /diamondNecklace.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-17 21:12:01 -0600
+Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products" 
+  [1m[36m (1.0ms)[0m  [1mSELECT COUNT(*) FROM "reviews" WHERE "reviews"."product_id" = 1[0m
+  [1m[35m (1.0ms)[0m  SELECT COUNT(*) FROM "reviews" WHERE "reviews"."product_id" = 2
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "reviews" WHERE "reviews"."product_id" = 3[0m
+  Rendered products/_product.html.erb (19.0ms)
+  Rendered products/index.html.erb within layouts/application (22.0ms)
+Completed 200 OK in 40ms (Views: 36.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-17 21:12:01 -0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2012-11-17 21:12:01 -0600
+Served asset /categories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2012-11-17 21:12:01 -0600
+Served asset /customers.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2012-11-17 21:12:01 -0600
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mainstyles.css?body=1" for 127.0.0.1 at 2012-11-17 21:12:01 -0600
+Served asset /mainstyles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2012-11-17 21:12:01 -0600
+Served asset /orders.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-11-17 21:12:01 -0600
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.css?body=1" for 127.0.0.1 at 2012-11-17 21:12:01 -0600
+Served asset /provinces.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2012-11-17 21:12:01 -0600
+Served asset /reviews.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-17 21:12:01 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-17 21:12:01 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-17 21:12:01 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2012-11-17 21:12:01 -0600
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.js?body=1" for 127.0.0.1 at 2012-11-17 21:12:01 -0600
+Served asset /customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-11-17 21:12:01 -0600
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2012-11-17 21:12:01 -0600
+Served asset /orders.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-11-17 21:12:01 -0600
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.js?body=1" for 127.0.0.1 at 2012-11-17 21:12:01 -0600
+Served asset /provinces.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2012-11-17 21:12:01 -0600
+Served asset /reviews.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-17 21:12:01 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-11-17 21:12:01 -0600
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/spanishGoldDoubloon.jpg" for 127.0.0.1 at 2012-11-17 21:12:01 -0600
+Served asset /spanishGoldDoubloon.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/imageNotFound.jpg" for 127.0.0.1 at 2012-11-17 21:12:01 -0600
+Served asset /imageNotFound.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/diamondNecklace.jpg" for 127.0.0.1 at 2012-11-17 21:12:01 -0600
+Served asset /diamondNecklace.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-17 21:12:08 -0600
+Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products" 
+  [1m[36m (1.0ms)[0m  [1mSELECT COUNT(*) FROM "reviews" WHERE "reviews"."product_id" = 1[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "reviews" WHERE "reviews"."product_id" = 2
+  [1m[36m (1.0ms)[0m  [1mSELECT COUNT(*) FROM "reviews" WHERE "reviews"."product_id" = 3[0m
+  Rendered products/_product.html.erb (18.0ms)
+  Rendered products/index.html.erb within layouts/application (25.0ms)
+Completed 200 OK in 57ms (Views: 52.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-17 21:12:08 -0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2012-11-17 21:12:08 -0600
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2012-11-17 21:12:08 -0600
+Served asset /categories.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/mainstyles.css?body=1" for 127.0.0.1 at 2012-11-17 21:12:08 -0600
+Served asset /mainstyles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2012-11-17 21:12:08 -0600
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2012-11-17 21:12:08 -0600
+Served asset /orders.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-11-17 21:12:08 -0600
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.css?body=1" for 127.0.0.1 at 2012-11-17 21:12:08 -0600
+Served asset /provinces.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2012-11-17 21:12:08 -0600
+Served asset /reviews.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-17 21:12:08 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-17 21:12:08 -0600
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-17 21:12:08 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2012-11-17 21:12:08 -0600
+Served asset /categories.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/customers.js?body=1" for 127.0.0.1 at 2012-11-17 21:12:08 -0600
+Served asset /customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-11-17 21:12:08 -0600
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2012-11-17 21:12:08 -0600
+Served asset /orders.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-11-17 21:12:08 -0600
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2012-11-17 21:12:08 -0600
+Served asset /reviews.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/provinces.js?body=1" for 127.0.0.1 at 2012-11-17 21:12:08 -0600
+Served asset /provinces.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-17 21:12:08 -0600
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/spanishGoldDoubloon.jpg" for 127.0.0.1 at 2012-11-17 21:12:08 -0600
+Served asset /spanishGoldDoubloon.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-11-17 21:12:08 -0600
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/imageNotFound.jpg" for 127.0.0.1 at 2012-11-17 21:12:08 -0600
+Served asset /imageNotFound.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/diamondNecklace.jpg" for 127.0.0.1 at 2012-11-17 21:12:08 -0600
+Served asset /diamondNecklace.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-17 21:12:33 -0600
+Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (1.0ms)[0m  SELECT "products".* FROM "products" 
+  [1m[36m (1.0ms)[0m  [1mSELECT COUNT(*) FROM "reviews" WHERE "reviews"."product_id" = 1[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "reviews" WHERE "reviews"."product_id" = 2
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "reviews" WHERE "reviews"."product_id" = 3[0m
+  Rendered products/_product.html.erb (13.0ms)
+  Rendered products/index.html.erb within layouts/application (17.0ms)
+Completed 200 OK in 48ms (Views: 46.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-17 21:12:33 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2012-11-17 21:12:33 -0600
+Served asset /categories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2012-11-17 21:12:33 -0600
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2012-11-17 21:12:33 -0600
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mainstyles.css?body=1" for 127.0.0.1 at 2012-11-17 21:12:33 -0600
+Served asset /mainstyles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2012-11-17 21:12:33 -0600
+Served asset /orders.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-11-17 21:12:33 -0600
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.css?body=1" for 127.0.0.1 at 2012-11-17 21:12:33 -0600
+Served asset /provinces.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2012-11-17 21:12:33 -0600
+Served asset /reviews.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-17 21:12:33 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-17 21:12:33 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-17 21:12:33 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2012-11-17 21:12:33 -0600
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.js?body=1" for 127.0.0.1 at 2012-11-17 21:12:33 -0600
+Served asset /customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-11-17 21:12:33 -0600
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2012-11-17 21:12:33 -0600
+Served asset /orders.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-11-17 21:12:33 -0600
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.js?body=1" for 127.0.0.1 at 2012-11-17 21:12:33 -0600
+Served asset /provinces.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2012-11-17 21:12:33 -0600
+Served asset /reviews.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-17 21:12:33 -0600
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-11-17 21:12:33 -0600
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/spanishGoldDoubloon.jpg" for 127.0.0.1 at 2012-11-17 21:12:33 -0600
+Served asset /spanishGoldDoubloon.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/imageNotFound.jpg" for 127.0.0.1 at 2012-11-17 21:12:33 -0600
+Served asset /imageNotFound.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/diamondNecklace.jpg" for 127.0.0.1 at 2012-11-17 21:12:33 -0600
+Served asset /diamondNecklace.jpg - 304 Not Modified (0ms)
+  [1m[36m (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateProducts (20121109174642)
+Migrating to CreateOrders (20121110205114)
+Migrating to CreateLineItems (20121110205242)
+Migrating to CreateCustomers (20121110205516)
+Migrating to AddPayMethodToOrder (20121110205658)
+Migrating to CreateProvinces (20121110205743)
+Migrating to CreateReviews (20121110215943)
+Migrating to CreateCategories (20121110220753)
+Migrating to AddImageToProducts (20121112202859)
+Migrating to AddRatingToReviews (20121118031915)
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (19.0ms)[0m  ALTER TABLE "reviews" ADD "rating" decimal
+  [1m[36m (1.0ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20121118031915')[0m
+  [1m[35m (113.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("categories")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("customers")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("line_items")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("orders")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("products")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("provinces")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("reviews")[0m
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-17 21:30:54 -0600
+Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products" 
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "reviews" WHERE "reviews"."product_id" = 1[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "reviews" WHERE "reviews"."product_id" = 2
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "reviews" WHERE "reviews"."product_id" = 3[0m
+  Rendered products/_product.html.erb (15.0ms)
+  Rendered products/index.html.erb within layouts/application (17.0ms)
+Completed 200 OK in 38ms (Views: 29.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2012-11-17 21:30:54 -0600
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2012-11-17 21:30:54 -0600
+Served asset /categories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-17 21:30:54 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2012-11-17 21:30:54 -0600
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mainstyles.css?body=1" for 127.0.0.1 at 2012-11-17 21:30:54 -0600
+Served asset /mainstyles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2012-11-17 21:30:54 -0600
+Served asset /orders.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-11-17 21:30:54 -0600
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.css?body=1" for 127.0.0.1 at 2012-11-17 21:30:54 -0600
+Served asset /provinces.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2012-11-17 21:30:54 -0600
+Served asset /reviews.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-17 21:30:54 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-17 21:30:54 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-17 21:30:54 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2012-11-17 21:30:54 -0600
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.js?body=1" for 127.0.0.1 at 2012-11-17 21:30:54 -0600
+Served asset /customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-11-17 21:30:54 -0600
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2012-11-17 21:30:54 -0600
+Served asset /orders.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-11-17 21:30:54 -0600
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.js?body=1" for 127.0.0.1 at 2012-11-17 21:30:54 -0600
+Served asset /provinces.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2012-11-17 21:30:54 -0600
+Served asset /reviews.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-17 21:30:54 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/spanishGoldDoubloon.jpg" for 127.0.0.1 at 2012-11-17 21:30:54 -0600
+Served asset /spanishGoldDoubloon.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/imageNotFound.jpg" for 127.0.0.1 at 2012-11-17 21:30:54 -0600
+Served asset /imageNotFound.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-11-17 21:30:54 -0600
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/diamondNecklace.jpg" for 127.0.0.1 at 2012-11-17 21:30:54 -0600
+Served asset /diamondNecklace.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/products/1" for 127.0.0.1 at 2012-11-17 21:30:56 -0600
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mProduct Load (1.0ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered products/show.html.erb within layouts/application (11.0ms)
+Completed 500 Internal Server Error in 31ms
+
+ActionView::Template::Error (Missing partial products/@product.reviews, application/@product.reviews with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :coffee]}. Searched in:
+  * "C:/Users/cquick/Documents/Notes/eCommerce/Final Project/ECommerce/app/views"
+):
+    39:   
+    40:   <div class="reviews">
+    41:     <h3>Customer Reviews</h3>
+    42:     <%= render '@product.reviews' %>
+    43:     
+    44:     <br /> <br />
+    45:     <h3>Write a Review for this Product</h3>
+  app/views/products/show.html.erb:42:in `_app_views_products_show_html_erb___620401515_28318776'
+  app/controllers/products_controller.rb:21:in `show'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.0ms)
+
+
+Started GET "/products/1" for 127.0.0.1 at 2012-11-17 21:33:06 -0600
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mProduct Load (1.0ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mReview Load (0.0ms)[0m  SELECT "reviews".* FROM "reviews" WHERE "reviews"."product_id" = 1
+  Rendered collection (0.0ms)
+  Rendered reviews/_form.html.erb (15.0ms)
+  Rendered products/show.html.erb within layouts/application (26.0ms)
+Completed 200 OK in 45ms (Views: 42.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-17 21:33:06 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2012-11-17 21:33:06 -0600
+Served asset /categories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2012-11-17 21:33:06 -0600
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2012-11-17 21:33:06 -0600
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mainstyles.css?body=1" for 127.0.0.1 at 2012-11-17 21:33:06 -0600
+Served asset /mainstyles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2012-11-17 21:33:06 -0600
+Served asset /orders.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-11-17 21:33:06 -0600
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.css?body=1" for 127.0.0.1 at 2012-11-17 21:33:06 -0600
+Served asset /provinces.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2012-11-17 21:33:06 -0600
+Served asset /reviews.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-17 21:33:06 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-17 21:33:06 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-17 21:33:06 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2012-11-17 21:33:06 -0600
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.js?body=1" for 127.0.0.1 at 2012-11-17 21:33:06 -0600
+Served asset /customers.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-11-17 21:33:06 -0600
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2012-11-17 21:33:06 -0600
+Served asset /orders.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-11-17 21:33:06 -0600
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.js?body=1" for 127.0.0.1 at 2012-11-17 21:33:06 -0600
+Served asset /provinces.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2012-11-17 21:33:06 -0600
+Served asset /reviews.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-17 21:33:06 -0600
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-11-17 21:33:06 -0600
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/spanishGoldDoubloon.jpg" for 127.0.0.1 at 2012-11-17 21:33:06 -0600
+Served asset /spanishGoldDoubloon.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/products/1" for 127.0.0.1 at 2012-11-17 21:33:26 -0600
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mProduct Load (1.0ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mReview Load (1.0ms)[0m  SELECT "reviews".* FROM "reviews" WHERE "reviews"."product_id" = 1
+  Rendered collection (0.0ms)
+  Rendered reviews/_form.html.erb (4.0ms)
+  Rendered products/show.html.erb within layouts/application (15.0ms)
+Compiled products.css  (37ms)  (pid 5524)
+Compiled application.css  (5ms)  (pid 5524)
+Completed 200 OK in 140ms (Views: 136.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-17 21:33:27 -0600
+Served asset /application.css - 304 Not Modified (19ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2012-11-17 21:33:27 -0600
+Served asset /categories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2012-11-17 21:33:27 -0600
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2012-11-17 21:33:27 -0600
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mainstyles.css?body=1" for 127.0.0.1 at 2012-11-17 21:33:27 -0600
+Served asset /mainstyles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2012-11-17 21:33:27 -0600
+Served asset /orders.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-11-17 21:33:27 -0600
+Served asset /products.css - 200 OK (20ms)
+
+
+Started GET "/assets/provinces.css?body=1" for 127.0.0.1 at 2012-11-17 21:33:27 -0600
+Served asset /provinces.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2012-11-17 21:33:27 -0600
+Served asset /reviews.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-17 21:33:27 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-17 21:33:27 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-17 21:33:27 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2012-11-17 21:33:27 -0600
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.js?body=1" for 127.0.0.1 at 2012-11-17 21:33:27 -0600
+Served asset /customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-11-17 21:33:27 -0600
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2012-11-17 21:33:27 -0600
+Served asset /orders.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-11-17 21:33:27 -0600
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.js?body=1" for 127.0.0.1 at 2012-11-17 21:33:27 -0600
+Served asset /provinces.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2012-11-17 21:33:27 -0600
+Served asset /reviews.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-17 21:33:27 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-11-17 21:33:27 -0600
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/spanishGoldDoubloon.jpg" for 127.0.0.1 at 2012-11-17 21:33:27 -0600
+Served asset /spanishGoldDoubloon.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/products/1" for 127.0.0.1 at 2012-11-17 21:34:28 -0600
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mProduct Load (1.0ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mReview Load (1.0ms)[0m  SELECT "reviews".* FROM "reviews" WHERE "reviews"."product_id" = 1
+  Rendered reviews/_form.html.erb (6.0ms)
+  Rendered products/show.html.erb within layouts/application (16.0ms)
+Completed 200 OK in 38ms (Views: 33.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-17 21:34:28 -0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2012-11-17 21:34:28 -0600
+Served asset /categories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mainstyles.css?body=1" for 127.0.0.1 at 2012-11-17 21:34:28 -0600
+Served asset /mainstyles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2012-11-17 21:34:28 -0600
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2012-11-17 21:34:28 -0600
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2012-11-17 21:34:28 -0600
+Served asset /orders.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-11-17 21:34:28 -0600
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.css?body=1" for 127.0.0.1 at 2012-11-17 21:34:28 -0600
+Served asset /provinces.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2012-11-17 21:34:28 -0600
+Served asset /reviews.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-17 21:34:28 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-17 21:34:28 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-17 21:34:28 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2012-11-17 21:34:28 -0600
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.js?body=1" for 127.0.0.1 at 2012-11-17 21:34:28 -0600
+Served asset /customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-11-17 21:34:28 -0600
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2012-11-17 21:34:28 -0600
+Served asset /orders.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-11-17 21:34:28 -0600
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.js?body=1" for 127.0.0.1 at 2012-11-17 21:34:28 -0600
+Served asset /provinces.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2012-11-17 21:34:28 -0600
+Served asset /reviews.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-17 21:34:28 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-11-17 21:34:28 -0600
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/spanishGoldDoubloon.jpg" for 127.0.0.1 at 2012-11-17 21:34:28 -0600
+Served asset /spanishGoldDoubloon.jpg - 304 Not Modified (1ms)
+
+
+Started POST "/reviews" for 127.0.0.1 at 2012-11-17 21:35:08 -0600
+Processing by ReviewsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"osUUBZyZ68BpstQUWAozeNlx13ec9BWPApi/KNva3QM=", "review"=>{"author"=>"", "body"=>"This product is da bomb yo", "rating"=>"4.87", "product_id"=>"1"}, "commit"=>"Create Review"}
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (112.0ms)[0m  INSERT INTO "reviews" ("author", "body", "created_at", "product_id", "rating", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["author", ""], ["body", "This product is da bomb yo"], ["created_at", Sun, 18 Nov 2012 03:35:08 UTC +00:00], ["product_id", 1], ["rating", #<BigDecimal:2e2dae8,'0.487E1',18(18)>], ["updated_at", Sun, 18 Nov 2012 03:35:08 UTC +00:00]]
+  [1m[36m (113.0ms)[0m  [1mcommit transaction[0m
+  [1m[35mProduct Load (1.0ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 1 LIMIT 1
+Redirected to http://localhost:3000/products/1
+Completed 406 Not Acceptable in 324ms (ActiveRecord: 226.0ms)
+
+
+Started POST "/reviews" for 127.0.0.1 at 2012-11-17 21:35:16 -0600
+Processing by ReviewsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"osUUBZyZ68BpstQUWAozeNlx13ec9BWPApi/KNva3QM=", "review"=>{"author"=>"", "body"=>"This product is da bomb yo", "rating"=>"4.87", "product_id"=>"1"}, "commit"=>"Create Review"}
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (3.0ms)[0m  INSERT INTO "reviews" ("author", "body", "created_at", "product_id", "rating", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["author", ""], ["body", "This product is da bomb yo"], ["created_at", Sun, 18 Nov 2012 03:35:16 UTC +00:00], ["product_id", 1], ["rating", #<BigDecimal:35fd8b8,'0.487E1',18(18)>], ["updated_at", Sun, 18 Nov 2012 03:35:16 UTC +00:00]]
+  [1m[36m (112.0ms)[0m  [1mcommit transaction[0m
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 1 LIMIT 1
+Redirected to http://localhost:3000/products/1
+Completed 406 Not Acceptable in 123ms (ActiveRecord: 115.0ms)
+
+
+Started POST "/reviews" for 127.0.0.1 at 2012-11-17 21:35:47 -0600
+Processing by ReviewsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"osUUBZyZ68BpstQUWAozeNlx13ec9BWPApi/KNva3QM=", "review"=>{"author"=>"", "body"=>"This product is da bomb yo", "rating"=>"4.87", "product_id"=>"1"}, "commit"=>"Create Review"}
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (10.0ms)[0m  INSERT INTO "reviews" ("author", "body", "created_at", "product_id", "rating", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["author", ""], ["body", "This product is da bomb yo"], ["created_at", Sun, 18 Nov 2012 03:35:47 UTC +00:00], ["product_id", 1], ["rating", #<BigDecimal:3636bb8,'0.487E1',18(18)>], ["updated_at", Sun, 18 Nov 2012 03:35:47 UTC +00:00]]
+  [1m[36m (98.0ms)[0m  [1mcommit transaction[0m
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 1 LIMIT 1
+Redirected to http://localhost:3000/products/1
+Completed 406 Not Acceptable in 117ms (ActiveRecord: 108.0ms)
+
+
+Started GET "/products/1" for 127.0.0.1 at 2012-11-17 21:37:12 -0600
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mProduct Load (1.0ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mReview Load (0.0ms)[0m  SELECT "reviews".* FROM "reviews" WHERE "reviews"."product_id" = 1
+  Rendered reviews/_review.html.erb (13.0ms)
+  Rendered reviews/_form.html.erb (4.0ms)
+  Rendered products/show.html.erb within layouts/application (35.0ms)
+Completed 200 OK in 54ms (Views: 46.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-17 21:37:12 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2012-11-17 21:37:12 -0600
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2012-11-17 21:37:12 -0600
+Served asset /categories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mainstyles.css?body=1" for 127.0.0.1 at 2012-11-17 21:37:12 -0600
+Served asset /mainstyles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2012-11-17 21:37:12 -0600
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2012-11-17 21:37:12 -0600
+Served asset /orders.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-11-17 21:37:12 -0600
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.css?body=1" for 127.0.0.1 at 2012-11-17 21:37:12 -0600
+Served asset /provinces.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2012-11-17 21:37:12 -0600
+Served asset /reviews.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-17 21:37:12 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-17 21:37:12 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-17 21:37:12 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2012-11-17 21:37:12 -0600
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.js?body=1" for 127.0.0.1 at 2012-11-17 21:37:12 -0600
+Served asset /customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-11-17 21:37:12 -0600
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2012-11-17 21:37:12 -0600
+Served asset /orders.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-11-17 21:37:12 -0600
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.js?body=1" for 127.0.0.1 at 2012-11-17 21:37:12 -0600
+Served asset /provinces.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2012-11-17 21:37:12 -0600
+Served asset /reviews.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-17 21:37:12 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-11-17 21:37:12 -0600
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/spanishGoldDoubloon.jpg" for 127.0.0.1 at 2012-11-17 21:37:13 -0600
+Served asset /spanishGoldDoubloon.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/products/1" for 127.0.0.1 at 2012-11-17 21:38:02 -0600
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mProduct Load (1.0ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mReview Load (0.0ms)[0m  SELECT "reviews".* FROM "reviews" WHERE "reviews"."product_id" = 1
+  Rendered reviews/_review.html.erb (0.0ms)
+  Rendered products/show.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 34ms (Views: 31.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2012-11-17 21:38:02 -0600
+Served asset /categories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2012-11-17 21:38:02 -0600
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2012-11-17 21:38:02 -0600
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-17 21:38:02 -0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/mainstyles.css?body=1" for 127.0.0.1 at 2012-11-17 21:38:02 -0600
+Served asset /mainstyles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2012-11-17 21:38:02 -0600
+Served asset /orders.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-11-17 21:38:02 -0600
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.css?body=1" for 127.0.0.1 at 2012-11-17 21:38:02 -0600
+Served asset /provinces.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2012-11-17 21:38:02 -0600
+Served asset /reviews.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-17 21:38:02 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-17 21:38:02 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-17 21:38:02 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2012-11-17 21:38:02 -0600
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.js?body=1" for 127.0.0.1 at 2012-11-17 21:38:02 -0600
+Served asset /customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-11-17 21:38:02 -0600
+Served asset /line_items.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2012-11-17 21:38:02 -0600
+Served asset /orders.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-11-17 21:38:02 -0600
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.js?body=1" for 127.0.0.1 at 2012-11-17 21:38:02 -0600
+Served asset /provinces.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2012-11-17 21:38:02 -0600
+Served asset /reviews.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-17 21:38:02 -0600
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-11-17 21:38:02 -0600
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/spanishGoldDoubloon.jpg" for 127.0.0.1 at 2012-11-17 21:38:02 -0600
+Served asset /spanishGoldDoubloon.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/products/1" for 127.0.0.1 at 2012-11-17 21:38:20 -0600
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mProduct Load (1.0ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mReview Load (1.0ms)[0m  SELECT "reviews".* FROM "reviews" WHERE "reviews"."product_id" = 1
+  Rendered reviews/_review.html.erb (2.0ms)
+  Rendered reviews/_form.html.erb (4.0ms)
+  Rendered products/show.html.erb within layouts/application (25.0ms)
+Completed 200 OK in 60ms (Views: 56.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2012-11-17 21:38:20 -0600
+Served asset /categories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-17 21:38:20 -0600
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2012-11-17 21:38:20 -0600
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2012-11-17 21:38:20 -0600
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mainstyles.css?body=1" for 127.0.0.1 at 2012-11-17 21:38:20 -0600
+Served asset /mainstyles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2012-11-17 21:38:20 -0600
+Served asset /orders.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-11-17 21:38:20 -0600
+Served asset /products.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/provinces.css?body=1" for 127.0.0.1 at 2012-11-17 21:38:20 -0600
+Served asset /provinces.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2012-11-17 21:38:20 -0600
+Served asset /reviews.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-17 21:38:20 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-17 21:38:20 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-17 21:38:20 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2012-11-17 21:38:20 -0600
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.js?body=1" for 127.0.0.1 at 2012-11-17 21:38:20 -0600
+Served asset /customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-11-17 21:38:20 -0600
+Served asset /line_items.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2012-11-17 21:38:20 -0600
+Served asset /orders.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-11-17 21:38:20 -0600
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.js?body=1" for 127.0.0.1 at 2012-11-17 21:38:20 -0600
+Served asset /provinces.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2012-11-17 21:38:20 -0600
+Served asset /reviews.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-17 21:38:20 -0600
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-11-17 21:38:20 -0600
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/spanishGoldDoubloon.jpg" for 127.0.0.1 at 2012-11-17 21:38:20 -0600
+Served asset /spanishGoldDoubloon.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2012-11-17 21:38:28 -0600
+Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (1.0ms)[0m  [1mSELECT "products".* FROM "products" [0m
+  [1m[35m (1.0ms)[0m  SELECT COUNT(*) FROM "reviews" WHERE "reviews"."product_id" = 1
+  [1m[36m (1.0ms)[0m  [1mSELECT COUNT(*) FROM "reviews" WHERE "reviews"."product_id" = 2[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "reviews" WHERE "reviews"."product_id" = 3
+  Rendered products/_product.html.erb (14.0ms)
+  Rendered products/index.html.erb within layouts/application (22.0ms)
+Completed 200 OK in 57ms (Views: 50.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-17 21:38:28 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2012-11-17 21:38:28 -0600
+Served asset /line_items.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2012-11-17 21:38:28 -0600
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2012-11-17 21:38:28 -0600
+Served asset /orders.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/mainstyles.css?body=1" for 127.0.0.1 at 2012-11-17 21:38:28 -0600
+Served asset /mainstyles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2012-11-17 21:38:28 -0600
+Served asset /categories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-11-17 21:38:28 -0600
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.css?body=1" for 127.0.0.1 at 2012-11-17 21:38:28 -0600
+Served asset /provinces.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2012-11-17 21:38:28 -0600
+Served asset /reviews.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-17 21:38:28 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-17 21:38:28 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-17 21:38:28 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2012-11-17 21:38:28 -0600
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.js?body=1" for 127.0.0.1 at 2012-11-17 21:38:28 -0600
+Served asset /customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-11-17 21:38:28 -0600
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2012-11-17 21:38:28 -0600
+Served asset /orders.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-11-17 21:38:28 -0600
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.js?body=1" for 127.0.0.1 at 2012-11-17 21:38:28 -0600
+Served asset /provinces.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2012-11-17 21:38:28 -0600
+Served asset /reviews.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-17 21:38:28 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-11-17 21:38:28 -0600
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/spanishGoldDoubloon.jpg" for 127.0.0.1 at 2012-11-17 21:38:28 -0600
+Served asset /spanishGoldDoubloon.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/imageNotFound.jpg" for 127.0.0.1 at 2012-11-17 21:38:28 -0600
+Served asset /imageNotFound.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/diamondNecklace.jpg" for 127.0.0.1 at 2012-11-17 21:38:28 -0600
+Served asset /diamondNecklace.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/products/1" for 127.0.0.1 at 2012-11-17 21:38:35 -0600
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mReview Load (1.0ms)[0m  SELECT "reviews".* FROM "reviews" WHERE "reviews"."product_id" = 1
+  Rendered reviews/_review.html.erb (1.0ms)
+  Rendered reviews/_form.html.erb (5.0ms)
+  Rendered products/show.html.erb within layouts/application (17.0ms)
+Completed 200 OK in 42ms (Views: 39.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-17 21:38:36 -0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2012-11-17 21:38:36 -0600
+Served asset /categories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2012-11-17 21:38:36 -0600
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2012-11-17 21:38:36 -0600
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mainstyles.css?body=1" for 127.0.0.1 at 2012-11-17 21:38:36 -0600
+Served asset /mainstyles.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2012-11-17 21:38:36 -0600
+Served asset /orders.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-11-17 21:38:36 -0600
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.css?body=1" for 127.0.0.1 at 2012-11-17 21:38:36 -0600
+Served asset /provinces.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2012-11-17 21:38:36 -0600
+Served asset /reviews.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-17 21:38:36 -0600
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-17 21:38:36 -0600
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-17 21:38:36 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2012-11-17 21:38:36 -0600
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.js?body=1" for 127.0.0.1 at 2012-11-17 21:38:36 -0600
+Served asset /customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-11-17 21:38:36 -0600
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2012-11-17 21:38:36 -0600
+Served asset /orders.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-11-17 21:38:36 -0600
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/provinces.js?body=1" for 127.0.0.1 at 2012-11-17 21:38:36 -0600
+Served asset /provinces.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2012-11-17 21:38:36 -0600
+Served asset /reviews.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-17 21:38:36 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-11-17 21:38:36 -0600
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/spanishGoldDoubloon.jpg" for 127.0.0.1 at 2012-11-17 21:38:36 -0600
+Served asset /spanishGoldDoubloon.jpg - 304 Not Modified (0ms)
