@@ -31,7 +31,9 @@
 
   <div class="reviewscount">
     <p>
-      There are <%= pluralize product.reviews.size, 'review' %> for this product.
+      <!-- Doing some ruby magic so abominations such as "There are 1 review" do not see the light of day -->
+      <% count = product.reviews.size == 1 ? 'is' : 'are' %>
+      There <%= count %> <%= pluralize product.reviews.size, 'review' %> for this product.
     </p>
   </div>
   

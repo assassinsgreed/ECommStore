@@ -1,11 +1,31 @@
 <% if review.body.present? %>
-  
-  <em><%= review.rating %>/5 stars</em>  
-  <h3><%= review.attribution %> said:</h3>
-  <div>
-    <%= review.body %>
+
+  <div class="review">
+    <div class="rating">
+      <% if review.rating.present? %>
+          <em><%= review.rating %>/5 stars</em>
+      <% else %>
+          <em>No rating provided</em>
+      <% end %>
+    </div>
+
+    <div class="created">
+      <%= review.created_at %>
+    </div>
+
+    <div class="title">
+      <b><%= review.title %></b>
+    </div>
+
+    <br />
+    <div class="body">
+      <p><%= review.body %></p>
+    </div>
+
+    <div class="author">
+      <h3><%= review.attribution %></h3>
+    </div>
+
+
   </div>
-  <p>
-    <%= review.created_at %>
-  </p>
 <% end %>

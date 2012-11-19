@@ -9,9 +9,9 @@
 
 <div class="product">
   <% if @product.image.present? %>
-    <%= image_tag @product.image, :size => "75x75" %>
+    <%= image_tag @product.image, :size => "300x300" %>
   <% else %>
-    <%= image_tag 'imageNotFound.jpg', :size => "75x75" %>
+    <%= image_tag 'imageNotFound.jpg', :size => "300x300" %>
   <% end %>
   
   <div class="name">
@@ -40,16 +40,17 @@
   <div class="reviews">
     <h3>Customer Reviews</h3>
     <% if @product.reviews.present? %>
-    <%= render @product.reviews %>
+        <%= render @product.reviews.order("created_at DESC") %>
     <% else %>
       <p>No reviews have been placed for this product yet.</p>
     <% end if %>
-    
-    <br /> <br />
+  </div>
+
+  <div class="reviews">
     <h3>Write a Review for this Product</h3>
     <%= render 'reviews/form' %>
   </div>
-  
+
   <br />
 </div>
 
