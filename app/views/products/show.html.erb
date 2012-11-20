@@ -1,57 +1,72 @@
-    <div id="header">
-      <%= image_tag 'logo.png' %>
-      <div id="signin">
-        <a href="#">Administrative Login</a>
-        <br /><br />
-        
-      </div>
+<div class="content">
+  <div id="header">
+    <%= link_to image_tag('logo.png'), products_path %>
+    <div id="signin">
+      <a href="#">Administrative Login</a>
+      <br /><br />
+      <input type="text"/> <input type="button" value="Search" />
+      <br />
     </div>
-
-<div class="product">
-  <% if @product.image.present? %>
-    <%= image_tag @product.image, :size => "300x300" %>
-  <% else %>
-    <%= image_tag 'imageNotFound.jpg', :size => "300x300" %>
-  <% end %>
-  
-  <div class="name">
-    <%= @product.name %>
   </div>
-  
-  <div class="details">
-    <b>Quantity On Hand: </b><%= @product.quantity_on_hand %><br /><br/>
-    <!-- Styling regular price to be a strike-through red font -->
-    <b>Price: </b><br/><span class="<%= @product.sale_price.present? ? ' strike' : '' %>"><%= number_to_currency @product.price %></span><br />
-    <% if @product.sale_price.present? %>
-    <%= number_to_currency @product.sale_price %>
-  <% end %>
+  <div id="nav">
+    <a href="#">Search By Category</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+    <%= link_to 'Home', products_path %>&nbsp;&nbsp;|&nbsp;&nbsp;
+    <a href="#">About Us</a>
   </div>
-  
-  <div class="admin_controls">
-    <%= link_to 'Edit', edit_product_path(@product) %>
-    <%= link_to 'Destroy', @product, confirm: 'Are you sure?', method: :delete %>
-  </div>
-  
- <br /><br /><br />
-  <div class="description">
-    <%= @product.description %> <br />
-  </div>
-  
-  <div class="reviews">
-    <h3>Customer Reviews</h3>
-    <% if @product.reviews.present? %>
-        <%= render @product.reviews.order("created_at DESC") %>
-    <% else %>
-      <p>No reviews have been placed for this product yet.</p>
-    <% end if %>
-  </div>
-
-  <div class="reviews">
-    <h3>Write a Review for this Product</h3>
-    <%= render 'reviews/form' %>
-  </div>
-
-  <br />
 </div>
 
-<%= link_to 'All Products', products_path %>
+  <div class="product">
+    <% if @product.image.present? %>
+        <%= image_tag @product.image, :size => "250x250" %>
+    <% else %>
+        <%= image_tag 'imageNotFound.jpg', :size => "250x250" %>
+    <% end %>
+
+    <div class="name">
+      <%= @product.name %>
+    </div>
+
+    <div class="admin_controls">
+      <b>Admin:</b>
+      <%= link_to 'Edit', edit_product_path(@product) %>
+      <%= link_to 'Destroy', @product, confirm: 'Are you sure?', method: :delete %>
+    </div>
+
+    <div class="description_show">
+      <p>
+        <%= @product.description %> <br /><br >      <%= link_to 'All Products', products_path %>
+      </p>
+    </div>
+
+    <div class="details">
+      <b>Quantity On Hand: </b><%= @product.quantity_on_hand %><br /><br/>
+      <!-- Styling regular price to be a strike-through red font -->
+      <b>Price: </b><br/><span class="<%= @product.sale_price.present? ? ' strike' : '' %>"><%= number_to_currency @product.price %></span><br />
+      <% if @product.sale_price.present? %>
+          <%= number_to_currency @product.sale_price %>
+      <% end %>
+    </div>
+
+    <br /><br /><br />
+
+    <div class="reviews">
+
+      <h3>Customer Reviews</h3>
+      <% if @product.reviews.present? %>
+          <%= render @product.reviews.order("created_at DESC") %>
+      <% else %>
+          <p>No reviews have been placed for this product yet.</p>
+      <% end if %>
+    </div>
+
+    <div class="reviews">
+      <h3>Write a Review for this Product</h3>
+      <%= render 'reviews/form' %>
+    </div>
+
+    <br />
+  </div>
+</div>
+
+
+

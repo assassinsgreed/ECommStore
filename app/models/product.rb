@@ -6,5 +6,5 @@ class Product < ActiveRecord::Base
   #Validations
   validates_presence_of :name, :description, :price, :quantity_on_hand
   validates :name, :uniqueness => true
-  #sale price is not required.  If it is missing (null), the regular price is displayed 
+  #sale price is not required.  If it is missing (null), the regular price is displayed
 end

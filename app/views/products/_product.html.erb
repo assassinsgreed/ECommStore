@@ -17,6 +17,7 @@
   </div>
   
   <div class="admin_controls">
+    <b>Admin:</b>
     <%= link_to 'Show', product %>
     <%= link_to 'Edit', edit_product_path(product) %>
     <%= link_to 'Destroy', product, confirm: 'Are you sure?', method: :delete %>
@@ -24,18 +25,21 @@
   
  <br /><br /><br />
   <div class="description">
-    <%= product.description %> <br />
+    <%= product.description %> <br /><br />
     <%= link_to 'See More', product %>
-  </div>
-  
 
-  <div class="reviewscount">
-    <p>
-      <!-- Doing some ruby magic so abominations such as "There are 1 review" do not see the light of day -->
-      <% count = product.reviews.size == 1 ? 'is' : 'are' %>
-      There <%= count %> <%= pluralize product.reviews.size, 'review' %> for this product.
-    </p>
+    <div class="reviewscount">
+      <p>
+        <!-- Doing some ruby magic so abominations such as "There are 1 review" do not see the light of day -->
+        <% count = product.reviews.size == 1 ? 'is' : 'are' %>
+        There <%= count %> <%= pluralize product.reviews.size, 'review' %> for this product.
+      </p>
+    </div>
   </div>
-  
+
+  <!-- Retained for spacing -->
+  <div class="reviewscount">
+  </div>
+
   <br />
 </div>

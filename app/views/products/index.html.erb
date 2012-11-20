@@ -1,22 +1,20 @@
-<html>
-  <head>
-    <title>The Treasure Chest</title>
-  </head>
-  <body>
-    <div id="header">
-    >%= image_tag 'logo.png' %>
+<div class="content">
+  <div id="header">
+    <%= link_to image_tag('logo.png'), products_path %>
       <div id="signin">
         <a href="#">Administrative Login</a>
         <br /><br />
-        
+        <input type="text"/> <input type="button" value="Search" />
+        <br />
       </div>
     </div>
-
-<%= render @products %>
-    
-    <br />
-
-    <%= link_to 'New Product', new_product_path %>
-
-  </body>
-</html>
+    <div id="nav">
+      <a href="#">Search By Category</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+      <%= link_to 'Home', products_path %>&nbsp;&nbsp;|&nbsp;&nbsp;
+      <a href="#">About Us</a>
+    </div>
+  </div>
+  <%= render @products %>
+  <br />
+  <%= link_to 'New Product', new_product_path %>
+</div>

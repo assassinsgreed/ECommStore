@@ -9,9 +9,14 @@
     background-color: white;
 }
 
+a:hover
+{
+    text-decoration: none;
+}
+
 body
 {
-	background-color: white;    /*Image path here*/
+	background-color: #1e90ff;
 	width: 780px;
 	margin: 0px auto;
 	margin-top: 10px;
@@ -39,7 +44,7 @@ body
     margin: 0px 5px;    /* Fix mouseover */
     text-align: center;
     padding: 8px;
-    border: 1px solid white;    /* Provided to cause link to display properly */
+    border: 1px solid #f5f5f5;    /* Provided to cause link to display properly */
 }
 
 #signin a:hover
@@ -52,6 +57,3 @@ body
     border: 1px solid black;
     color: black;
 }
-
-
-
