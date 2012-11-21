@@ -1,0 +1,46 @@
+<div class="product">
+  <% if product.image.present? %>
+    <%= image_tag product.image, :size => "75x75" %>
+  <% else %>
+    <%= image_tag 'imageNotFound.jpg', :size => "75x75" %>
+  <% end %>
+  <div class="name">
+    <%= product.name %>
+    <div class="category">
+      <%= product.category.name %>
+    </div>
+  </div>
+  <div class="details">
+    <b>Quantity On Hand: </b><%= product.quantity_on_hand %><br /><br/>
+    <b>Price: </b><br/><span class="<%= product.sale_price.present? ? ' strike' : '' %>"><%= number_to_currency product.price %></span><br />
+    <% if product.sale_price.present? %>
+    <!-- Styling regular price to be a strike-through red font -->
+    <%= number_to_currency product.sale_price %> <i>sale</i>
+  <% end %>
+  </div>
+  
+  <div class="admin_controls">
+    <b>Admin:</b>
+    <%= link_to 'Show', item %>
+  </div>
+  
+ <br /><br /><br />
+  <div class="description">
+    <%= product.description %> <br /><br />
+    <%= link_to 'See More', product %>
+
+    <div class="reviewscount">
+      <p>
+        <!-- Doing some ruby magic so abominations such as "There are 1 review" do not see the light of day -->
+        <% count = product.reviews.size == 1 ? 'is' : 'are' %>
+        There <%= count %> <%= pluralize product.reviews.size, 'review' %> for this product.
+      </p>
+    </div>
+  </div>
+
+  <!-- Retained for spacing -->
+  <div class="reviewscount">
+  </div>
+
+  <br />
+</div>

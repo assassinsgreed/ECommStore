@@ -1,0 +1,30 @@
+<div class="content">
+  <div id="header">
+    <%= link_to image_tag('logo.png'), root_path %>
+    <div id="signin">
+      <a href="#">Administrative Login</a>
+      <br /><br />
+    </div>
+    <div id="search">
+      <%= form_tag results_path do %>
+          <%= label_tag "Search for a product: " %>
+          <%= text_field_tag(:keywords) %>
+          <%= submit_tag "Search" %>
+      <% end %>
+      <br />
+    </div>
+  </div>
+  <div id="nav">
+    <a href="#">Search By Category</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+    <%= link_to 'Home', root_path %>&nbsp;&nbsp;|&nbsp;&nbsp;
+    <a href="#">About Us</a>
+  </div>
+</div>
+<div class="indent">
+  <h1>Search Results for "<%= @keywords %>"</h1>
+</div>
+<%= render :partial => 'item', :collection => @products, :as => 'product' %>
+<div class="indent">
+  <h3><%= link_to 'Back to All Products', root_path %></h3>
+</div>
+
