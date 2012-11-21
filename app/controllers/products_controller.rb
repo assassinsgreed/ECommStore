@@ -17,7 +17,7 @@ class ProductsController < ApplicationController
   # GET /products/1.json
   def show
     @product = Product.find(params[:id])
-
+    @review  = @product.reviews.build
     respond_to do |format|
       format.html # show.html.erb
       format.json { render json: @product }
@@ -82,5 +82,10 @@ class ProductsController < ApplicationController
       format.html { redirect_to products_url }
       format.json { head :no_content }
     end
+  end
+
+  def search_results
+    @keywords = params[:keywords]
+    @products = Product.where('name LIKE ?', "%#{@keywords}%")
   end
 end

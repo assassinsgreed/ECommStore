@@ -4,7 +4,13 @@
     <div id="signin">
       <a href="#">Administrative Login</a>
       <br /><br />
-      <input type="text"/> <input type="button" value="Search" />
+    </div>
+    <div id="search">
+      <%= form_tag results_path do %>
+          <%= label_tag "Search for a product: " %>
+          <%= text_field_tag(:keywords) %>
+          <%= submit_tag "Search" %>
+      <% end %>
       <br />
     </div>
   </div>
@@ -34,7 +40,8 @@
 
     <div class="description_show">
       <p>
-        <%= @product.description %> <br /><br >      <%= link_to 'All Products', products_path %>
+        <%= @product.description %> <br /><br >
+        <%= link_to 'All Products', products_path %>
       </p>
     </div>
 
@@ -56,7 +63,7 @@
           <%= render @product.reviews.order("created_at DESC") %>
       <% else %>
           <p>No reviews have been placed for this product yet.</p>
-      <% end if %>
+      <% end  %>
     </div>
 
     <div class="reviews">

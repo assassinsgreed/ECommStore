@@ -57,3 +57,13 @@ body
     border: 1px solid black;
     color: black;
 }
+
+#search
+{
+    float: right;
+    position: relative;
+    right: 60px;
+    bottom: 70px;
+    color: #333;
+    font-size: 18px;
+}

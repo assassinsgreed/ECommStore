@@ -17,6 +17,9 @@ ECommerce::Application.routes.draw do
   #Pointing the direct web page to go to the products' index page
   root :to => 'products#index'
 
+  #Pointing to the products show page as a result
+  match "/results" => "products#search_results", :as => 'results', :via => :post
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
