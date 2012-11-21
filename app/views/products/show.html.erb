@@ -29,7 +29,10 @@
     <% end %>
 
     <div class="name">
-      <%= @product.name %>
+      <%= @product.name %><br />
+      <div class="category">
+        <%= @product.category.name %>
+      </div>
     </div>
 
     <div class="admin_controls">
@@ -55,6 +58,13 @@
     </div>
 
     <br /><br /><br />
+    <div class="reviews">
+      <h3>Write a Review for this Product</h3>
+      <button id="hideshow">Show Form</button>
+      <div class="create_review">
+        <%= render 'reviews/form' %>
+      </div>
+    </div>
 
     <div class="reviews">
 
@@ -64,11 +74,6 @@
       <% else %>
           <p>No reviews have been placed for this product yet.</p>
       <% end  %>
-    </div>
-
-    <div class="reviews">
-      <h3>Write a Review for this Product</h3>
-      <%= render 'reviews/form' %>
     </div>
 
     <br />

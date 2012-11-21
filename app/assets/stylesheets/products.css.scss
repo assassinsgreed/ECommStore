@@ -55,11 +55,15 @@
     margin: 10px;
 }
 
-.reviews
+.reviews, .create_review
 {
     margin: 20px 0px;
     clear: both;
     overflow: auto;
+}
+
+.create_review {
+  /*display: none; */
 }
 
 .reviewscount
@@ -88,4 +92,10 @@
 
 .indent {
   margin: 10px;
+}
+
+.category {
+  font-style: italic;
+  font-size: 12pt;
+  margin: 10px 0;
 }
