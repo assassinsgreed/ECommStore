@@ -5,7 +5,32 @@ class ProductsController < ApplicationController
   # GET /products
   # GET /products.json
   def index
-    @products = Product.all
+    #Checking for a category
+    if params[:category].present?
+      if params[:category] == "Gold"
+        @products = Product.where('category_id = 1').order("id desc")
+      elsif params[:category] == "Gems"
+        @products = Product.where('category_id = 2').order("id desc")
+      elsif params[:category] == "Lost Artifacts"
+        @products = Product.where('category_id = 3').order("id desc")
+      elsif params[:category] == "Relics"
+        @products = Product.where('category_id = 4').order("id desc")
+      else
+        @products = Product.where('category_id = 5').order("id desc")
+      end
+    #Checking for a status
+    elsif params[:status].present?
+      if params[:status] == "Sale"
+        @products = Product.where('sale_price not null').order("id desc")
+      elsif params[:status] == "New"
+        @products = Product.where(:created_at => 7.days.ago..DateTime.now).order("id desc")
+      elsif params[:status] == "Updated"
+        @products = Product.where(:updated_at => 7.days.ago..DateTime.now).order("id desc")
+      end
+    #Load page like normal
+    else
+      @products = Product.order("id desc")
+    end
 
     respond_to do |format|
       format.html # index.html.erb
@@ -88,6 +113,6 @@ class ProductsController < ApplicationController
 
   def search_results
     @keywords = params[:keywords]
-    @products = Product.where('name LIKE ?', "%#{@keywords}%")
+    @products = Product.where('name LIKE ?', "%#{@keywords}%").order("id desc")
   end
 end

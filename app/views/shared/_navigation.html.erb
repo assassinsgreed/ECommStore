@@ -1,0 +1,39 @@
+<div id="header" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+  <%= link_to image_tag('logo.png'), root_path %>
+  <div id="signin">
+    <a href="#">Administrative Login</a>
+    <br /><br />
+  </div>
+
+  <div id="search">
+    <%= form_tag results_path do %>
+        <%= label_tag "Search for a product: " %>
+        <%= text_field_tag(:keywords) %>
+        <%= submit_tag "Search" %>
+    <% end %>
+    <br />
+  </div>
+</div>
+<div id="nav">
+  <%= link_to 'Home', products_path %>&nbsp;&nbsp;|&nbsp;&nbsp;
+  <%= link_to 'About Us', business_infos_path(:id => 1) %>&nbsp;&nbsp;|&nbsp;&nbsp;
+  <%= link_to 'Contact Us', business_infos_path(:id => 2) %>
+</div>
+<div id="sidebar">
+  <ul><li><%= link_to "All Products", products_path %></li></ul>
+  <h3>Sort by Category:</h3>
+  <ul>
+    <li><%= link_to "Gold", products_path(:category => "Gold") %></li>
+    <li><%= link_to "Gems", products_path(:category => "Gems") %></li>
+    <li><%= link_to "Lost Artifacts", products_path(:category => "Lost Artifacts") %></li>
+    <li><%= link_to "Relics", products_path(:category => "Relics") %></li>
+    <li><%= link_to "Other", products_path(:category => "Other") %></li>
+  </ul>
+
+  <h3>Sort by Status:</h3>
+  <ul>
+    <li><%= link_to "On Sale", products_path(:status => "Sale") %></li>
+    <li><%= link_to "New", products_path(:status => "New") %></li>
+    <li><%= link_to "Recently Updated", products_path(:status => "Updated") %></li>
+  </ul>
+</div>

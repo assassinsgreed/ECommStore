@@ -1,5 +1,7 @@
 ECommerce::Application.routes.draw do
 
+  resources :business_infos
+
   resources :categories
 
   resources :reviews

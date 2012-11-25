@@ -21,6 +21,7 @@
     margin: 10px 30px 0px 0px;
     float: left;
     display: block;
+    width: 400px;
 }
 
 .description
@@ -32,7 +33,7 @@
 
 .description_show
 {
-  width: 50%;
+  width: 45%;
   float: left;
   display: block;
 }
@@ -55,7 +56,7 @@
     margin: 10px;
 }
 
-.reviews, .create_review
+.reviews, .create_review, #reviews_form
 {
     margin: 20px 0px;
     clear: both;
@@ -63,7 +64,7 @@
 }
 
 .create_review {
-  /*display: none; */
+
 }
 
 .reviewscount
@@ -77,12 +78,13 @@
 }
 
 #nav {
-  text-align: center;
-  background: #3e90ff;
+  text-align: right;
+  background: #5facff;
   margin: 10px auto;
-  box-shadow: 10px 10px 5px #888888;
+  box-shadow: 5px 5px 5px #888888;
   line-height: 2.5em;
   color: #696969;
+  border: 2px solid black;
 
   height: 2.5em;
   width: 600px;
@@ -98,4 +100,31 @@
   font-style: italic;
   font-size: 12pt;
   margin: 10px 0;
+}
+
+.createProduct {
+  margin: 20px 50px;
+  font-size:16pt;
+}
+
+#sidebar {
+  background: #5facff;
+  margin: 10px auto;
+  padding: 10px;
+  box-shadow: 5px 5px 5px #888888;
+  line-height: 2.5em;
+  color: #696969;
+  -moz-border-radius: 1em 4em 1em 4em;
+  border-radius: 1em 4em 1em 4em;
+  width: 145px;
+  border: 2px solid black;
+
+  //*Positioning *
+  position: fixed;
+  left: 1175px;
+  bottom: 200px;
+
+  li {
+    list-style: none;
+  }
 }

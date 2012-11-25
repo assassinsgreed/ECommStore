@@ -1,0 +1,17 @@
+<%= render :partial => 'shared/navigation' %>
+
+<div id="content">
+    <!--Dynamically checking for which link was clicked-->
+    <% if params[:id] = 1 %>
+      <h1>About Us:</h1>
+        <p>
+          <%= @business_info.about %>
+        </p>
+    <% elsif params[:id] = 2%>
+      <h1>Contact Information</h1>
+        <p>
+          <%= @business_info.contact %>
+        </p>
+    <% end %>
+  <%=  link_to "Edit Info", edit_business_info_path() %>
+</div>

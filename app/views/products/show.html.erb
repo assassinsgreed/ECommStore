@@ -1,25 +1,4 @@
-<div class="content">
-  <div id="header">
-    <%= link_to image_tag('logo.png'), products_path %>
-    <div id="signin">
-      <a href="#">Administrative Login</a>
-      <br /><br />
-    </div>
-    <div id="search">
-      <%= form_tag results_path do %>
-          <%= label_tag "Search for a product: " %>
-          <%= text_field_tag(:keywords) %>
-          <%= submit_tag "Search" %>
-      <% end %>
-      <br />
-    </div>
-  </div>
-  <div id="nav">
-    <a href="#">Search By Category</a>&nbsp;&nbsp;|&nbsp;&nbsp;
-    <%= link_to 'Home', products_path %>&nbsp;&nbsp;|&nbsp;&nbsp;
-    <a href="#">About Us</a>
-  </div>
-</div>
+<%= render :partial => 'shared/navigation' %>
 
   <div class="product">
     <% if @product.image.present? %>
@@ -53,12 +32,12 @@
       <!-- Styling regular price to be a strike-through red font -->
       <b>Price: </b><br/><span class="<%= @product.sale_price.present? ? ' strike' : '' %>"><%= number_to_currency @product.price %></span><br />
       <% if @product.sale_price.present? %>
-          <%= number_to_currency @product.sale_price %>
+          <%= number_to_currency @product.sale_price %> <i>Sale</i>
       <% end %>
     </div>
 
     <br /><br /><br />
-    <div class="reviews">
+    <div id="reviews_form">
       <h3>Write a Review for this Product</h3>
       <button id="hideshow">Show Form</button>
       <div class="create_review">
@@ -69,11 +48,11 @@
     <div class="reviews">
 
       <h3>Customer Reviews</h3>
-      <% if @product.reviews.present? %>
-          <%= render @product.reviews.order("created_at DESC") %>
+      <% if @product.reviews.empty? %>
+        <p>No reviews have been placed for this product yet.</p>
       <% else %>
-          <p>No reviews have been placed for this product yet.</p>
-      <% end  %>
+        <%= render @product.reviews.order("created_at DESC") %>
+      <% end %>
     </div>
 
     <br />
